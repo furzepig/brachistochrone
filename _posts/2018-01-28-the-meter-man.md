@@ -10,12 +10,12 @@ creator: "John Hulme"
   Mrs Fraser's mid-afternoon meditation is interrupted. In her
   sitting room, behind white voiles she sits watching Lorna, just
   as she does every day. This afternoon the caption on the screen
-  reads `My boyfriend cheated on me with his wife and I want
+  reads 'My boyfriend cheated on me with his wife and I want
   payback.' She has been engrossed, finds herself confused by the
   rights and wrongs of the case until Lorna sets her straight with
   a skilful balance of shouting and not letting her guests speak,
-  `It's all about who you love innit?' Lorna asks the audience
-  who applaud enthusiastically, `INNIT?' she screams at the
+  'It's all about who you love innit?' Lorna asks the audience
+  who applaud enthusiastically, 'INNIT?' she screams at the
   cuckolding boyfriend-husband-lover who, Mrs Fraser can now see,
   deserves everything he gets. But there has been an interruption
   and now here it is again - a knock at the door.
@@ -26,7 +26,7 @@ creator: "John Hulme"
   though the postman never brings a package.
 
   She gets to her feet and heads for the door, her mind racing
-  with dangerous possibilities. On `Have A Happy Morning With Tom
+  with dangerous possibilities. On 'Have A Happy Morning With Tom
   and Trudy' she has seen what happens to people like her who just
   answer the door, people who trust other people to be who they
   say they are. There is a procedure to follow and even that may
@@ -35,14 +35,14 @@ creator: "John Hulme"
   can hear it. She opens the door a fraction and peers through.
   There is a man standing on her doorstep.
 
-  `Here to read your gas meter love,' he says.
+  'Here to read your gas meter love,' he says.
 
   A slim hand slides in through the gap holding an identity card.
   The hand is olive coloured. Mrs Fraser is surprised, she had
   thought the man was local because of his accent, but now a
   dozen new fears rise up. She studies the identity card; the man
   in the photo is smiling at her. He has dark hair and dark skin.
-  The card says `Electricite de France'. She doesn't understand.
+  The card says 'Electricite de France'. She doesn't understand.
   Why would a French company be reading her gas meter? Perhaps he
   is one of those Alky Eda terrorists? On the six o'clock news she
   learns that terrorists could be living in every community in
@@ -50,10 +50,6 @@ creator: "John Hulme"
   tries to say that terrorists aren't living in every community
   in Britain. But it is too late by then; everybody knows the
   truth of it.
-
-  `Don't worry about the French bit, it's all deregulated now
-  innit, we do gas and electricity all over Europe.' says the
-  man.
 
   She is paralysed with a dread sense of foreboding. What can she
   do? She knows that if she doesn't let him in he will force the
@@ -69,7 +65,7 @@ creator: "John Hulme"
   one shoulder. She realises how foolish she has been. Why would
   a meter reader need two bags?
 
-  `Where's the meter then, under the stairs?' he asks. She nods
+  'Where's the meter then, under the stairs?' he asks. She nods
   and points at the stair cupboard. Before she knows what has
   happened he has opened the cupboard and half disappeared into
   it with a torch and she finds herself looking at the soles of
@@ -78,17 +74,17 @@ creator: "John Hulme"
   the boots that were an important lead on last Tuesday's edition
   of Crimebeat. When the police found those boots they were
   spattered with blood. He withdraws from his lair beneath the
-  stairs, `Look at that!' he says beckoning her into the dark
-  space, `It's a Mark 4 compression meter. You don't see many of
+  stairs, 'Look at that!' he says beckoning her into the dark
+  space, 'It's a Mark 4 compression meter. You don't see many of
   those these days.'
 
   She hangs back and does not bend to look where he indicates. She
-  knows what this is all about, in `A Passion For Death' on the
+  knows what this is all about, in 'A Passion For Death' on the
   Real Movies Channel, the psychopath mechanic asked the pretty
   girl to help him check the oil level. As she bent under the
   bonnet he hit her over the head with a monkey wrench.
 
-  `Just got to dial this in,' says the man. `Have you got a
+  'Just got to dial this in,' says the man. 'Have you got a
   spare power socket somewhere?' she is confused, but points to
   the kitchen, desperately trying to buy herself time. She
   doesn't like to think what he needs a power socket for.
@@ -96,31 +92,31 @@ creator: "John Hulme"
   In the kitchen he pulls a laptop computer from the black satchel
   and puts it on the work surface. He plugs it in, opens the lid
   and begins to type. She doesn't know much about computers, but
-  what she does know has led her to believe that they are a
-  thoroughly bad lot. In addition to all of the viruses they
+  what she does know has led her to believe that they are bad. 
+  In addition to all of the viruses they
   cause, computers can get into your bank account and be used to
   lure children from the safety of their homes into the dark rain
   swept streets of the dramatic reconstruction. She feels sickened
   by terror.
 
-  `When did you last get your boiler checked? Mind if I have a
+  'When did you last get your boiler checked? Mind if I have a
   quick look at it while I'm here, we've got this proactive
   maintenance scheme for senior citizens. It's a new thing
   they're starting up. Doesn't cost you anything.'
 
   He hands her a leaflet. Blurred by terror her eyes cannot read
-  what it says. `Upstairs is it?' he asks. She nods dumbly.
-  `Don't suppose you could pop the kettle on could you love?
+  what it says. 'Upstairs is it?' he asks. She nods dumbly.
+  'Don't suppose you could pop the kettle on could you love?
   I haven't stopped since breakfast.' She nods again.
 
   She knows what will happen now. He will go upstairs and rifle
   through her jewellery, find the shoebox with her pension money
-  in it and her father's medal. On `Britain's Best Burglars' she
+  in it and her father's medal. On 'Britain's Best Burglars' she
   learned that it takes only thirty seconds for a professional
   burglar to locate all of the valuable items in a pensioner's
   bedroom. When he has finished stealing from her he will come
   back down here and finish her off. That much is clear to her.
-  She imagines how her story will be reported on `Crimeday GB'
+  She imagines how her story will be reported on 'Crimeday GB'
   and hopes that someone will be able to provide Stuart at the
   Crimeday desk with a good photo of her. The old women that are
   beaten to death on Crimeday normally have very grainy
@@ -150,7 +146,7 @@ creator: "John Hulme"
   ran a story that suggested that in certain rare circumstances,
   the pink and blue pill that Mrs Fraser takes every day could
   kill. When asked, her own doctor gives her short shrift, as
-  usual. `As long as you don't take more than the amount
+  usual. 'As long as you don't take more than the amount
   prescribed you'll be fine,' he insists wearily and says
   something not very complementary about Dr Raj.
 
@@ -165,7 +161,7 @@ creator: "John Hulme"
 
   Whatever happens next, she knows that he will drink the tea.
   People like him always take the time to finish their drinks. In
-  `Dangerous Desires' on the Classic Movies channel, the
+  'Dangerous Desires' on the Classic Movies channel, the
   gold-digging and murderous blonde who had married the widower
   of the woman she killed before tricking him into changing his
   will, stabbed him in the back and then stood drinking champagne
@@ -185,24 +181,24 @@ creator: "John Hulme"
   defend herself, but she knows that she is too weak and the
   knives are too blunt.
 
-  `All done. No problems. I'll make a note of it and then we
+  'All done. No problems. I'll make a note of it and then we
   won't have to come back for twelve months.'
 
   He goes to the computer and begins to type. She feels her heart
   pounding in her ears. What is he doing now? She imagines that
   somehow she is being broadcast onto the Internet, like she has
-  seen on `Lunchtime Today with Rick and Sue'. Rick and Sue tell
+  seen on 'Lunchtime Today with Rick and Sue'. Rick and Sue tell
   her that it is a sick world and that people will pay to see
   anything. She knows that somewhere on the other side of the
   world a South Korean businessman in a seedy hotel is even now
   keying in his credit card number, hoping to see a British
   pensioner battered to death in her own kitchen.
 
-  `Ooh, is that my tea?'
+  'Ooh, is that my tea?'
 
   She nods. He drinks.
 
-  `You can't beat a nice cup of tea!' he enthuses.
+  'You can't beat a nice cup of tea!' he enthuses.
 
   She nods again and clutches at the kitchen counter to stop her
   hands from trembling so much. He drains the cup in a second
@@ -211,17 +207,17 @@ creator: "John Hulme"
   shuffles the little sheaf of papers and hands her the top page.
   It is pink. She watches it flapping as her hands shake.
 
-  `There you go love, that's your copy, it's just to say that I
+  'There you go love, that's your copy, it's just to say that I
   checked the boiler and it was OK.'
 
   What new trick is this? He is playing with her, fooling her,
   making her feel safe so that she is defenceless when he
   strikes.
 
-  `Right then I'm off!' he says and heads back down the hallway.
+  'Right then I'm off!' he says and heads back down the hallway.
   At the door he stoops to tie his laces. This is it she thinks.
   It is now. When he stands up he will be holding a knife or a
-  gun and that will be the end of it -- or worse, the start.
+  gun and that will be the end of it - or worse, the start.
 
   He begins to stand up. She feels the terror taking control of
   her. How can she stand this any more? At any second she feels
@@ -229,14 +225,14 @@ creator: "John Hulme"
 
   As he stands, he loses his balance and steadies himself against
   the white wood panelling of the staircase. He puts his hand to
-  his head and turns to look at her. His face looks grey, `Must
+  his head and turns to look at her. His face looks grey, 'Must
   have stood up too fast,' he says with a confused smile,
-  unnerved by his own weakness, `Cheerio then.' The door opens
+  unnerved by his own weakness, 'Cheerio then.' The door opens
   and then he is gone, the door slams behind him and locks itself
   shut.
 
   She collapses to the floor sobbing. She is safe. But is she
-  really safe? In `Inverted Obsession' everyone thought the
+  really safe? In 'Inverted Obsession' everyone thought the
   killer had gone, but then he came in through the patio doors
   that had been left open. Mrs Fraser has no patio doors but
   still she fears his return.
@@ -244,7 +240,7 @@ creator: "John Hulme"
   She hears Lorna's voice from the sitting room. Lorna has a guest
   who is an expert on something or other.
 
-  `Just how scared should we be?' asks Lorna.
+  'Just how scared should we be?' asks Lorna.
 
   Mrs Fraser weeps and listens hard for the answer because she
   does not know anymore.
