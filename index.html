@@ -4,6 +4,6 @@ title: furzepig
 ---
 <ul class="posts">
   {% for post in site.posts %}
-    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <li>{{ post.date }} :: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
