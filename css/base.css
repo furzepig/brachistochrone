@@ -21,6 +21,7 @@ a {
 ul {
 	padding: 0px;
 }
+
 li {
 	list-style-type: none;
 }
@@ -29,7 +30,7 @@ li {
 .sitetitle {
 	font-family: 'IM Fell English';
 	color: #666;
-	font-size: 48px;
+	font-size: 36px;
 }
 
 
