@@ -18,6 +18,10 @@ td {
 }
 
 
+.container {
+  padding-top: 10px;	
+}
+
 .weak {
   text-decoration: none;
   color: #888;
