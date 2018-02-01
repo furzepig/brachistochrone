@@ -2,7 +2,7 @@
 layout: source
 title: "The Leaflet"
 source_date: "2006"
-categories: writing, short story
+categories: story
 creator: "John Hulme"
 ---
 
