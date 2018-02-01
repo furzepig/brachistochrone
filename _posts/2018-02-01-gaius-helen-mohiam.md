@@ -1,6 +1,7 @@
 ---
 layout: quote
 title: "Once men turned their thinking over to machines"
+category: quote
 
 ---
 
