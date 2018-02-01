@@ -1,5 +1,11 @@
 body {
-	
+	margin: 20px auto;
+	max-width: 600px;
+	line-height: 1.8;
+	font-size: 14px;
+	color: #444;
+	padding: 0 10px;
+	font-family: 'Open Sans', serif;	
 }
 
 a {
@@ -20,13 +26,7 @@ td {
 }
 
 .container {
- 	margin: 20px auto;
-	max-width: 600px;
-	line-height: 1.8;
-	font-size: 14px;
-	color: #444;
-	padding: 0 10px;
-	font-family: 'Open Sans', serif;
+ 	
 }
 
 .weak {
