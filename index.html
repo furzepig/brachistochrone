@@ -2,12 +2,10 @@
 layout: default
 title: furzepig
 ---
-<a href="/quotes.html">observations</a><br />
 <table>
   {% for post in site.posts %}
   <tr>
-    <td><span class="weak">{{ post.date | date_to_string }}</span></td>
-    <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />{{ post.excerpt }}</td>
+    <td><span class="weak">{{ post.date | date_to_string }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />{{ post.excerpt }}</td>
   </tr>
   {% endfor %}
 </table>
