@@ -1,10 +1,10 @@
---
+---
 layout: source
 title: "The Leaflet"
 source_date: "2006"
 categories: writing, short story
 creator: "John Hulme"
---
+---
 
   It was his turn. As he lifted Holly from her bed, screaming and
   thrashing, the hated cot death alarm went off, triggered by the
