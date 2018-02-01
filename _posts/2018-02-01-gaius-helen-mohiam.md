@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Once men turned their thinking over to machines"
 
 ---
 
