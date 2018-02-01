@@ -1,6 +1,5 @@
 ---
 layout: quote
-title: "Once men turned their thinking over to machines"
 source: "Herman Hesse - The Glass Bead Game"
 category: quote
 ---
