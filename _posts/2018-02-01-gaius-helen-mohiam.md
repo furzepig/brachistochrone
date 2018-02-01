@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: quote
 title: "Once men turned their thinking over to machines"
 
 ---
