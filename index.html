@@ -7,7 +7,7 @@ title: furzepig
   {% for post in site.posts %}
   <tr>
     <td><span class="weak">{{ post.date | date_to_string }}</span></td>
-    <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+    <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />{{ post.excerpt }}</td>
   </tr>
   {% endfor %}
 </table>
