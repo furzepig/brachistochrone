@@ -2,7 +2,7 @@
 layout: source
 title: "The Meter Man"
 source_date: "2006"
-categories: writing, short story
+category: writing, short story
 creator: "John Hulme"
 ---
 
