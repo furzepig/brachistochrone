@@ -17,6 +17,12 @@ td {
 	padding: 0px 10px 0px 0px;
 }
 
+
+.weak {
+  text-decoration: none;
+  color: #888;
+}
+
 .sitetitle {
 	font-family: 'IM Fell English';
 	color: #666;
