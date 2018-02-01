@@ -2,8 +2,9 @@
 layout: default
 title: furzepig
 ---
+
 <table>
-  {% for post in site.posts %}
+  {% for post in site.posts.category['short story'] %}
   <tr>
     <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td><td><span class="weak">{{ post.category }}</span></td>
   </tr>
