@@ -2,7 +2,7 @@
 layout: source
 title: "The Meter Man"
 source_date: "2006"
-permalink: "/meter/"
+permalink: meter.html
 category: story
 creator: "John Hulme"
 ---
