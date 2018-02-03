@@ -1,8 +1,7 @@
 body {
 	
 	margin: 0px;
-	line-height: 1.8;
-	font-size: 14px;
+
 	color: #444;
 	font-family: 'Open Sans', serif;	
 }
@@ -32,6 +31,8 @@ td {
 }
 
 .container {
+	line-height: 1.8;
+	font-size: 14px;
 	margin: 0px auto;
 	max-width: 600px;
 }
