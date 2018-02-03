@@ -25,7 +25,13 @@ td {
 	height: 50px;
 }
 
-.quote_source {color: #000;}
+.quote_source {
+	color: #000;
+}
+
+.quote {
+	padding-bottom: 20px;	
+}
 
 .container {
 	margin: 20px;
