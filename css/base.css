@@ -1,5 +1,5 @@
 body {
-	max-width: 600px;
+	
 	margin: 0px;
 	line-height: 1.8;
 	font-size: 14px;
@@ -32,6 +32,7 @@ td {
 
 .container {
 	margin: 0px auto;
+	max-width: 600px;
 }
 
 .weak {
