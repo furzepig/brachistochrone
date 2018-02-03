@@ -2,6 +2,7 @@
 layout: source
 title: "The Leaflet"
 source_date: "2006"
+permalink: leaflet.html
 categories: story
 creator: "John Hulme"
 ---
