@@ -4,7 +4,7 @@ title: furzepig
 ---
 
 {% for post in site.categories['quote'] %}
-      {{ post.content }}
-      {{ post.source }}
-     <p/>
+	{{ post.content }}
+	<span class="quote_source">{{ post.source }}</span>
+	<p/>
 {% endfor %}
