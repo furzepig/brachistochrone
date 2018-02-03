@@ -21,6 +21,17 @@ td {
 	height: 40px;
 }
 
+.site_title {
+	margin: 0px auto;
+	width: 600px;
+}
+
+.site_label {
+	font-family: 'IM Fell English';
+	color: #fff;
+	font-size: 32px;
+}
+
 .quote_source {
 	color: #000;
 }
@@ -41,13 +52,7 @@ td {
   color: #888;
 }
 
-.sitetitle {
-	margin: 0px auto;
-	width: 600px;
-	font-family: 'IM Fell English';
-	color: #fff;
-	font-size: 32px;
-}
+
 
 
 h1,h2,h3 {
