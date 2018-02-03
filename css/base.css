@@ -1,5 +1,4 @@
 body {
-	margin: 20px auto;
 	max-width: 600px;
 	line-height: 1.8;
 	font-size: 14px;
@@ -19,7 +18,7 @@ td {
 
 .topheader {
 	padding: 10px 0px 20px 40px;
-	margin: 0px -20px;
+	margin: 0px auto;
 	background-color: #666;
 	width: 300%;
 	height: 30px;
