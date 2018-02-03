@@ -26,14 +26,10 @@ td {
 }
 
 .quote_source {color: #000;}
-	
-	
-	
-	
 
-
- 	
-
+.container {
+	margin: 20px;
+}
 
 .weak {
   text-decoration: none;
