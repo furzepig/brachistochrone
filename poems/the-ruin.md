@@ -3,6 +3,7 @@ layout: source
 title: "The Ruin"
 creator: "From The Exeter Book"
 source_date: c.980
+category: poem
 date: 2018-01-27
 ---
 
