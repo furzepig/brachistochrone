@@ -16,7 +16,7 @@ td {
 }
 
 .topheader {
-	margin: 0px auto;
+	margin: 0px;
 	padding-left: 20px;
 	background-color: #666;
 	height: 40px;
@@ -43,6 +43,8 @@ td {
 }
 
 .sitetitle {
+	margin: 0px auto;
+	max-width: 600px;
 	font-family: 'IM Fell English';
 	color: #fff;
 	font-size: 32px;
