@@ -46,7 +46,8 @@ td {
 	line-height: 1.8;
 	font-size: 14px;
 	margin: 20px auto;
-	padding: 0px 50px;
+	padding: 0px 20px;
+	box-sizing: border-box;
 	max-width: 600px;
 }
 
