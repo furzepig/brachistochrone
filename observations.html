@@ -3,6 +3,10 @@ layout: default
 title: furzepig
 ---
 
+<table>
 {% for post in site.categories['observation'] %}
-      {{ post.title }}
+	<tr>
+    		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+    	</tr>
 {% endfor %}
+</table>
