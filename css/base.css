@@ -1,14 +1,12 @@
 body {
-	
 	margin: 0px;
-
 	color: #444;
 	font-family: 'Open Sans', serif;	
 }
 
 a {
-  text-decoration: none;
-  color: #000;
+ 	text-decoration: none;
+ 	color: #000;
 }
 
 td {
@@ -25,6 +23,8 @@ td {
 	margin: 0px auto;
 	width: 600px;
 	padding-top: 6px;
+	padding-left: 20px;
+	box-sizing: border-box;
 }
 
 .site_label {
