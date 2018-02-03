@@ -17,10 +17,9 @@ td {
 }
 
 .topheader {
-	padding: 10px 0px 20px 40px;
 	margin: 0px auto;
 	background-color: #666;
-	height: 30px;
+	height: 20px;
 }
 
 .quote_source {
@@ -43,7 +42,7 @@ td {
 .sitetitle {
 	font-family: 'IM Fell English';
 	color: #fff;
-	font-size: 36px;
+	font-size: 32px;
 }
 
 
