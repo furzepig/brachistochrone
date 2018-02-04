@@ -1,7 +1,7 @@
 ---
 layout: source
 title: "The Nature of Time"
-source_Date: "2008"
+source_date: "2008"
 category: observation
 creator: "Julian Barbour"
 date: 2016-09-28
