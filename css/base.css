@@ -49,6 +49,7 @@ td {
 	padding: 0px 20px;
 	box-sizing: border-box;
 	max-width: 600px;
+	min-height: 250px;
 }
 
 .weak {
