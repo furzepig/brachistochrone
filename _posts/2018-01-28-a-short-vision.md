@@ -1,10 +1,8 @@
 ---
-layout: source
+layout: video
 title: "A Short Vision"
 source_date: "1956"
 category: observation
 creator: "Directed by	Peter and Joan Foldes"
+source_url: "https://www.youtube.com/embed/BkhNED3-mnI"
 ---
-<div class="video-container">
-<iframe style="width:100%;" src="https://www.youtube.com/embed/BkhNED3-mnI" frameborder="0" allowfullscreen></iframe>
-</div>
