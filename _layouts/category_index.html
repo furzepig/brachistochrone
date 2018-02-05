@@ -3,7 +3,7 @@ layout: default
 ---
 {{ page.category }}
 <table>
-{% for post in site.tags["neolithic"]  %}
+{% for post in site.categories["neolithic"]  %}
 	<tr>
     		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
     	</tr>
