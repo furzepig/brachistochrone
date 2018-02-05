@@ -3,7 +3,7 @@ layout: default
 ---
 {{ page.category }}
 <table>
-{% for post in site.categories | where:"category", page.category  %}
+{% for post in site.categories | where:"category", 'page.category'  %}
 	<tr>
     		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
     	</tr>
