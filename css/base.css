@@ -13,6 +13,12 @@ td {
 	padding: 0px 10px 0px 0px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .topheader {
 	margin: 0px;
 	background-color: #444;
@@ -56,9 +62,6 @@ td {
   text-decoration: none;
   color: #888;
 }
-
-
-
 
 h1,h2,h3 {
 	color: #444;
