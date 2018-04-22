@@ -1,8 +1,13 @@
 
 ---
-title: Dover Beach
-author: Matthew Arnold
+layout: poem
+title: "Dover Beach"
+poet: "Matthew Arnold"
+category: poem
+datecomposed: 1851
+date: 2018-04-22
 ---
+
 The sea is calm tonight. 
 The tide is full, the moon lies fair 
 Upon the straits; on the French coast the light 
