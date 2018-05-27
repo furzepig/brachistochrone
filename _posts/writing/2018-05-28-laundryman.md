@@ -259,7 +259,7 @@ creator: "John Hulme"
  'See you Thursday!' he says and leaves blowing raspberries and
   talking nonsense to his daughter.
 
-  \np It's a busy morning. Just a few minutes later -- 
+It's a busy morning. Just a few minutes later -- 
 suspiciously
   soon in fact, almost as if he was waiting for Wladislaw to
   leave -- Arkady drops by. Arkady is a Georgian, and a nasty
@@ -293,7 +293,7 @@ suspiciously
   leave them to stand in clean water for an hour or so and hang
   them out to dry. Good as new.
 
-  Arkady inspects the notes. He's a big man M-BM---- fat neck, fat
+  Arkady inspects the notes. He's a big man -- fat neck, fat
   fingers. He counts through the bills, taking one out at random
   to inspect it more closely. Peers at it, sniffs it, then nods.
 
@@ -307,7 +307,7 @@ suspiciously
   statement of fact, and then he's gone and I don't care where
   to.
 
- \np I got nearly seventy quid out of the Space Invader, 
+I got nearly seventy quid out of the Space Invader, 
 but thirty
   of that was in old five pence pieces that are no good to
   anyone. When Wladislaw came on Thursday he didn't come alone,
@@ -376,7 +376,7 @@ but thirty
   Three percent of half a million euros is about ten grand. Not
   bad for a day's work.
 
-\np But the money doesn't come the next morning. In the 
+But the money doesn't come the next morning. In the 
 afternoon, I
   have a snooze in the workshop and then sit up late, watching
   Newsnight and then some daft film. I must have nodded off
@@ -474,4 +474,4 @@ afternoon, I
   Some stains never come out.
 
 
-\ed{2006}
+
