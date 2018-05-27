@@ -3,7 +3,7 @@ layout: source
 title: "The Meter Man"
 source_date: "2006"
 permalink: meter_man.html
-category: story
+category: writing
 creator: "John Hulme"
 ---
 
