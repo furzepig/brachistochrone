@@ -6,7 +6,8 @@ body {
 
 a {
  	text-decoration: none;
- 	color: #000;
+ 	color: #444;
+	line-height: 1.2;
 }
 
 td {
