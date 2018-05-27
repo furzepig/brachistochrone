@@ -1,14 +1,16 @@
+---
 layout: source
 title: "The Laundryman"
 source_date: "2006"
-
 category: writing
 creator: "John Hulme"
-
-
-
-
 ---
+
+
+
+
+
+
 
   Dirty money is clean money -- that's the most important thing to
   understand. If money is stained, wrinkled, crumpled, rusted,
