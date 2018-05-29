@@ -45,8 +45,8 @@ ul {
 .quote_source {
 	color: #000;
 	font-weight: bold;
-	position: absolute;
-	right: 10px;
+	width: 100%;
+	text-align: right;
 }
 
 .quote {
