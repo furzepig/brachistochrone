@@ -25,6 +25,8 @@ ul {
 	margin: 0px;
 	background-color: #444;
 	height: 50px;
+	top: 0px;
+	position: fixed; 
 }
 
 .site_title {
