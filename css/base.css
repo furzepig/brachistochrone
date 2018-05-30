@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	color: #444;
 	font-family: 'Open Sans', serif;
+	overflow-y:scroll;
 }
 
 a {
