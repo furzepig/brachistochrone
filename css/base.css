@@ -33,13 +33,13 @@ ul {
 .flex-container {
   display: flex;
   justify-content: center;
+  flex-basis: 300px;
   background-color: #444;
   height:50px;
 }
 
 .flex-container div {
   background-color: #444;
-  flex-basis: 300px;
   text-align: left;
   padding-top: 5px;
 }
