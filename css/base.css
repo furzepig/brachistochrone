@@ -39,8 +39,7 @@ ul {
 
 .flex-container div {
   background-color: #444;
-
-  width: 300px;
+  flex-basis: 300px;
   text-align: left;
   padding-top: 5px;
 }
