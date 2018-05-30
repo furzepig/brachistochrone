@@ -36,7 +36,7 @@ ul {
   height:50px;
 }
 
-.flex-container > div {
+.site_label {
   background-color: #444;
   color: #fff;
   width: 300px;
@@ -44,20 +44,6 @@ ul {
   padding-top: 5px;
   font-family: 'IM Fell English';
   font-size: 32px;
-}
-
-.site_title {
-	margin: 0px auto;
-	width: 600px;
-	padding-top: 5px;
-	padding-left: 20px;
-	box-sizing: border-box;
-}
-
-.site_label {
-	font-family: 'IM Fell English';
-	color: #fff;
-	font-size: 32px;
 }
 
 .quote_source {
