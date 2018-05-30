@@ -53,8 +53,8 @@ body {
 <div class="row"> 
   <div class="column">
 {% for post in site.categories.image %}
-	 <img width="100%" title="" src="{{ post.source_url }}" >
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	 
+    <a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="{{ post.source_url }}" ></a>
     
 {% endfor %}
     
