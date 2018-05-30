@@ -28,6 +28,24 @@ ul {
 	top: 0px;
 }
 
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  height:50px;
+}
+
+.flex-container > div {
+  background-color: #444;
+  color: #fff;
+  width: 300px;
+  text-align: left;
+  padding-top: 5px;
+  font-family: 'IM Fell English';
+  font-size: 32px;
+}
+
 .site_title {
 	margin: 0px auto;
 	width: 600px;
