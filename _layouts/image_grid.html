@@ -6,10 +6,10 @@ Size12 	{{ site.categories.image.size }}
 <div class="row"> 
 <div class="column">
 	{% for post in site.categories.image %}
-			
+		{% increment col %}	
 	
 	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="{{ post.source_url }}" ></a>
-   
+   {{ col }}
   		
 
 	{% endfor %}
