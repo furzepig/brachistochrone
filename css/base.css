@@ -39,12 +39,17 @@ ul {
 
 .flex-container div {
   background-color: #444;
-  color: #fff;
+
   width: 300px;
   text-align: left;
   padding-top: 5px;
+}
+
+.main-title {
+  color: #fff;
   font-family: 'IM Fell English';
   font-size: 32px;
+  text-decoration: none;
 }
 
 .quote_source {
