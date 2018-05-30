@@ -29,19 +29,18 @@ ul {
 	top: 0px;
 }
 
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-basis: 300px;
-  background-color: #444;
-  height:50px;
+.site_title {
+	margin: 0px auto;
+	width: 600px;
+	padding-top: 5px;
+	padding-left: 20px;
+	box-sizing: border-box;
 }
 
-.flex-container div {
-  background-color: #444;
-  text-align: left;
-  padding-top: 5px;
+.site_label {
+	font-family: 'IM Fell English';
+	color: #fff;
+	font-size: 32px;
 }
 
 .main-title {
