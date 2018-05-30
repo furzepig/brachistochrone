@@ -9,10 +9,9 @@ layout: default
 		{% if {{ col | modulo: 5 }}== 0 %}
   			<div class="column">
 		{% endif %}
-jk {{ col | modulo: 4 }}
 	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="{{ post.source_url }}" ></a>
     
-		{% if {{ col | modulo: 4 }}== 3 %}
+		{% if {{ col | modulo: 5 }}== 3 %}
   			</div>
 		{% endif %}
 
