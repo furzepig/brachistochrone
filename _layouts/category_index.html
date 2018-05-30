@@ -3,7 +3,8 @@ layout: default
 ---
 
 <table>
-{% for post in site.categories[page.category]  %}
+{% assign sorted_posts = site.categories[page.category]  | sort: 'title' %}
+{% for post in sorted_posts %}
 	<tr>
     		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
     	</tr>
