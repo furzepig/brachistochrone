@@ -6,7 +6,7 @@ layout: default
 
 	{% for post in site.categories.image %}
 		{% increment col %}
-		{% if {{ col | modulo: 4 }}== 0 %}
+		{% if {{ col | modulo: 5 }}== 0 %}
   			<div class="column">
 		{% endif %}
 jk {{ col | modulo: 4 }}
