@@ -51,11 +51,19 @@ body {
 </style>
 <body>
 
+<div class="row"> 
+  <div class="column">
+{% for post in site.categories.image %}
+	 <img width="100%" title="" src="https://uploads7.wikiart.org/images/john-atkinson-grimshaw/in-peril-the-harbour-flare-1879.jpg" >
+    		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+    	</tr>
+{% endfor %}
+    
 
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-    <img width="100%" title="" src="https://uploads7.wikiart.org/images/john-atkinson-grimshaw/in-peril-the-harbour-flare-1879.jpg" />
+    />
 
   </div>
   <div class="column">
