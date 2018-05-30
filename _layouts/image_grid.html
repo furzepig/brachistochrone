@@ -4,18 +4,15 @@ layout: default
 <div>
 Size12 	{{ site.categories.image.size }}
 <div class="row"> 
-
+<div class="column">
 	{% for post in site.categories.image %}
-		{% increment col %}
-		{% if {{ col | modulo: 4 }}== 0 %}
-  			<div class="column">
-		{% endif %}
+			
+	
 	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="{{ post.source_url }}" ></a>
-    
-		{% if {{ col | modulo: 4 }}== 3 %}
-  			</div>
-		{% endif %}
+   
+  		
 
 	{% endfor %}
+		</div>
 </div>
 </div>
