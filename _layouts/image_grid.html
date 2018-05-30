@@ -3,14 +3,21 @@ layout: default
 ---
 <div class="post">
 <div class="row"> 
-  <div class="column">
-{% for post in site.categories.image %}
-	 
-    <a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="{{ post.source_url }}" ></a>
+
+	{% for post in site.categories.image %}
+		{% increment col %}
+		{% if {{ col | modulo: 4 }}== 0 %}
+  			<div class="column">
+		{% endif %}
+
+	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="{{ post.source_url }}" ></a>
     
-{% endfor %}
+		{% if {{ col | modulo: 4 }}== 0 %}
+  			</div>
+		{% endif %}
+
+	{% endfor %}
     
-   </div>
 </div>
 </div>
 
