@@ -129,11 +129,11 @@ h1,h2,h3 {
     }
 	
     .container {
-      max-width: 50%;
+      max-width: 400px;
     }
 	
     .site_title {
-	width: 50%;
+	width: 400px;
     }
 }
 
