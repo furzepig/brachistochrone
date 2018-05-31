@@ -128,6 +128,10 @@ h1,h2,h3 {
         flex: 50%;
         max-width: 50%;
     }
+	
+    .container {
+      max-width: 400px;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -135,5 +139,9 @@ h1,h2,h3 {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+
+    .container {
+      max-width: 300px;
     }
 }
