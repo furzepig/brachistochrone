@@ -34,7 +34,7 @@ ul {
 	padding-top: 5px;
 	padding-left: 20px;
 	box-sizing: border-box;
-	width: 400px;
+	width: 600px;
 }
 
 .site_label {
@@ -69,7 +69,7 @@ ul {
 	margin: 20px auto;
 	padding: 0px 20px;
 	box-sizing: border-box;
-	max-width: 400px;
+	max-width: 600px;
 	min-height: 500px;
 }
 
