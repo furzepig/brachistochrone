@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	color: #444;
-	font-family: 'Open Sans', serif;
+	font-family: 'Open Sans', sans-serif;
 	overflow-y:scroll;
 }
 
@@ -39,6 +39,13 @@ ul {
 
 .site_label {
 	font-family: 'IM Fell English';
+	color: #fff;
+	font-size: 32px;
+}
+
+.subsite_label {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
 	color: #fff;
 	font-size: 32px;
 }
