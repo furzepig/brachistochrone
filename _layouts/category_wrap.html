@@ -2,16 +2,14 @@
 layout: default
 ---
 <div>
-<div class="row"> 
+<div class="wrap-container"> 
 
-	
 	{% for post in site.categories[page.category] %}
 		<div class="wrap">
 			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		</div>
 	{% endfor %}
-		    
-		
+		    		
 </div>
 </div>
 
