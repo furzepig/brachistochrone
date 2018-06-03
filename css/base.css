@@ -109,7 +109,7 @@ h1,h2,h3 {
   flex-wrap: wrap;
 }
 
-.wrap-container wrap {
+.wrap {
   background-color: #f1f1f1;
   width: 100px;
   margin: 10px;
