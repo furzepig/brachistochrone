@@ -2,7 +2,7 @@
 layout: poem
 title: "Dover Beach"
 poet: "Matthew Arnold"
-category: poem
+category: poems
 datecomposed: 1851
 date: 2018-04-22
 ---
