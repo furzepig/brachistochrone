@@ -5,9 +5,11 @@ layout: default
 <div class="row"> 
 
 	{% for post in site.categories[page.category] %}
-		<div class="wrap">
-			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-		</div>
+		<a href="{{ post.url }}" title="{{ post.title }}">
+			<div class="wrap">
+				{{ post.title }}
+			</div>
+		</a>
 	{% endfor %}
 		    		
 </div>
