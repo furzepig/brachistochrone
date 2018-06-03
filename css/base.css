@@ -104,11 +104,6 @@ h1,h2,h3 {
     box-sizing: border-box;
 }
 
-.wrap-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .wrap {
   background-color: #eee;
   width: 100px;
