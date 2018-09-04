@@ -1,5 +1,4 @@
 ---
-layout: quote
 source: "Basil Bunting"
 category: quote
 ---
