@@ -1,7 +1,7 @@
 ---
-layout: book
+layout: default
 category: book
-title: This Is The Place To Be
-year: 2018
+title: "This Is The Place To Be"
 ---
+
 ajdsaj
