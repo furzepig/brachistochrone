@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<table>
+{% assign sorted_posts = site.categories["reading"] | where:"year","2018" %}
+{% for post in sorted_posts %}
+	<tr>
+    		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+    	</tr>
+{% endfor %}
+</table>
