@@ -3,12 +3,16 @@ layout: default
 ---
 <div class="row"> 
 
-	{% for post in site.categories[page.category] %}
-		<a href="{{ post.url }}" title="{{ post.title }}">
+	{% assign postsByYear = site.categories["reading"] | where:group_by_exp:"post", "post.date | date: '%Y'" %}
+    {% for year in postsByYear %}
+		<a href="{{ year.name  }}.html" title="{{ year.name }}">
 			<div class="wrap">
-				{{ post.title }}
+				{{ year.name }}
 			</div>
 		</a>
 	{% endfor %}
 		    		
 </div>
+
+
+
