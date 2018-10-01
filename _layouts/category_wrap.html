@@ -6,7 +6,7 @@ layout: default
 	{% assign postsByYear = site.categories["reading"] | group_by_exp:"post", "post.date | date: '%Y'" %}
     {% for year in postsByYear %}
 	
-		<a href="{{ year.name  }}.html" title="{{ year.name }}">
+		<a href="/reading/{{ year.name  }}.html" title="{{ year.name }}">
 			<div class="wrap">
 				{{ year.name }}
 			</div>
