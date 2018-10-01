@@ -3,8 +3,9 @@ layout: default
 ---
 <div class="row"> 
 
-	{% assign postsByYear = site.categories["reading"] | where:group_by_exp:"post", "post.date | date: '%Y'" %}
+	{% assign postsByYear = site.categories["reading"] | group_by_exp:"post", "post.date | date: '%Y'" %}
     {% for year in postsByYear %}
+	
 		<a href="{{ year.name  }}.html" title="{{ year.name }}">
 			<div class="wrap">
 				{{ year.name }}
