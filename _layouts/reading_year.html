@@ -3,7 +3,7 @@ layout: default
 ---
 
 <table>
-{% assign sorted_posts = site.categories["book"] | where:"year",post.year %}
+{% assign sorted_posts = site.categories["book"] %}
 {% for post in sorted_posts %}
 	<tr>
     		<td>{{ post.title }}</td>
