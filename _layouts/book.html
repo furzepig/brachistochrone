@@ -2,17 +2,10 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<table>
-  <tr>
-    <td>
-      <img src="/images/books/{{ page.image }}" height="200px" />
-    </td>
-    <td class="bookinfo">
-      <p class="weak">{{ page.author }}</p>
-      <p class="meta">{{ page.date | date_to_string }}</p>
-    </td>
-  </tr>
-</table>
+
+<p class="weak">{{ page.author }}</p>
+<p class="meta">{{ page.date | date_to_string }}</p>
+<img src="/images/books/{{ page.image }}" height="200px" />
 
 <div class="post">
   {{ content }}
