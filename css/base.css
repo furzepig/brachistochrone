@@ -65,6 +65,12 @@ ul {
 	text-align: right;
 }
 
+blockquote {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;	
+}
+
 .quote {
 	background-color: #eee;
 	padding: 20px;
