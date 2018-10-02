@@ -16,6 +16,14 @@ td {
 	padding: 10px 10px 0px 0px;
 }
 
+.booktitle {
+	font-style: italic;
+}
+
+.bookauthor {
+	
+}	
+
 .bookimage {
 	display: block;
     margin-left: auto;
