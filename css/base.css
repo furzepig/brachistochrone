@@ -16,8 +16,11 @@ td {
 	padding: 10px 10px 0px 0px;
 }
 
-.bookinfo {
-	vertical-align: top;	
+.bookimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
 }
 
 ul {
