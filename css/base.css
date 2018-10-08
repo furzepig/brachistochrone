@@ -28,9 +28,10 @@ td {
 }	
 
 .bookimage {
-	display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     height: 200px;
 }
 
