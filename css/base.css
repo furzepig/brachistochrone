@@ -17,18 +17,21 @@ td {
 }
 
 .booktitle {
-	font-style: italic;
+	font-style: normal;
 }
 
 .bookauthor {
 	font-size: 12px;
+	padding-bottom: 20px;
 	
 }	
 
 .bookimage {
-	display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
     height: 200px;
 }
 
@@ -85,6 +88,8 @@ blockquote {
 	background-color: #eee;
 	padding: 20px;
 	margin-bottom: 20px;	
+	margin-left: auto;
+        margin-right: auto;
 }
 
 .quote {

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.year }}</h1>
+
+{% assign sorted_posts = site.categories["book"] |  where:"year", page.year % | sort %}
+{% for post in sorted_posts %}
+
+	<h1>{{ post.title }}{% if post.subtitle %} : {{ post.subtitle }}{% endif %}</h1>
+	<p class="weak">{{ post.author }}</p>
+	<img class="bookimage" src="/images/books/{{ post.image }}" />
+	<div class="post">
+	  {{ post.content }}
+	</div>
+
+{% endfor %}

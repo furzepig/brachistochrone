@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
-		<div class="topheader">
-			<div class="site_title">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <div class="topheader">
+		  <div class="site_title">
 				<a class="site_label" href="/index.html">furzepig</a>
 		 		{% if page.category=="book" %}
-					<a class="subsite_label" href="/reading">reading </a>
+					<a class="subsite_label" href="/reading">reading</a>
 					<a class="subsite_label" href="/reading/{{ page.year }}">{{ page.year }}</a>
 			  	{% else %}
 					<a class="subsite_label" href="/{{ page.category }}">{{ page.category }}</a>
@@ -20,9 +20,9 @@
 			{% include mathjax_support.html %}
 		{% endif %}
 	</head>
-	<body>
-		<div class="container">
-		{{ content }}
-		</div><!-- /.container -->
-	</body>
+  <body>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
 </html>
