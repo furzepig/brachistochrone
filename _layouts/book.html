@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }}{% if page.subtitle %} : {{ page.subtitle }}{% endif %}</h1>
-<p class="weak">{{ page.author }}</p>
+<p class="weak">{{ page.author }} - {{ page.date | date: "%-d %B %Y"}}</p>
 <img class="bookimage" src="/images/books/{{ page.image }}" />
 <div class="post">
   {{ content }}
