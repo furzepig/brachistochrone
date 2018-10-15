@@ -3,12 +3,12 @@ layout: default
 ---
 
 {% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
+<ul>
 {% for post in sorted_posts %}
-
-			<a href="{{ post.url }}" title="{{ post.title }}">
-				<div class="bookdate">{{ post.date | date: "%-d %B %Y" }}</div>
-				<div class="booktitle">{{ post.title }}</div>
-				<div class="bookauthor">{{post.author}}</div>
-			</a>
-
+<li>
+  <a href="{{ post.url }}" title="{{ post.title }}">
+	  {{ post.title }}<br />
+	  {{post.author}}</a>
+	</li>
 {% endfor %}
+</ul>
