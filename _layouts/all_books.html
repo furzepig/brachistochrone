@@ -3,7 +3,7 @@ layout: default
 ---
 
 <table>
-{% assign sorted_posts = site.categories["book"] | sort %}
+{% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
 {% for post in sorted_posts %}
 	<tr>
     	<td>
