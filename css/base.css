@@ -17,18 +17,17 @@ td {
 }
 
 .booktitle {
-	padding-top: 30px;
 	font-style: normal;
 }
 
 .bookauthor {
 	font-size: 12px;
-	
-	
 }
 
 .bookdate {
+	padding-top: 30px;
 	color: #ccc;	
+	font-size: 8px;
 }
 
 .bookimage {
