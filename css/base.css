@@ -30,7 +30,7 @@ td {
 }
 
 li {
-  padding-bottom: 30px;	
+  padding-bottom: 10px;	
 }
 
 .bookimage {
@@ -117,7 +117,7 @@ blockquote {
 
 .weak {
   text-decoration: none;
-  color: #888;
+  color: #aaa;
 }
 
 h1,h2,h3 {
