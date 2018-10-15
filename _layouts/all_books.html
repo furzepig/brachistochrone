@@ -7,7 +7,7 @@ layout: default
 
 			<a href="{{ post.url }}" title="{{ post.title }}">
 				<div class="booktitle">{{ post.title }}</div>
-				<div class="bookauthor">{{post.author}}<br />{{ post.date | date: "%-d %B %Y" }}</div>
+				<div class="bookauthor">{{post.author}} <span class="bookdate">{{ post.date | date: "%-d %B %Y" }}</span></div>
 			</a>
 
 {% endfor %}
