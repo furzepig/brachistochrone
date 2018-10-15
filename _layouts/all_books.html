@@ -6,8 +6,9 @@ layout: default
 {% for post in sorted_posts %}
 
 			<a href="{{ post.url }}" title="{{ post.title }}">
+				<div class="bookdate">{{ post.date | date: "%-d %B %Y" }}</div>
 				<div class="booktitle">{{ post.title }}</div>
-				<div class="bookauthor">{{post.author}} <span class="bookdate">{{ post.date | date: "%-d %B %Y" }}</span></div>
+				<div class="bookauthor">{{post.author}}</div>
 			</a>
 
 {% endfor %}
