@@ -7,8 +7,8 @@ layout: default
 {% for post in sorted_posts %}
 <li>
   <a href="{{ post.url }}" title="{{ post.title }}">
-	  {{ post.title }}<br />
-	  <span class="bookauthor">{{post.author}}</span>
+	  <div class="booktitle">{{ post.title }}</div>
+	  <div class="bookauthor">{{ post.author }}</div>
   </a>
 </li>
 {% endfor %}
