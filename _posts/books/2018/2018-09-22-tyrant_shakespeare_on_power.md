@@ -2,7 +2,7 @@
 layout: book
 category: book
 title: "Tyrant"
-subtitle: Shakespeare On Power
+subtitle: "Shakespeare On Power"
 author: Stephen Greenblatt
 year: 2018
 image: tsop.jpg
