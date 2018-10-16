@@ -1,0 +1,8 @@
+---
+layout: book
+category: book
+title: As the World Burns
+author: Derrick Jensen
+year: 2012
+image: atwb.jpg
+---
