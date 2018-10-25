@@ -11,7 +11,7 @@ image: tfih.jpg
 Bleak.  Quality journalism, an accessible, potted history of Putin's Russia, but also an update Hannah Arendt, 
 showing how totalitarianism works in the internet age.  Very little is offered in the way of hope here.  Successive generations
  of protesters are beaten, arrested, immobilised with bureaucracy and low level terror, occasionally poisoned, and effectively 
- neutralised.  Society turns in on itself and rejects those who are trying to change - perceived as destabilise - it.
+ neutralised.  Society turns in on itself and rejects those who are trying to change it.  Stability is the first goal.
  
 > the larger tragedy of losing the intellectual tools of sensemaking,
 
