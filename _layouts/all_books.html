@@ -7,11 +7,11 @@ layout: default
 {% for post in sorted_posts %}
 <tr>
         <td>
-        <img class='smallbook' src='images/books/{{ post.image }}'>
+        <a href="{{ post.url }}" title="{{ post.title }}"><img class='smallbook' src='images/books/{{ post.image }}'></a>
         </td>
         <td>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
-                <span class="bookauthor">{{ post.author }}</span>
+		<span class="bookauthor">{{ post.author }}</span></a>
                 </td>
                         <td>
 			{% capture content_size %}{{ post.content | size }}{% endcapture %}
