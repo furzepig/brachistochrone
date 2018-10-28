@@ -1,16 +1,17 @@
 ---
 layout: default
 ---
-// Replace source
-$('img').error(function(){
-        $(this).attr('src', 'missing.png');
-});
 
 {% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
-<ul>
+<table>
 {% for post in sorted_posts %}
-<li><a href="{{ post.url }}" title="{{ post.title }}">
-  {{ post.title }}<br /><span class="bookauthor">{{ post.author }}</span></a>
-        <img src='images/books/{{ post.image }}' width='50px'></li>
+<tr>
+        <td>
+        <img src='images/books/{{ post.image }}' width='50px'>
+        </td>
+        <td>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br /><span class="bookauthor">{{ post.author }}</span></a>
+        </td>
+</tr>
 {% endfor %}
-</ul>
+</table>
