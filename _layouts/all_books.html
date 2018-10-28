@@ -14,8 +14,9 @@ layout: default
                 <span class="bookauthor">{{ post.author }}</span>
                 </td>
                         <td>
+			{% capture content_size %}{{ post.content | size }}{% endcapture %}
 
-				{{ post.content | size }}
+			{{ content_size }}
         </td>
 </tr>
 {% endfor %}
