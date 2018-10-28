@@ -10,6 +10,7 @@ $('img').error(function(){
 <ul>
 {% for post in sorted_posts %}
 <li><a href="{{ post.url }}" title="{{ post.title }}">
-  {{ post.title }}<br /><span class="bookauthor">{{ post.author }}</span></a>{{ post.image }}</li>
+  {{ post.title }}<br /><span class="bookauthor">{{ post.author }}</span></a>
+        <img src='images/books/{{ post.image }}' width='50px'></li>
 {% endfor %}
 </ul>
