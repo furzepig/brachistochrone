@@ -17,6 +17,9 @@ layout: default
 			{% capture content_size %}{{ post.content | size }}{% endcapture %}
 
 			{{ content_size }}
+			{% if content_size == "1" %}
+					TO DO
+			 {% endif %}
         </td>
 </tr>
 {% endfor %}
