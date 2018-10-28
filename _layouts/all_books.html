@@ -18,6 +18,7 @@ layout: default
                		{% if content_size == 1 %}
 					TO DO
 			 {% endif %}
+				{{ post.content | size }}
         </td>
 </tr>
 {% endfor %}
