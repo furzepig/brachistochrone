@@ -44,6 +44,10 @@ li {
     height: 200px;
 }
 
+.smallbook {
+    height: 50px;	
+}
+
 ul {
     list-style-type: none;
     margin: 0;
