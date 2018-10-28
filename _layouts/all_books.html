@@ -11,7 +11,12 @@ layout: default
         </td>
         <td>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
-                <span class="bookauthor">{{ post.author }}</span> - {{ post.content | size }} bytes</a>
+                <span class="bookauthor">{{ post.author }}</span>
+                <t/td>
+                        <td>
+               		{% if post.content | size < 2 %}
+					TO DO
+			  	{% endif %}
         </td>
 </tr>
 {% endfor %}
