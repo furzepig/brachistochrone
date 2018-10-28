@@ -7,7 +7,7 @@ layout: default
 {% for post in sorted_posts %}
 <tr>
         <td>
-        <img src='images/books/{{ post.image }}' width='50px'>
+        <img class='smallbook' src='images/books/{{ post.image }}'>
         </td>
         <td>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
@@ -16,7 +16,6 @@ layout: default
                         <td>
 			{% capture content_size %}{{ post.content | size }}{% endcapture %}
 
-			{{ content_size }}
 			{% if content_size == "1" %}
 					TO DO
 			 {% endif %}
