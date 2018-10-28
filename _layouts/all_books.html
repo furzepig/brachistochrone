@@ -10,7 +10,8 @@ layout: default
         <img src='images/books/{{ post.image }}' width='50px'>
         </td>
         <td>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br /><span class="bookauthor">{{ post.author }}</span></a>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
+                <span class="bookauthor">{{ post.author }}</span> - {{ post.content | size }} bytes</a>
         </td>
 </tr>
 {% endfor %}
