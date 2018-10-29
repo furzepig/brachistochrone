@@ -10,19 +10,21 @@ layout: default
          <a href="{{ post.url }}" title="{{ post.title }}"><img class='smallbook' src='images/books/smol_{{ post.image }}'></a>
         </td>
         <td>
-        	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
-		{% if post.subtitle %}
-		<span class="subtitle">{{ post.subtitle }}</span><br />
-		{% endif %}
-		<span class="bookauthor">{{ post.author }}</span>
+        	<a href="{{ post.url }}" title="{{ post.title }}">
+			<div class="booklink">
+				{{ post.title }}<br />
+				{% if post.subtitle %}
+				<span class="subtitle">{{ post.subtitle }}</span><br />
+				{% endif %}
+				<span class="bookauthor">{{ post.author }}</span>
+			</div>
 		</a>
                 </td>
                 <td>
 			{% capture content_size %}{{ post.content | size }}{% endcapture %}
- 
  			{% if content_size == "1" %}
  					TO DO
- 			 {% endif %}
+ 			{% endif %}
          </td>
  </tr>
  {% endfor %}
