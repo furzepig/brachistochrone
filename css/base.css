@@ -14,24 +14,22 @@ a {
 
 td {
 	padding: 10px 10px 0px 0px;
-	line-height: 1;
+	vertical-align:top
+	line-height: 1.1;
 }
 
 .booktitle {
 	font-style: normal;
-	line-height: 1;
 }
 
 .subtitle {
 	font-style: normal;
 	font-size: 12px;
-	line-height: 1;
 }
 
 .bookauthor {
 	font-size: 12px;
    	color: #aaa;
-	line-height: 1;
 }
 
 .bookdate {
