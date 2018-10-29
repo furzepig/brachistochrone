@@ -51,12 +51,9 @@ li {
     height: 200px;
 }
 
-.bookdiv {
-	height: 100px;
-	background-color: #efe;
-	padding: 20px;
-	margin-bottom: 20px;	
-	
+.booklink {
+	width: 100%;
+	line-height: 1;
 }
 
 .smallbook {
