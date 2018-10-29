@@ -1,21 +1,28 @@
 ---
-layout: default
----
-
-{% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
-
-{% for post in sorted_posts %}
-	<a href="{{ post.url }}" title="{{ post.title }}">
-	<div class="bookdiv">
-        <img class='smallbook' src='images/books/smol_{{ post.image }}'>
-        {{ post.title }}<br />
-	<span class="subtitle">{{ post.subtitle }}</span><br />
-	<span class="bookauthor">{{ post.author }}</span>
-{% capture content_size %}{{ post.content | size }}{% endcapture %}
-{% if content_size == "1" %}
-					TD
-{% endif %}
-        </div>
-	</a>
-{% endfor %}
-
+ layout: default
+ ---
+ 
+ {% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
+ <table>
+ {% for post in sorted_posts %}
+ <tr>
+         <td>
+         <a href="{{ post.url }}" title="{{ post.title }}"><img class='smallbook' src='images/books/smol_{{ post.image }}'></a>
+        </td>
+        <td>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
+		<span class="bookauthor">{{ post.author }}</span></a>
+		<span class="subtitle">{{ post.subtitle }}</span><br />
+		<span class="bookauthor">{{ post.author }}</span>
+		</a>
+                </td>
+                        <td>
+			{% capture content_size %}{{ post.content | size }}{% endcapture %}
+ 
+ 			{% if content_size == "1" %}
+ 					TO DO
+ 			 {% endif %}
+         </td>
+ </tr>
+ {% endfor %}
+ </table>
