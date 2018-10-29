@@ -12,8 +12,8 @@ a {
 }
 
 td {
-	padding: 10px 10px 0px 0px;
-	vertical-align:top
+	padding: 10px 10px 10px 0px;
+	vertical-align:top;
 	line-height: 1.1;
 }
 
