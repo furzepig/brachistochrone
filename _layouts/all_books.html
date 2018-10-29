@@ -11,7 +11,9 @@ layout: default
         </td>
         <td>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br />
-		<span class="bookauthor">{{ post.author }}</span></a>
+		<span class="subtitle">{{ post.subtitle }}</span><br />
+		<span class="bookauthor">{{ post.author }}</span><br />
+		</a>
                 </td>
                         <td>
 			{% capture content_size %}{{ post.content | size }}{% endcapture %}
