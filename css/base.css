@@ -55,6 +55,7 @@ li {
 	background-color: #efefef;
 	padding: 20px;
 	line-height: 1.1;
+	overflow: hidden; 
 }
 
 .booklink2 {
@@ -62,6 +63,7 @@ li {
 	background-color: #fee;
 	padding: 20px;
 	line-height: 1.1;
+	overflow: hidden; 
 }
 
 ul {
