@@ -2,18 +2,12 @@
 layout: default
 ---
 {% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
-<table> 
 {% for post in sorted_posts %}
-	<tr>
-	<td>
-	<a href="{{ post.url }}" title="{{ post.title }}">
-		{% capture content_size %}{{ post.content | size }}{% endcapture %}	     
-		<div class='booklink{% if content_size == "1" %}2{% endif %}'>
-			{{ post.title }}<br />
-			<span class="bookauthor">{{ post.author }}</span>
-		</div>
-	</a>
-	</td>
-	</tr>
+<a href="{{ post.url }}" title="{{ post.title }}">
+	{% capture content_size %}{{ post.content | size }}{% endcapture %}	     
+	<div class='booklink{% if content_size == "1" %}2{% endif %}'>
+		{{ post.title }}<br />
+		<span class="bookauthor">{{ post.author }}</span>
+	</div>
+</a>
 {% endfor %}
-</table>
