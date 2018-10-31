@@ -52,7 +52,8 @@ li {
 
 .booklink {
 	width: 90%;
-	background-color: #efefef;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
 	padding: 20px;
 	line-height: 1.1;
 	overflow: hidden; 
@@ -60,7 +61,8 @@ li {
 
 .booklink2 {
 	width: 90%;
-	background-color: #fee;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
 	padding: 20px;
 	line-height: 1.1;
 	overflow: hidden; 
