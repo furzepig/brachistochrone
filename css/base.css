@@ -45,6 +45,11 @@ td {
     height: 200px;
 }
 
+.smallbook {
+	height: 50px;
+	float: right;
+}
+
 .booklink {
 	width: 90%;
 	background-color: #fff;
