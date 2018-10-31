@@ -53,7 +53,9 @@ li {
 .booklink {
 	width: 100%;
 	background-color: #eee;
-	padding-bottom: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	line-height: 1.1;
 }
 
 ul {
