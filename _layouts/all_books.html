@@ -5,9 +5,9 @@ layout: default
 {% for post in sorted_posts %}
 <a href="{{ post.url }}" title="{{ post.title }}">
 	{% capture content_size %}{{ post.content | size }}{% endcapture %}	     
-	<div class='booklink{% if content_size == "1" %}2{% endif %}'>
+	<div class='booklink'>
 		{{ post.title }}<br />
-		<span class="bookauthor">{{ post.author }}</span>
+		<span class="bookauthor">{{ post.author }}{% if content_size == "1" %}<span class="todo"> TO DO</span>{% endif %}</span>
 	</div>
 </a>
 {% endfor %}
