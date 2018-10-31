@@ -51,18 +51,16 @@ li {
 }
 
 .booklink {
-	width: 100%;
+	width: 90%;
 	background-color: #efefef;
 	padding: 20px;
-	margin-bottom: 20px;
 	line-height: 1.1;
 }
 
 .booklink2 {
-	width: 100%;
+	width: 90%;
 	background-color: #fee;
 	padding: 20px;
-	margin-bottom: 20px;
 	line-height: 1.1;
 }
 
