@@ -9,17 +9,14 @@ layout: default
  <li>
 	<a href="{{ post.url }}" title="{{ post.title }}">
 	{{ post.title }}<br />
-	{% if post.subtitle %}
-		<span class="subtitle">{{ post.subtitle }}</span><br />
-	{% endif %}
-	<span class="bookauthor">{{ post.author }}
+	by <span class="bookauthor">{{ post.author }}
 	{% capture content_size %}{{ post.content | size }}{% endcapture %}
 	{% if content_size == "1" %}
 		- TO DO
 	{% endif %}
+	<br/>
 	</a>
 </li>
-	<li>&nbsp;</li>
 
  {% endfor %}
 </ul>
