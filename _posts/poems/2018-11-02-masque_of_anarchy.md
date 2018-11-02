@@ -1,10 +1,9 @@
 ---
-layout: source
+layout: poem
 title: "The Masque of Anarchy"
-creator: "Percy Bysshe Shelley"
-source_date: 1819
+poet: "Percy Bysshe Shelley"
+datecomposed: 1819
 category: poems
-date: 2018-11-02
 ---
 
 As I lay asleep in Italy  
