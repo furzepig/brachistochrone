@@ -97,13 +97,6 @@ ul {
 	font-size: 24px;
 }
 
-.main-title {
-  color: #fff;
-  font-family: 'IM Fell English';
-  font-size: 32px;
-  text-decoration: none;
-}
-
 .quote_source {
 	color: #000;
 	font-weight: bold;
@@ -140,10 +133,25 @@ blockquote {
   color: #aaa;
 }
 
-h1,h2,h3 {
+h1 {
+	font-size: 24px;
 	color: #444;
 	line-height: 1.2;
 }
+
+h2 {
+	font-size: 20px;
+	color: #444;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 16px;
+	color: #444;
+	line-height: 1.2;
+}
+
+
 
 .video-container {
 	position:relative;
