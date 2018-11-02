@@ -51,9 +51,8 @@ td {
 }
 
 .booklink {
-	width: 90%;
+	width: 100%;
 	background-color: #fff;
-	border-bottom: 1px solid #ddd;
 	padding: 20px 0px;
 	line-height: 1.1;
 	overflow: hidden; 
