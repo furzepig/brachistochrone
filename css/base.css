@@ -20,20 +20,10 @@ td {
 	font-style: normal;
 }
 
-.subtitle {
-	font-style: normal;
-	font-size: 12px;
-}
 
 .bookauthor {
 	font-size: 14px;
    	color: #888;
-}
-
-.bookdate {
-	padding-top: 30px;
-	color: #ccc;	
-	font-size: 8px;
 }
 
 .bookimage {
@@ -45,11 +35,6 @@ td {
     height: 300px;
 }
 
-.smallbook {
-	height: 50px;
-	float: right;
-}
-
 .booklink {
 	width: 100%;
 	background-color: #fff;
@@ -58,15 +43,6 @@ td {
 	overflow: hidden; 
 }
 
-.todo {
-	color: red;	
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 .topheader {
 	margin: 0px;
@@ -144,14 +120,6 @@ h2 {
 	color: #666;
 	line-height: 1.2;
 }
-
-h3 {
-	font-size: 16px;
-	color: #888;
-	line-height: 1.2;
-}
-
-
 
 .video-container {
 	position:relative;
