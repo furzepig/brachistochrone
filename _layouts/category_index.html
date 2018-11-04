@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<table>
 {% assign sorted_posts = site.categories[page.category]  | sort: 'title' %}
 {% for post in sorted_posts %}
-	<tr>
-    		<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
-    	</tr>
+	
+    		<a href="{{ post.url }}" title="{{ post.title }}">
+			
+			<div class="divlink">
+				{{ post.title }}
+			</div>
+	</a>
 {% endfor %}
-</table>
