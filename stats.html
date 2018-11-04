@@ -4,7 +4,7 @@ layout: default
 <h1>Books by Year</h1>
 {% assign postsByYear =
     site.categories["book"] | group_by_exp:"post", "post.date | date: '%Y'" %}
-</table>
+<table>
 {% for year in postsByYear %}
 <tr><td>{{ year.name }}</td><td>{{ year.items.size }}</td></tr>
 {% endfor %}
