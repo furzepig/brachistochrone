@@ -38,6 +38,7 @@ td {
 .smallbook {
 	float: left;
 	height: 50px;
+	padding-right: 30px;
 }
 
 .divlink {
