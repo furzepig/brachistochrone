@@ -6,6 +6,7 @@ layout: default
 <a href="{{ post.url }}" title="{{ post.title }}">
 	{% capture content_size %}{{ post.content | size }}{% endcapture %}	     
 	<div class="divlink">
+		<img class="smallbook" src="/images/books/{{ post.year }}/{{ post.image }}">
 		{{ post.title }}<br />
 		<span class="bookauthor">{{ post.author }}{% if content_size == "1" %} - TO DO</span>{% endif %}
 	</div>
