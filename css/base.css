@@ -35,6 +35,11 @@ td {
     height: 300px;
 }
 
+.smallbook {
+	float: left;
+	height: 50px;
+}
+
 .divlink {
 	width: 100%;
 	background-color: #fff;
