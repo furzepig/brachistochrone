@@ -37,6 +37,7 @@ td {
 
 .smallbook {
 	float: left;
+	width: 45px;
 	height: 70px;
 	padding-right: 30px;
 }
