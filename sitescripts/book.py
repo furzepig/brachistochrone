@@ -24,5 +24,6 @@ file.close()
 print('Made book:')
 print(file.name)
 print('Image name is: ' + imagename + '.jpg')
-
+os.system('git add ' + file.name)
+os.system('git commit -m "added ' + title + '"')
 
