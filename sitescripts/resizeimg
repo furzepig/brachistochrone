@@ -1,0 +1,3 @@
+cd /home/john/furzepighub.io/images/books/2018/
+rm /home/john/furzepighub.io/images/books/2018/small/*.jpg
+for i in $( ls *.jpg); do convert -resize 50% $i small/$i; done
