@@ -1,7 +1,7 @@
 ---
 layout: book
 category: book
-title: Persuasion,
+title: Persuasion
 author: Jane Austen
 year: 2018
 image: persuasion.jpg
