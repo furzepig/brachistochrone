@@ -9,3 +9,7 @@ image: ej.jpg
 > I do not want to hear any more laughter from machines.
 
 > Men are much better than their ordinary life allows them to be.
+
+> It was the beastliest pyramid you can imagine.  I did not want to be at the top, but still less
+did I want to be further down on any of those horrible slopes.  I wanted to be off the thing
+altogether and enjoying myself.
