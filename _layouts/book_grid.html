@@ -11,7 +11,7 @@ layout: default
     <div class="column">
   {% endif %}
   
-	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="/images/books/{{ post.year}}/small/{{ post.image }}" ></a>
+	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
  
   		
   {% if modulo == '3' or forloop.last %}
