@@ -6,7 +6,7 @@ layout: default
 
 	{% for post in site.categories.book %}
 	
-	{% capture modulo %}{{ forloop.index0 | modulo:4 }}{% endcapture %}
+	{% capture modulo %}{{ forloop.index0 | modulo:6 }}{% endcapture %}
 	  {% if modulo == '0' or forloop.first %}
     <div class="column">
   {% endif %}
@@ -14,7 +14,7 @@ layout: default
 	 	<a href="{{ post.url }}" title="{{ post.title }}"><img width="100%" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
  
   		
-  {% if modulo == '3' or forloop.last %}
+  {% if modulo == '5' or forloop.last %}
     </div>
   {% endif %}
 
