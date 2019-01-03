@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign sorted_posts = site.categories["book"] | sort: 'date' | reverse %}
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Date Read</th>
+    <th>Reviewed</th>
+  </tr>
+
+  
+  {% for post in sorted_posts %}
+  <tr>
+    <td>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </td>
+    {% capture content_size %}{{ post.content | size }}{% endcapture %}	     
+    <td>
+      <span class="bookauthor">{{ post.author }}
+    </td>
+    <td>
+     {{ post.date }}
+    </td>
+    <td>
+        {% if content_size == "1" %}TO DO{% endif %}
+     </td>
+  </tr>
+  {% endfor %}
+</table>
