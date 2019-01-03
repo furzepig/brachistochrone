@@ -13,12 +13,12 @@ layout: default
   
   {% for post in sorted_posts %}
   <tr>
-    <td class="book">
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <td>
+      <a  class="book" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </td>
     {% capture content_size %}{{ post.content | size }}{% endcapture %}	     
     <td class="book">
-      <span class="bookauthor">{{ post.author }}
+      {{ post.author }}
     </td>
     <td class="book">
      {{ post.date | date_to_long_string }}
