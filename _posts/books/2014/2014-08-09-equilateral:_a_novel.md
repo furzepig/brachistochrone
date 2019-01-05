@@ -1,8 +1,9 @@
 ---
 layout: book
 category: book
-title: Equilateral: A Novel
+title: Equilateral
+subtitle: A Novel
 author: Ken Kalfus
 year: 2014
-image: ean.jpg
+image: equilateral.jpg
 ---
