@@ -4,5 +4,5 @@ category: book
 title: Countdown
 author: Alan Weisman
 year: 2014
-image: c.jpg
+image: countdown.jpg
 ---
