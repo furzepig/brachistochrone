@@ -3,7 +3,7 @@ layout: default
 ---
 <div>
 
-{% assign postsByYear = site.posts | group_by:"year"  %}
+{% assign postsByYear = site.categories.book | group_by:"year"  %}
 {% for yr in postsByYear %}
   <h2>{{ yr.name }}</h2>
       {% for post in yr.items %}
