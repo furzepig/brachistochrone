@@ -4,5 +4,5 @@ category: book
 title: Accelerando
 author: Charles Stross
 year: 2012
-image: a.jpg
+image: accelerando.jpg
 ---
