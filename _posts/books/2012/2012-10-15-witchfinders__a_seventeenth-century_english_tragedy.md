@@ -5,5 +5,5 @@ title: Witchfinders
 subtitle: A Seventeenth-century English Tragedy
 author: Malcolm Gaskill
 year: 2012
-image: waset.jpg
+image: witchfinders.jpg
 ---
