@@ -1,8 +1,8 @@
 ---
 layout: book
 category: book
-title: Walden and Civil Disobedience
+title: Walden
 author: Henry David Thoreau
 year: 2010
-image: wacd.jpg
+image: walden.jpg
 ---
