@@ -4,5 +4,5 @@ category: book
 title: Matterhorn
 author: Karl Marlantes
 year: 2011
-image: m.jpg
+image: matterhorn.jpg
 ---
