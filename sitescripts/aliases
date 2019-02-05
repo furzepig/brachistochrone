@@ -1,0 +1,3 @@
+alias mb='python3 ~/brachistochrone/sitescripts/book.py'
+alias gpom='git pull origin master'
+
