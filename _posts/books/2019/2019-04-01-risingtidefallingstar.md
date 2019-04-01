@@ -4,5 +4,5 @@ category: book
 title: RISINGTIDEFALLINGSTAR
 author: Philip Hoare
 year: 2019
-image: r.jpg
+image: risingtidefallingstar.jpg
 ---
