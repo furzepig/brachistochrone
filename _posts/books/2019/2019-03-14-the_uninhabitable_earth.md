@@ -9,7 +9,7 @@ image: tue.jpg
 ---
 Concise, powerful.  The kind of book that shifts public discourse.
 
-> That is the course we are speeding so blithely along—to more than four degrees Celsius of warming by the year 2100.15
+> That is the course we are speeding so blithely along — to more than four degrees Celsius of warming by the year 2100.
 
 > Those more panicked are often hardly less complacent, living instead through climate fatalism as though it were climate optimism.
 
@@ -21,7 +21,7 @@ Concise, powerful.  The kind of book that shifts public discourse.
 
 > “the impacts of climate change will be channeled primarily through the water cycle.”
 
-> With CO2 at 930 parts per million (more than double where we are today), cognitive ability declines by 21 percent. 1
+> With CO2 at 930 parts per million (more than double where we are today), cognitive ability declines by 21 percent.
 
 > Globally, one out of six deaths is caused by air pollution.
 
