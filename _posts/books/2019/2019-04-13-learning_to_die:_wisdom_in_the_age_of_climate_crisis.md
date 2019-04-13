@@ -21,10 +21,10 @@ present age of our youthful and troublesome species. A
 lot of good thoughts could be thought in that time, a lot
 of sunrises, moonrises, frogsong and birdsong enjoyed,
 a lot of good love made, stories told, totem poles carved,
-
 telescopes built, mathematics explored, or - for those
 perverse enough to think such things worth while - a
 lot of good books written and printed, read and reread.
+
 
 > If you have seen these hornets, you know
 they have a bright yellow band around the abdomen.
