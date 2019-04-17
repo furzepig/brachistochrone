@@ -6,7 +6,7 @@ author: Philip Hoare
 year: 2019
 image: risingtidefallingstar.jpg
 ---
-Likr a conversation woth an erudite friend.  Not sure his thematically coherent it all was, but that didnt matter at all.
+Like a conversation with an erudite friend.  Not sure how thematically coherent it all was, but that didn't matter at all.
 
 > Even during the day in the twenty-first century, a chill sea mist can envelop its springtime streets – all the seasons are delayed here – filling the glowing white lanes with ghosts. There are spirits throughout this creaking old town. You see their shadows on stairs, shapes out of the corner of your eye. In the winter, they walk down the street. They’re there in the summer too; they just look like everybody else.
 
