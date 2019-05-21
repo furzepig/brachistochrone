@@ -30,8 +30,8 @@ Whose puny flaps and freaks the idling Spirit
 By its own moods interprets, every where  
 Echo or mirror seeking of itself,  
 And makes a toy of Thought.  
-
-                      But O! how oft,   
+  
+But O! how oft,   
 How oft, at school, with most believing mind,  
 Presageful, have I gazed upon the bars,  
 To watch that fluttering stranger ! and as oft  
@@ -52,8 +52,8 @@ A hasty glance, and still my heart leaped up,
 For still I hoped to see the stranger's face,  
 Townsman, or aunt, or sister more beloved,  
 My play-mate when we both were clothed alike!  
-
-         Dear Babe, that sleepest cradled by my side,  
+  
+Dear Babe, that sleepest cradled by my side,  
 Whose gentle breathings, heard in this deep calm,  
 Fill up the intersperséd vacancies  
 And momentary pauses of the thought!  
@@ -74,8 +74,8 @@ Utters, who from eternity doth teach
 Himself in all, and all things in himself.  
 Great universal Teacher! he shall mould  
 Thy spirit, and by giving make it ask.  
-
-         Therefore all seasons shall be sweet to thee,  
+  
+Therefore all seasons shall be sweet to thee,  
 Whether the summer clothe the general earth  
 With greenness, or the redbreast sit and sing  
 Betwixt the tufts of snow on the bare branch  
