@@ -67,7 +67,7 @@ But thou, my babe! shalt wander like a breeze
 By lakes and sandy shores, beneath the crags  
 Of ancient mountain, and beneath the clouds,  
 Which image in their bulk both lakes and shores  
-And mountain crags: so shalt thou see and hear 
+And mountain crags: so shalt thou see and hear  
 The lovely shapes and sounds intelligible  
 Of that eternal language, which thy God  
 Utters, who from eternity doth teach  
