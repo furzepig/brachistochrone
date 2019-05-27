@@ -3,10 +3,10 @@ layout: default
 ---
 <div>
 {% assign postsByYear = site.categories.book | group_by:"year"  %}
+{% assign currentYear = site.time | date: '%Y' %}
 {% for yr in postsByYear %}
   {% assign numYear = yr.name | times: 1 %}
- <h2>{{ numYear }}</h2>
-  {% if numYear > 2015 %} 
+  {% if numYear > (currentYear-5) %} 
   <h2>{{ yr.name }}</h2>
       {% for post in yr.items %}
         <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
