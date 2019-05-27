@@ -3,7 +3,6 @@ layout: default
 ---
 <div>
 {% assign postsByYear = site.categories.book | group_by:"year"  %}
-{% assign currentYear = site.time | date: '%Y' %}
 {% assign iBaseYear = page.baseYear | times: 1 %}
 {% for yr in postsByYear %}
   {% assign numYear = yr.name | times: 1 %}
