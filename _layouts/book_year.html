@@ -2,18 +2,13 @@
 layout: default
 ---
 
-<h1>{{ page.year }}</h1>
-<table>
-{% assign sorted_posts = site.categories["book"] |  where:"year", page.year % | sort %}
-{% for post in sorted_posts %}
-	<tr>
-    	<td>
-			<a href="{{ post.url }}" title="{{ post.title }}">
-				<div class="booktitle">{{ post.title }}</div>
-				<div class="bookauthor">{{post.author}}</div>
-			</a>
-		</td>
-	</tr>
-{% endfor %}
-</table>
-{{ content }}
+<div>
+{% assign postsByYear = site.categories.book | where:"year", page.year % | sort   %}
+{% for yr in postsByYear %}
+  <h2>{{ yr.name }}</h2>
+      {% for post in yr.items %}
+        <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+      {% endfor %}
+{% endfor %}  
+
+</div>
