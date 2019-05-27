@@ -3,7 +3,7 @@ layout: default
 category: "booK"
 ---
 <div>
-{% assign postsByYear = site.categories.book | where:"year", page.year % | sort   %}
+{% assign postsByYear = site.categories.book | where:"year", page.year %}
 <h2>{{ page.year }}</h2>
   {% for post in postsByYear %}
     <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
