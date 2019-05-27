@@ -4,11 +4,8 @@ layout: default
 
 <div>
 {% assign postsByYear = site.categories.book | where:"year", page.year % | sort   %}
-{% for yr in postsByYear %}
-  <h2>{{ yr.name }}</h2>
-      {% for post in yr.items %}
-        <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
-      {% endfor %}
-{% endfor %}  
-
+<h2>{{ page.year }}</h2>
+  {% for post in postsByYear %}
+    <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+  {% endfor %} 
 </div>
