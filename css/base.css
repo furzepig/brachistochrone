@@ -45,8 +45,9 @@ td {
 
 .divlink {
 	width: 100%;
-	background-color: #fff;
-	padding: 20px 0px;
+	background-color: #eee;
+	padding: 20px;
+	margin: 20px;
 	line-height: 1.1;
 	overflow: hidden; 
 }
