@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row"> 
-{% assign postsByYear = site.categories["book"] | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.categories["book"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
 {% for year in postsByYear %}	
   <a href="/books/{{ year.name  }}.html" title="{{ year.name }}">
     <div class="wrap">
