@@ -5,6 +5,7 @@ layout: default
 {% assign postsByYear = site.categories.book | group_by:"year"  %}
 {% for yr in postsByYear %}
   {% assign numYear = yr.name | times: 1 %}
+ <h2>{{ numYear }}</h2>
   {% if numYear > 2015 %} 
   <h2>{{ yr.name }}</h2>
       {% for post in yr.items %}
