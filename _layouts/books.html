@@ -6,7 +6,7 @@ layout: default
 {% assign currentYear = site.time | date: '%Y' %}
 {% for yr in postsByYear %}
   {% assign numYear = yr.name | times: 1 %}
-  {% if numYear > (currentYear-5) %} 
+  {% if numYear > {{ page.baseYear }} %} 
   <h2>{{ yr.name }}</h2>
       {% for post in yr.items %}
         <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
