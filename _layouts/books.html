@@ -5,11 +5,12 @@ layout: default
 {% assign postsByYear = site.categories.book | group_by:"year"  %}
 {% assign iTop = page.top | times: 1 %}
 {% for yr in postsByYear %}
-  {% if forloop.index < page.top %} 
   <h2>{{ yr.name }}</h2>
       {% for post in yr.items %}
-        <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+        {% increment iPost %}
+        {% if iPost < page.top %} 
+          <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+        {% endif %}      
       {% endfor %}
-  {% endif %}
 {% endfor %}
 </div>
