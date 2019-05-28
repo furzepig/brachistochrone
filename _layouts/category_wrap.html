@@ -1,25 +1,18 @@
 ---
 layout: default
 ---
-<div class="row"> 
 {% assign postsByYear = site.categories["book"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+<div class="row">   
   <a href="/books/all.html" title="All">
     <div class="wrap">
       All
     </div>
   </a>
-  <a href="/books/last100.html" title="Last 100">
-    <div class="wrap">
-      Last 100
-    </div>
-  </a>
-</div>
-  <div class="row"> 
   {% for year in postsByYear %}	
   <a href="/books/{{ year.name  }}.html" title="{{ year.name }}">
     <div class="wrap">
       {{ year.name }}
     </div>
   </a>
-{% endfor %}		    		
+  {% endfor %}		    		
 </div>
