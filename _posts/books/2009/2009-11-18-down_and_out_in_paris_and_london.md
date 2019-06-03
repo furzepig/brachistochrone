@@ -4,6 +4,6 @@ category: book
 title: Down and Out in Paris and London
 subtitle: 
 author: George Orwell
-year: 2010
+year: 2009
 image: daoipal.jpg
 ---
