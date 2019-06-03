@@ -9,7 +9,7 @@ layout: default
       {% for post in yr.items %}
         {% increment iPost %}
         {% if iPost < page.top %} 
-          <a href="{{ post.url }}" title="{{ post.title }} - {{post.author}}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+          <a href="{{ post.url }}" title="{{ post.title }} {{post.author}}"><img width="75px" title="{{ post.title }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
         {% endif %}      
       {% endfor %}
 {% endfor %}
