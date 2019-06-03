@@ -53,9 +53,42 @@ td {
 	background-color: #eee;
 	padding: 20px;
 	margin-bottom: 20px; 
-	border-left-width:10px;
-	border-left-style:solid;
-	border-color: red;
+	border-left:10px solid red;
+}
+
+.divlink_orange {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px; 
+	border-left:10px solid orange;
+}
+
+.divlink_yellow {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px; 
+	border-left:10px solid yellow;
+}
+
+.divlink_green {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px; 
+	border-left:10px solid green;
+}
+
+.divlink_blue {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px; 
+	border-left:10px solid blue;
+}
+
+.divlink_indigo {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px; 
+	border-left:10px solid indigo;
 }
 
 
