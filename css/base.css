@@ -44,11 +44,12 @@ td {
 }
 
 .divlink {
-	background-color: #eee;
+	background-color: #fff;
 	font-family: 'Bungee Outline', cursive;
-	font-size: 100px;
+	font-size: 64px;
 	padding: 20px;
 	margin-bottom: 20px; 
+	line-height: 1;
 }
 
 .divlink_red {
