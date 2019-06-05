@@ -45,6 +45,8 @@ td {
 
 .divlink {
 	background-color: #eee;
+	font-family: 'Bungee Outline', cursive;
+	font-size: 100px;
 	padding: 20px;
 	margin-bottom: 20px; 
 }
