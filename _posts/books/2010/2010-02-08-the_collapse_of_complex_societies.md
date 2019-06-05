@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Collapse of Complex Societies
 subtitle: 
 author: Joseph Tainter

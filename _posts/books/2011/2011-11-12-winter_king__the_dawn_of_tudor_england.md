@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Winter King
 subtitle: The Dawn of Tudor England
 author: Thomas Penn

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "Wabi Sabi"
 subtitle: "The Japanese Art of Impermanence"
 author: Andrew Juniper

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Dead Man Working
 author: Carl Cederstrom
 year: 2012

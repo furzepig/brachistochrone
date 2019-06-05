@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: As the World Burns
 author: Derrick Jensen
 year: 2012

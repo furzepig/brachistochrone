@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Forever War
 author: Joe Haldeman
 year: 2012

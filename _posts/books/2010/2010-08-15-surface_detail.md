@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Surface Detail
 author: Iain M. Banks
 year: 2010

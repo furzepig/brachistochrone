@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Road to Wigan Pier
 subtitle: 
 author: George Orwell

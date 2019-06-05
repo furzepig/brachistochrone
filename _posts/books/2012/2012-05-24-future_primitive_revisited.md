@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Future Primitive Revisited
 author: John Zerzan
 year: 2012

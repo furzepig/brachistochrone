@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Enlightenment's Wake
 author: John Gray
 year: 2012

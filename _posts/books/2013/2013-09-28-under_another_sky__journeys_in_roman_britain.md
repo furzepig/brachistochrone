@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Under Another Sky
 subtitle: Journeys in Roman Britain
 author: Charlotte Higgins

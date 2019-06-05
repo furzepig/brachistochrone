@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Mind In The Cave
 author: David Lewis-Williams
 year: 2017

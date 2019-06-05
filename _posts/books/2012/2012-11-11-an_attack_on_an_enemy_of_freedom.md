@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: An Attack on an Enemy of Freedom
 author: Cicero
 year: 2012

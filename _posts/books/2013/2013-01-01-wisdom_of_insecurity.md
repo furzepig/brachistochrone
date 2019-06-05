@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Wisdom Of Insecurity
 subtitle: A Message for an Age of Anxiety
 author: Alan W Watts

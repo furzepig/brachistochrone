@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Gradual
 author: Christopher Priest
 year: 2017

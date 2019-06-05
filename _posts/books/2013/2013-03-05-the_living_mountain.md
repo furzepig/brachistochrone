@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Living Mountain
 author: Nan Shepherd
 year: 2013

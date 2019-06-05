@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Witchfinders
 subtitle: A Seventeenth-century English Tragedy
 author: Malcolm Gaskill

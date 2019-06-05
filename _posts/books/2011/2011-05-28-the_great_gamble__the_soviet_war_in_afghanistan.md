@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Great Gamble"
 subtitle: "The Soviet War in Afghanistan"
 author: Gregory Feifer

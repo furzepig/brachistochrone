@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Endurance
 author: Scott Kelly
 year: 2017

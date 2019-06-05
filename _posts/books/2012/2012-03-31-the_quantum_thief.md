@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Quantum Thief
 author: Hannu Rajaniemi
 year: 2012

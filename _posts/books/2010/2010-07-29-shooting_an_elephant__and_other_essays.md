@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Shooting an Elephant
 subtitle: And Other Essays
 author: George Orwell

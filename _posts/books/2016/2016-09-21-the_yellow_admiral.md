@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Yellow Admiral
 author: Patrick O'Brian
 year: 2016

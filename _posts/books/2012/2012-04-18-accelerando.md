@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Accelerando
 author: Charles Stross
 year: 2012

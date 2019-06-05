@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Letter of Marque
 author: Patrick O'Brian
 year: 2016

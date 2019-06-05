@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: PostCapitalism
 subtitle: A Guide to Our Future
 author: Paul Mason

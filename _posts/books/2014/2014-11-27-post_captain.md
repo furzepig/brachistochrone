@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Post Captain
 author: Patrick O'Brian
 year: 2014

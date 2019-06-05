@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Nutmeg of Consolation
 author: Patrick O’Brian
 year: 2016

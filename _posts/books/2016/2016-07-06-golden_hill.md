@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Golden Hill
 author: Francis Spufford
 year: 2016

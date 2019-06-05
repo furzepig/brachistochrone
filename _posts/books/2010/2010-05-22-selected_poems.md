@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Selected Poems
 author: Robert Bringhurst
 year: 2010

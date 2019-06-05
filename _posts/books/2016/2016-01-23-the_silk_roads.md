@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Silk Roads
 author: Peter Frankopan
 year: 2016

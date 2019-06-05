@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Drowned World
 author: J G Ballard
 year: 2017

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Command and Control
 author: Eric Schlosser
 year: 2013

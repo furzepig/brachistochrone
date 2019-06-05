@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Learning to Die
 subtitle: Wisdom in the Age of Climate Crisis
 author: Jan Zwicky and Robert Bringhurst

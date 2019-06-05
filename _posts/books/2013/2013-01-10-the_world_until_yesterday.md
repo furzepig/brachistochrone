@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The World Until Yesterday
 author: Jared Diamond
 year: 2013

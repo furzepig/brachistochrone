@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Plague
 author: Albert Camus
 year: 2011

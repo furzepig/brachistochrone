@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Europe at Midnight
 author: Dave Hutchison
 year: 2016

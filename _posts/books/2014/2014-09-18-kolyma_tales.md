@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Kolyma Tales
 author: Varlan Shalamov
 year: 2014

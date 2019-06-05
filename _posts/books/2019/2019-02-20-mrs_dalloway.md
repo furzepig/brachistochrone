@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Mrs Dalloway
 author: Virginia Woolf
 year: 2019

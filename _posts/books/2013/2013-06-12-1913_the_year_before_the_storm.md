@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "1913"
 subtitle: "The Year before the Storm"
 author: Florian Illies

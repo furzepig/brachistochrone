@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Cosmosapiens
 author: John Hands
 year: 2016

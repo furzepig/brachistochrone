@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Tono Bungay
 author: H G Wells
 year: 2016

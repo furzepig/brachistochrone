@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Be Pure, Be Vigilant, Behave!
 author: Pat Mills
 year: 2019

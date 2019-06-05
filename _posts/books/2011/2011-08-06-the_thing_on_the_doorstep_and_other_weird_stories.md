@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Thing on the Doorstep
 subtitle: "and Other Weird Stories"
 author: H. P. Lovecraft

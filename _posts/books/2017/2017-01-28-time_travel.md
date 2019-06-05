@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Time Travel
 author: James Gleick
 year: 2017

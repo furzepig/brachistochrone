@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Dark Entries
 author: Robert Aickman
 year: 2016

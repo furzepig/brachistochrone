@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Last Quarter of the Moon
 author: Chi Zijian
 year: 2014

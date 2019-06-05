@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Europe in Winter
 author: Dave Hutchinson
 year: 2017

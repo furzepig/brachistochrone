@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Kingmaker
 subtitle: "Winter Pilgrims"
 author: Toby Clements

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Hammer of God
 author: Arthur C. Clarke
 year: 2014

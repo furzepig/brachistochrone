@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Box of Delights
 author: John Masefield
 year: 2012

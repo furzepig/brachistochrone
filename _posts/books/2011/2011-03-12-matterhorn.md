@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Matterhorn
 author: Karl Marlantes
 year: 2011

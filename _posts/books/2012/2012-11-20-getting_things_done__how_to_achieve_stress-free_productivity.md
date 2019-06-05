@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Getting Things Done
 subtitle: How to achieve stress-free productivity
 author: David Allen

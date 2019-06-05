@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: London Labour and the London Poor
 author: Henry Mayhew
 year: 2014

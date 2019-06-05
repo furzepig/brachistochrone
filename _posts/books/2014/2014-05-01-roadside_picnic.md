@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Roadside Picnic
 author: Arkady Strugatsky
 year: 2014

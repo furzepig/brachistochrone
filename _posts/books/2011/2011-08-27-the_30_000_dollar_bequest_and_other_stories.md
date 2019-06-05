@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The 30,000 Dollar Bequest and Other Stories
 author: Mark Twain
 year: 2011

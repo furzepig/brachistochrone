@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Doomsday Book
 author: Connie Willis
 year: 2017

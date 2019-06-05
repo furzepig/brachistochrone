@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: One Minute To Midnight
 author: Michael Dobbs
 year: 2013

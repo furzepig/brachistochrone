@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Backroom Boys
 author: Francis Spufford
 year: 2016

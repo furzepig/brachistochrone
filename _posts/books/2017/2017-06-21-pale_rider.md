@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Pale Rider
 author: Laura Spinney
 year: 2017

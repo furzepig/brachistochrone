@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Bottleneck 
 subtitle: "Humanity's Impending Impasse"
 author: William R. Catton Jr.

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Red Plenty
 author: Francis Spufford
 year: 2013

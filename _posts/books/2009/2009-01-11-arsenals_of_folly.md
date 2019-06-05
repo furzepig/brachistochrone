@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Arsenals of Folly
 subtitle: The Making of the Nuclear Arms Race
 author: Richard Rhodes

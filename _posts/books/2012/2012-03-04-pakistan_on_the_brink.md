@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Pakistan on the Brink
 author: Ahmed Rashid
 year: 2012

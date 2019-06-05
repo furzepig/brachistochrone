@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Brexit
 subtitle: What The Hell Happens Now?
 author: Ian Dunt

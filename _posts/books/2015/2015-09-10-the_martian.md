@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Martian
 author: Andy Weir
 year: 2015

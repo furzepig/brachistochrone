@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Wine Dark Sea
 author: Patrick O’Brian
 year: 2016

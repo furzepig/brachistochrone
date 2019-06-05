@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Apocalypse Codex
 author: Charlie Stross
 year: 2017

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Sightlines
 author: Kathleen Jamie
 year: 2012

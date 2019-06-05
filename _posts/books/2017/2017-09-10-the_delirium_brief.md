@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Delirium Brief
 author: Charlie Stross
 year: 2017

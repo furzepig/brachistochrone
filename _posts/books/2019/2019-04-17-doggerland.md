@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Doggerland
 author: Ben Smith
 year: 2019

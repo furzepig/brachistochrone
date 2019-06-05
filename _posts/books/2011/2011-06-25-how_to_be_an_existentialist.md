@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: How to Be an Existentialist
 author: Gary Cox
 year: 2011

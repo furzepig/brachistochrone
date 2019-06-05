@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Laws of Thermodynamics
 author: Peter Atkins
 year: 2012

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Love All the People
 author: Bill Hicks
 year: 2012

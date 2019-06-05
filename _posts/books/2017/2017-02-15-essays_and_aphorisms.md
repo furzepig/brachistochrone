@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Essays and Aphorisms
 author: Schopenhauer
 year: 2017

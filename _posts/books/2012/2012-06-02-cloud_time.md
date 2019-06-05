@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Cloud Time
 author: Dean Lockwood
 year: 2012

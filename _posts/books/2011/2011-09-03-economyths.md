@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Economyths
 author: David Orrell
 year: 2011

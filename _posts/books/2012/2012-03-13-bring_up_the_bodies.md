@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Bring Up the Bodies
 author: Hilary Mantel
 year: 2012

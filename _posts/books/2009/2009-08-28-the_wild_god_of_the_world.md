@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Wild God of the World
 subtitle: An Anthology of Robinson Jeffers
 author: Robinson Jeffers

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Six Degrees
 subtitle: Our Future on a Hotter Planet
 author: Mark Lynas

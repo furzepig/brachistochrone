@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Darkness Falls From The Air
 author: Nigel Balchin
 year: 2017

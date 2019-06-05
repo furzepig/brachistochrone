@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Highland Clearances
 author: John Prebble
 year: 2012

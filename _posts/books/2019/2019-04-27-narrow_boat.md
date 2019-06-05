@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Narrow Boat
 author: L.T.C. Rolt
 year: 2019

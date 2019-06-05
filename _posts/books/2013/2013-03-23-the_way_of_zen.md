@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Way of Zen
 author: Alan W. Watts
 year: 2013

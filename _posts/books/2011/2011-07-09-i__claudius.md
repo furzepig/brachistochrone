@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: I, Claudius
 author: Robert Graves
 year: 2011

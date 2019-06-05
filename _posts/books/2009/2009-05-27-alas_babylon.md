@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Alas Babylon
 subtitle: 
 author: Pat Frank

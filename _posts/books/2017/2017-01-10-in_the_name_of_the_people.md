@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: In The Name Of The People
 author: Lara Pawson
 year: 2017

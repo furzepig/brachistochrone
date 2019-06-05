@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Limits to Growth
 subtitle: The 30-year Update
 author: Donella Meadows and Jorgen Randers

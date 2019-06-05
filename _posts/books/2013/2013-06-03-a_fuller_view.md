@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: A Fuller View
 author: Steven Sieden
 year: 2013

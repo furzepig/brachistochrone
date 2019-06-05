@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Information
 author: James Gleick
 year: 2014

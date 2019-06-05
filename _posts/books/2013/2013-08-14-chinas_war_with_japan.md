@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "China's War with Japan, 1937-1945"
 subtitle: "The Struggle for Survival"
 author: Rana Mitter

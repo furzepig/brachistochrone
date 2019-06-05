@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Last Man
 author: Tom Lawson
 year: 2014

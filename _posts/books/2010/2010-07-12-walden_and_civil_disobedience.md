@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Walden
 author: Henry David Thoreau
 year: 2010

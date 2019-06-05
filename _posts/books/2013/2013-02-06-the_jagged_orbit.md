@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Jagged Orbit
 author: John Brunner
 year: 2013

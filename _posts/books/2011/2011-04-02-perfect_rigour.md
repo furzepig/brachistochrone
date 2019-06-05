@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Perfect Rigour
 author: Masha Gessen
 year: 2011

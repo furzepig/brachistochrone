@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Permaculture
 subtitle: A Beginners Guide
 author: Graham Burnett

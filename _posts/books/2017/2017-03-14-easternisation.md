@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Easternisation
 author: Gideon Rachman
 year: 2017

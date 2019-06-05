@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: At Home
 subtitle: A Short History of Private Life
 author: Bill Bryson

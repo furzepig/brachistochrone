@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: We Stand On Guard
 author: Brian K Vaughn
 year: 2017

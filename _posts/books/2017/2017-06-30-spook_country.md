@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Spook Country
 author: William Gibson
 year: 2017

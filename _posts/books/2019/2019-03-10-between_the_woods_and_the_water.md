@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Between The Woods And The Water
 author: Patrick Leigh Fermor
 year: 2019

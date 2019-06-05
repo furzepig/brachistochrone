@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Three Body Problem
 author: Cixin Liu
 year: 2016

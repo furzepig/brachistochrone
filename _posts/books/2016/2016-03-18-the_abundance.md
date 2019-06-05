@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Abundance
 author: Annie Dillard
 year: 2016

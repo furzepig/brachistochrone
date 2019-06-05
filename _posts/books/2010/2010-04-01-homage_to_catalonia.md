@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Homage to Catalonia
 author: George Orwell
 year: 2010

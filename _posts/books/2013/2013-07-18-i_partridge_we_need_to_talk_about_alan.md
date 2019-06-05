@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "I, Partridge"
 subtitle: "We Need to Talk About Alan"
 author: Alan Partridge

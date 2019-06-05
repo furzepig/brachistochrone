@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Uninhabitable Earth
 subtitle: A Story Of The Future
 author: David Wallace Wells

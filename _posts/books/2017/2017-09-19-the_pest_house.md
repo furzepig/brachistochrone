@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Pest House
 author: Jim Crace
 year: 2017

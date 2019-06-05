@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Decline of the West
 author: Oswald Spengler
 year: 2013

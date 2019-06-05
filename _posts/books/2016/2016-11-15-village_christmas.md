@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Village Christmas
 author: Laurie Lee
 year: 2016

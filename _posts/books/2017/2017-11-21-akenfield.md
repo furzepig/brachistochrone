@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Akenfield
 author: Ronald Blythe
 year: 2017

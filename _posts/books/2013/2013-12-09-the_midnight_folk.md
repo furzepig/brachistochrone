@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Midnight Folk
 author: John Masefield
 year: 2013

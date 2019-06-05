@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Dark Forest
 author: Cixin Liu
 year: 2016

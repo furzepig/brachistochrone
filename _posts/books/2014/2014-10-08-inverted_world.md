@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Inverted World
 author: Christopher Priest
 year: 2014

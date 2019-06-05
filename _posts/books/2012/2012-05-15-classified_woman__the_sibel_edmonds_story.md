@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Classified Woman
 subtitle: The Sibel Edmonds Story
 author: Sibel D Edmonds

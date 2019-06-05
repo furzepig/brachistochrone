@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: In Patagonia
 author: Bruce Chatwin
 year: 2016

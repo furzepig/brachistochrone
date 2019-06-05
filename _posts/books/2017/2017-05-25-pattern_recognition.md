@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Pattern Recognition
 author: William Gibson
 year: 2017

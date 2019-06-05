@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The King in Yellow
 author: Robert W. Chambers
 year: 2012

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Iran
 subtitle: Empire of the Mind
 author: Michael Axworthy

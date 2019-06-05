@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Fortune of War
 author: Patrick O'Brian
 year: 2015

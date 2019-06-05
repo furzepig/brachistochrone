@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Leopard
 author: Giuseppe Tomasi Di Lampedusa
 year: 2011

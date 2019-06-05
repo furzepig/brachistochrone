@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Tao Te Ching
 author: Lao zi
 year: 2011

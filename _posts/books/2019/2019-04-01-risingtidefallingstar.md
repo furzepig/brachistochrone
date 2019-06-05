@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: RISINGTIDEFALLINGSTAR
 author: Philip Hoare
 year: 2019

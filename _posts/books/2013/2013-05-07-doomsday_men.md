@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Doomsday Men
 author: P. D. Smith
 year: 2013

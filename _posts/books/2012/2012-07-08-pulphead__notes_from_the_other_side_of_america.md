@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Pulphead
 subtitle: Notes from the Other Side of America
 author: John Jeremiah Sullivan

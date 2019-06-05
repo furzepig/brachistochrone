@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Basin and Range
 author: John McPhee
 year: 2014

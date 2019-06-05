@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Death’s End
 author: Cixin Liu
 year: 2016

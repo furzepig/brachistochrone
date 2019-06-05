@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Waking the Giant
 author: Bill McGuire
 year: 2012

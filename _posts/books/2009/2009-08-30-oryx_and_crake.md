@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Oryx and Crake
 subtitle: 
 author: Margaret Atwood

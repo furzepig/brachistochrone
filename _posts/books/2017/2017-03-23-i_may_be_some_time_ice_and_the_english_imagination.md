@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: I May Be Some Time
 subtitle: Ice and the English Imagination
 author: Francis Spufford

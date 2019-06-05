@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Nagasaki
 subtitle: Life After Nuclear War
 author: Susan Southard

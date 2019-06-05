@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Turned Out Nice
 author: Marek Kohn
 year: 2011

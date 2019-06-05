@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Hell and High Water
 subtitle: Climate Change, Hope and the Human Condition
 author: Alastair McIntosh

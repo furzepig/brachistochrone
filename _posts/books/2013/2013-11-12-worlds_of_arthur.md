@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Worlds of Arthur
 author: Guy Halsall
 year: 2013

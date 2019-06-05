@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: When Money Dies
 author: Adam Fergusson
 year: 2011

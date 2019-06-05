@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Blue At The Mizzen
 author: Patrick O'Brian
 year: 2017

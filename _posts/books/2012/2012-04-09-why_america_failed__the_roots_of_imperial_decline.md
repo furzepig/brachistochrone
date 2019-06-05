@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Why America Failed
 subtitle: The Roots of Imperial Decline
 author: Morris Berman

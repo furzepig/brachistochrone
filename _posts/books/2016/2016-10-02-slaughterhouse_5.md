@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Slaughterhouse 5
 author: Kurt Vonnegut
 year: 2016

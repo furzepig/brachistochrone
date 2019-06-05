@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: It Can't Happen Here
 author: Sinclair Lewis
 year: 2019

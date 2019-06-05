@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Magnetic North
 subtitle: Travels in the Arctic
 author: Sara Wheeler

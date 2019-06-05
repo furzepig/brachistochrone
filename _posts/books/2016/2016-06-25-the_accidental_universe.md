@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Accidental Universe
 author: Alan Lightman
 year: 2016

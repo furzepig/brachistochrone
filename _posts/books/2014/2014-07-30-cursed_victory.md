@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Cursed Victory
 author: Ahron Bregman
 year: 2014

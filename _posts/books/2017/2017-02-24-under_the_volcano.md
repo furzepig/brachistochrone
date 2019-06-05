@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Under The Volcano
 author: Malcolm Lowry
 year: 2017

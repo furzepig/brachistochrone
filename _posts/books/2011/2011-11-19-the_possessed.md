@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Possessed
 author: Elif Batuman
 year: 2011

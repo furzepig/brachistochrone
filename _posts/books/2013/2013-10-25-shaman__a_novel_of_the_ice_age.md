@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Shaman
 subtitle: A novel of the Ice Age
 author: Kim Stanley Robinson

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: A History of the World in 100 Objects
 author: Neil Macgregor
 year: 2014

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Nothing To Envy
 subtitle: Real Lives In North Korea
 author: Barbara Demick

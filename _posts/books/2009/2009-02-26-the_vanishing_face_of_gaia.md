@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Vanishing Face of Gaia
 subtitle: A Final Warning
 author: James Lovelock

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Acceptance
 author: Jeff VanderMeer
 year: 2014

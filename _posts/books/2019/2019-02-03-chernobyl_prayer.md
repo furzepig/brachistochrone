@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Chernobyl Prayer
 author: Svetlana Alexeivich
 year: 2019

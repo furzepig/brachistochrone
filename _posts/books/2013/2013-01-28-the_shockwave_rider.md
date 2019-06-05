@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Shockwave Rider
 author: John Brunner
 year: 2013

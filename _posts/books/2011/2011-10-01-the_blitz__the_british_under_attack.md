@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Blitz
 subtitle: The British Under Attack
 author: Juliet Gardiner

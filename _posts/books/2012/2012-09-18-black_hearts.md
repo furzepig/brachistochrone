@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Black Hearts
 author: Jim Frederick
 year: 2012

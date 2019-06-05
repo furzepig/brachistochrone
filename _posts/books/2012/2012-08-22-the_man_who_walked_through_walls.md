@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Man Who Walked through Walls
 author: Marcel Aymé
 year: 2012

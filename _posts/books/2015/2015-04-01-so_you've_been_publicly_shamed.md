@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: So You've Been Publicly Shamed
 author: Jon Ronson
 year: 2015

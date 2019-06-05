@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Desolation Island
 author: Patrick O'Brian
 year: 2015

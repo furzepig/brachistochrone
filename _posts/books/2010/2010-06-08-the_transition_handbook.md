@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Transition Handbook
 author: Rob Hopkins
 year: 2010

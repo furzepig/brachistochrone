@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Ionian Mission
 author: Patrick O'Brian
 year: 2015

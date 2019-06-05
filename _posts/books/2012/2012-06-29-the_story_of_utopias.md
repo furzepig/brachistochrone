@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Story of Utopias
 author: Lewis Mumford
 year: 2012

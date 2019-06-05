@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Collected Poems of Edward Thomas
 author: Edward Thomas
 year: 2013

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Ghost Stories of an Antiquary
 author: M. R. James
 year: 2011

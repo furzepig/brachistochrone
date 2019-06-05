@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Corner
 subtitle: A Year in the Life of an Inner-city Neighbourhood
 author: David Simons and Ed Burns

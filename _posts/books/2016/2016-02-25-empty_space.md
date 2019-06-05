@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Empty Space
 author: M John Harrison
 year: 2016

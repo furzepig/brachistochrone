@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Heart of England
 author: Edward Thomas
 year: 2013

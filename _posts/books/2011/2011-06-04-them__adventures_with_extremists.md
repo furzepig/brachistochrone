@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Them
 subtitle: Adventures with Extremists
 author: Jon Ronson

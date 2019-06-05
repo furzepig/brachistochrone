@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Boys In Zinc
 author: Svetlana Alexeivich
 year: 2017

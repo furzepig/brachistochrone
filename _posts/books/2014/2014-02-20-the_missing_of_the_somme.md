@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Missing of the Somme
 author: Geoff Dyer
 year: 2014

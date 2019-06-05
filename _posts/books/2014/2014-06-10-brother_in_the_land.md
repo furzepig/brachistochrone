@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Brother in the Land
 author: Robert Swindells
 year: 2014

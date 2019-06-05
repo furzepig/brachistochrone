@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Down and Out in Paris and London
 subtitle: 
 author: George Orwell

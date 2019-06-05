@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Autobiography
 author: Morrissey
 year: 2013

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Equilateral
 subtitle: A Novel
 author: Ken Kalfus

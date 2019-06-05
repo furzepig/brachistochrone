@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "Cat's Cradle"
 author: Kurt Vonnegut
 year: 2019

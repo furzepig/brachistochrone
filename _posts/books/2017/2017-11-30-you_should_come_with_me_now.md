@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: You Should Come With Me Now
 author: M John Harrison
 year: 2017

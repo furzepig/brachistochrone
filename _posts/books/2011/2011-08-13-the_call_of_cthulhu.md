@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Call of Cthulhu
 author: H. P. Lovecraft
 year: 2011
