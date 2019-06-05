@@ -2,7 +2,7 @@
 layout: default
 ---
 <div>
-{% assign postsByYear = site.categories.book | group_by:"year"  %}
+{% assign postsByYear = site.categories.books | group_by:"year"  %}
 {% assign iTop = page.top | times: 1 %}
 {% for yr in postsByYear %}
   <h2>{{ yr.name }}</h2>
