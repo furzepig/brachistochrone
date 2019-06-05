@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign postsByYear = site.categories["book"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+{% assign postsByYear = site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
 <div class="row">   
   <a href="/books/all.html" title="All">
     <div class="wrap">
