@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Snake Dance
 author: Patrick Marnham
 year: 2018

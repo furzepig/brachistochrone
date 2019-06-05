@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Young Romantics
 author: Daisy Hay
 year: 2018

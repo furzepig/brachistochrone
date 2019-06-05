@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "Broadsword Calling Danny Boy"
 subtitle: "On Where Eagles Dare"
 author: "Geoff Dyer"

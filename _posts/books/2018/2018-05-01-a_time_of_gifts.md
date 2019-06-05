@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: A Time Of Gifts
 author: Patrick Leigh Fermor
 year: 2018

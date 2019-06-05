@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Portrait Of The Artist As A Young Dog
 author: Dylan Thomas
 year: 2018

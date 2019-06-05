@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Delta Green
 subtitle: Tales from Failed Anatomies
 author: Dennis Detwiller

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "Tyrant"
 subtitle: "Shakespeare On Power"
 author: Stephen Greenblatt

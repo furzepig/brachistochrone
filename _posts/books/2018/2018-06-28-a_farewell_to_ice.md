@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: A Farewell To Ice
 author: Peter Wadhams
 year: 2018

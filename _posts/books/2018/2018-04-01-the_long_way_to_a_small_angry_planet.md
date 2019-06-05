@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Long Way To A Small Angry Planet
 author: Becky Chambers
 year: 2018

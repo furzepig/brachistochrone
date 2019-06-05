@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Last London"
 subtitle: "True Fictions from an Unreal City"
 author: "Iain Sinclair"

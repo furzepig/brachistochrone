@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Travellers in the Third Reich
 subtitle: The Rise of Fascism Through the Eyes of Everyday People
 author: Julia Boyd

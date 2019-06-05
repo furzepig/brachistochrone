@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Concrete Island
 author: JG Ballard
 year: 2018

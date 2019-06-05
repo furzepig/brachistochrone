@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The 2020 Commission Report
 subtitle: On the North Korean Nuclear Attacks on The United States
 author: Dr Jeffrey Lewis

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "This Is The Place To Be"
 author: "Lara Pawson"
 year: 2018

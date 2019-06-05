@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Fountain In The Forest
 author: Tony White
 year: 2018

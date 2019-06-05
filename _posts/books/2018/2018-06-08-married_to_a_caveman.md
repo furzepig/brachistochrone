@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Married To A Caveman
 author: Damien Owen
 year: 2018

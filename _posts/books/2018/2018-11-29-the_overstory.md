@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Overstory"
 author: "Richard Powers"
 year: 2018

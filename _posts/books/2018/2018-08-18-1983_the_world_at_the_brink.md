@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: 1983
 subtitle: The World At The Brink
 author: Taylor Downing

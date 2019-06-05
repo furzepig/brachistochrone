@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Heart Of Darkness
 author: Joseph Conrad
 year: 2018

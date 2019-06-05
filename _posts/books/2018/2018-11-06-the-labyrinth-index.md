@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Labyrinth Index"
 author: "Charlie Stross"
 year: 2018

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: English Journey
 author: J B Priestley
 year: 2018

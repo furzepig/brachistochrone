@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 author: Dan LeRoy
 title: "The Beastie Boys' Paul's Boutique"
 year: 2018

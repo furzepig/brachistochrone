@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Future Is History"
 subtitle: "How Totalitarianism Reclaimed Russia"
 author: "Masha Gessen"

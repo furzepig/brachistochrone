@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Many Lives of Carbon
 author: Dag Olav Hessen
 year: 2018

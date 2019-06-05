@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Things They Carried
 author: Tim O’Brien
 year: 2018

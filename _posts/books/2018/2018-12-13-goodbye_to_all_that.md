@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Goodbye To All That
 author: Robert Graves
 year: 2018

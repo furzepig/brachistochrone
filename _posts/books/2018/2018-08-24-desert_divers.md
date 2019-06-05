@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Desert Divers
 author: Sven Lindqvist
 year: 2018

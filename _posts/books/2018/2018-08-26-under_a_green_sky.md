@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Under A Green Sky
 author: Peter Ward
 year: 2018

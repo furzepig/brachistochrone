@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Exterminate All The Brutes
 author: Sven Lindqvist
 year: 2018

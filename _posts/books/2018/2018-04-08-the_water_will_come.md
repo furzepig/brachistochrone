@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Water Will Come
 author: Jeff Goodell
 year: 2018

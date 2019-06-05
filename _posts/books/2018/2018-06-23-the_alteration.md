@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Alteration
 author: Kingsley Amis
 year: 2018

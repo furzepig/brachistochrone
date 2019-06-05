@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Galapagos
 author: Kurt Vonnegut
 year: 2018

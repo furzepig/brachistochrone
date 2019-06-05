@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Persuasion
 author: Jane Austen
 year: 2018

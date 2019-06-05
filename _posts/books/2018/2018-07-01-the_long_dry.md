@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Long Dry
 author: Cynan Jones
 year: 2018

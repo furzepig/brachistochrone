@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Travels with Myself and Another
 subtitle: Five Journeys from Hell
 author: Martha Gellhorn

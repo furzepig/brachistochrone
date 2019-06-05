@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Doomsday Machine"
 subtitle: "Confessions Of A Nuclear War Planner"
 author: Daniel Ellsberg

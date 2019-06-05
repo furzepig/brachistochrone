@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Neuromancer
 author: William Gibson
 year: 2018

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Lives Of A Cell
 author: Lewis Thomas
 year: 2018

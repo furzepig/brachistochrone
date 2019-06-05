@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: All Quiet on the Western Front
 author: Erich Maria Remarque
 year: 2018

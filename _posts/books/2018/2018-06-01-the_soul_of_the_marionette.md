@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Soul Of The Marionette
 subtitle: A Short Enquiry into Human Freedom
 author: John Gray

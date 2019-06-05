@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Hard To Be A God
 author: Boris and Arkady Strugatsky
 year: 2018

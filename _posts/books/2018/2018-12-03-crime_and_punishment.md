@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "Crime and Punishment"
 author: "Fyodor Dostoevsky"
 year: 2018

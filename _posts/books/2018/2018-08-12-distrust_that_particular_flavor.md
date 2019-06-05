@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Distrust That Particular Flavor
 subtitle: Encounters with a future that's already here
 author: William Gibson

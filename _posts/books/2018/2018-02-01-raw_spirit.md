@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Raw Spirit
 author: Iain Banks
 year: 2018

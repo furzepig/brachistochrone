@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: "The Vital Question"
 subtitle: "Why is life the way it is?"
 author: Nick Lane

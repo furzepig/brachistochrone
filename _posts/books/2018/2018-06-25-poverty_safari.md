@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Poverty Safari
 subtitle: Understanding the anger of Britain's underclass
 author: Darren McGarvey

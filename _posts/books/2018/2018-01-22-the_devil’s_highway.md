@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Devil’s Highway
 author: Gregory Norminton
 year: 2018

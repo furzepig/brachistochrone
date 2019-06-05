@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The End Of Time
 author: Julian Barbour
 year: 2018
