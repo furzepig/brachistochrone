@@ -2,12 +2,13 @@
 layout: default
 category: "fells"
 ---
-
+<table?
 {% for post in site.categories['fells'] %}
-    <a href="{{ post.url }}" title="{{ post.name }}">		
-      <div class="divlink">
-        {{ post.name }}
-	<div class="linkinfo">{{ post.date | date: "%-d %B %Y" }}, {{ post.height }}m</div>
-      </div>
-    </a>
+  <tr>
+  <td>{{ post.number }}</td>
+  <td><a href="{{ post.url }}" title="{{ post.name }}">{{ post.name }}</a></td>
+  <td>{{ post.date | date: "%-d %B %Y" }}</td>
+  <td>{{ post.height }}m</td>
+  </tr>
 {% endfor %}
+</table>
