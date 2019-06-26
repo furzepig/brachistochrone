@@ -7,7 +7,7 @@ category: "fells"
     <a href="{{ post.url }}" title="{{ post.name }}">		
       <div class="divlink">
         {{ post.name }}
-	{{ post.number }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.height }}m
+	<div class="linkinfo">{{ post.date | date: "%-d %B %Y" }}, {{ post.height }}m</div>
       </div>
     </a>
 {% endfor %}
