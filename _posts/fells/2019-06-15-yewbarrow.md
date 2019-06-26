@@ -2,7 +2,8 @@
 layout: fell
 category: fells
 name: Yewbarrow
-number: 45
+number: 123
+height: 627
 image: yewbarrow.jpg
 ---
 
