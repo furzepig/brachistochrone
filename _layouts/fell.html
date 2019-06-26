@@ -6,7 +6,11 @@ layout: default
 <h2>{{ page.date | date: "%-d %B %Y"}}</h2>
 {% endif %}
 <h3>{{ page.height }}m</h3>
-<img class="fellimage" src="/images/fells/{{ page.name }}.jpg" />
+{% if page.image %}
+<img class="fellimage" src="/images/fells/{{ page.image }}" />
+<% else %>
+<img class="fellimage" src="/images/fells/{{ page.name }}.jpg" /> 
+<% endif %>
 <div class="post">
   {{ content }}
 </div>
