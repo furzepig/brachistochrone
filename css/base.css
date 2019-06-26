@@ -59,6 +59,10 @@ td {
 	margin-bottom: 20px; 
 }
 
+.linkinfo {
+	font-size: 12px;
+}
+
 .topheader {
 	margin: 0px;
 	background-color: #444;
