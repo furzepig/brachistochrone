@@ -4,9 +4,15 @@ category: "fells"
 ---
 {% for post in site.categories['fells'] %}
   <a href="{{ post.url }}" title="{{ post.name }}">
-  <div class="divlink">
+  {% if post.climbed %}
+    <div class="divlink">
     {{ post.name }}
-    <div class="linkinfo">{{ post.date | date: "%-d %B %Y" }} | {{ post.height }}m | {{ post.number }} | {{ post.climbed }}</div>
+    <div class="linkinfo">{{ post.date | date: "%-d %B %Y" }} | {{ post.height }}m | {{ post.number }}</div>
+  {% else %}    
+    <div class="fadelink">
+    {{ post.name }}
+    <div class="linkinfo">{{ post.height }}m | {{ post.number }}</div> 
+  {% endif %}
     </div>
 </a>
 {% endfor %}
