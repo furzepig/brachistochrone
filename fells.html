@@ -6,7 +6,7 @@ category: "fells"
 <table>
 {% for post in site.categories['fells'] %}
 	<tr>
-    <td>{{ post.name }}</td><td>{{ post.date | date: "%-d %B %Y" }}</td><td>{{ post.height }}</td>
+		<td><h1>{{ post.name }}</h1></td><td>{{ post.date | date: "%-d %B %Y" }}</td><td>{{ post.height }}</td>
   </tr>
 {% endfor %}
 </table>
