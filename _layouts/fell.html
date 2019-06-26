@@ -8,9 +8,9 @@ layout: default
 <h3>{{ page.height }}m</h3>
 {% if page.image %}
 <img class="fellimage" src="/images/fells/{{ page.image }}" />
-<% else %>
+{% else %}
 <img class="fellimage" src="/images/fells/{{ page.name }}.jpg" /> 
-<% endif %>
+{% endif %}
 <div class="post">
   {{ content }}
 </div>
