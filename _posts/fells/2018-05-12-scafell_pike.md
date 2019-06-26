@@ -4,5 +4,6 @@ category: fells
 name: Scafell Pike
 number: ﻿1
 height: 978
-climbed: No
+climbed: Yes
+image: Scafell_Pike.jpg
 ---
