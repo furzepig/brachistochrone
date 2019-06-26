@@ -59,6 +59,14 @@ td {
 	margin-bottom: 20px; 
 }
 
+.fadelink {
+	color: #666;
+	background-color: #eee;
+	font-size: 24px;
+	padding: 20px;
+	margin-bottom: 20px; 
+}
+
 .linkinfo {
 	font-size: 12px;
 }
