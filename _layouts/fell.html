@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.name }}</h1>
-{% if page.climbed=="Yes" %}
+{% if page.climbed %}
 <h2>{{ page.date | date: "%-d %B %Y"}}</h2>
 {% endif %}
 <h3>{{ page.height }}m</h3>
