@@ -3,7 +3,7 @@ layout: default
 category: "fells"
 ---
 {% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
-{{ climbed_fells | size }} / 214
+<h2>Climbed {{ climbed_fells | size }} of 214 Wainwright fells</h2>
 
 {% for post in site.categories['fells'] %}
   <a href="{{ post.url }}" title="{{ post.name }}">
