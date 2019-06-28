@@ -14,3 +14,7 @@ layout: default
 <div class="post">
   {{ content }}
 </div>
+{% if page.viewranger %}
+<iframe src="https://my.viewranger.com/track/widget/"{{ page.viewranger }}"?locale=en&amp;m=miles&amp;v=2" width="100%" 
+        height="600" marginwidth="0" frameborder="0" scrolling="no"></iframe>
+{% endif %}
