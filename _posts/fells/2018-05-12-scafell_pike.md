@@ -8,9 +8,7 @@ climbed: Yes
 image: Scafell_Pike.jpg
 ---
 
-Lovely walk down via the corridor route and across the top of Piers Gill.
-
-1234
+Walked down via the Corridor Route and across the top of Piers Gill.
 
 ![](/images/fells/Scafell_Pike2.jpg){:class="fellimage"}
 
