@@ -4,5 +4,8 @@ category: fells
 name: Loughrigg Fell
 number: 211
 height: 335
-climbed: No
+image: Loughrigg.jpg
+climbed: Yes
 ---
+
+Very wet underfoot.
