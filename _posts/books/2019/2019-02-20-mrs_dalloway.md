@@ -4,7 +4,7 @@ category: books
 title: Mrs Dalloway
 author: Virginia Woolf
 year: 2019
-image: md.jpg
+image: mrsdalloway.jpg
 ---
 Dense, fluid and modern.  Quite a companion to the _The Waste Land_: hyacinths, bells tolling the hours.  A visual flow like movie editing. 
 
