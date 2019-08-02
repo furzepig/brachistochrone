@@ -14,7 +14,7 @@ filename=datetime.datetime.today().strftime('%Y-%m-%d')+"-"+filetitle+".md"
 file = open(sHome+"/brachistochrone/_posts/books/" + sYear + "/" + filename,"w+") 
 file.write("---\n") 
 file.write("layout: book\n") 
-file.write("category: book\n") 
+file.write("category: books\n") 
 file.write("title: " + title + "\n")
 file.write("author: " + author + "\n")
 file.write("year: " + sYear + "\n")
