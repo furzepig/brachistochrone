@@ -7,7 +7,7 @@ layout: default
 {% for yr in postsByYear %}
   <h2>{{ yr.name }}</h2>
     {% for post in yr.items %}
-        <a href="{{ post.url }}" title="{{ post.title }}"><img width="75px" title="{{ post.title }} - {{ post.author }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+        <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
     {% endfor %}
 {% endfor %}
 </div>
