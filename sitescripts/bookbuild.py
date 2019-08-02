@@ -10,6 +10,7 @@ readdate = 0
 title = 0
 author = 0
 subtitle = 0
+year = 1999
 
 for row in reader:
     colnum = 0
@@ -23,6 +24,8 @@ for row in reader:
             author = col
         if colnum == 3:
             readdate = col
+	if colnum == 4:
+            year = col
         colnum += 1
 
     imagename = "".join(item[0].lower() for item in title.split())
@@ -30,14 +33,14 @@ for row in reader:
     filetitle=title.lower().replace(" ","_")
     print(readdate, author, title)
     filename=datetime.datetime.strptime(readdate, '%d/%m/%Y').strftime('%Y-%m-%d')+"-"+filetitle+".md"
-    file = open("/home/john/furzepighub.io/_posts/books/2009/"+filename,"w") 
+    file = open("/home/john/furzepighub.io/_posts/books/"+year+"/"+filename,"w") 
     file.write("---\n") 
     file.write("layout: book\n") 
     file.write("category: book\n") 
     file.write("title: " + title + "\n")
     file.write("subtitle: " + subtitle + "\n")
     file.write("author: " + author + "\n")
-    file.write("year: 2009" + "\n")
+    file.write("year: " + year + "\n")
     file.write("image: " + imagename + ".jpg\n")
     file.write("---\n") 
     file.close() 
