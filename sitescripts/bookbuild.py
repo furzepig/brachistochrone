@@ -36,7 +36,7 @@ for row in reader:
     file = open("/home/john/brachistochrone/_posts/books/"+year+"/"+filename,"w") 
     file.write("---\n") 
     file.write("layout: book\n") 
-    file.write("category: book\n") 
+    file.write("category: books\n") 
     file.write("title: " + title + "\n")
     file.write("subtitle: " + subtitle + "\n")
     file.write("author: " + author + "\n")
