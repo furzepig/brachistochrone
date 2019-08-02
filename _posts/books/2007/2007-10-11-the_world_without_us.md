@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The World Without Us
 subtitle: 
 author: Alan Weisman

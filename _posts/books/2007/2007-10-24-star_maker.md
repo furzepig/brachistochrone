@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Star Maker
 subtitle: 
 author: Olaf Stapledon

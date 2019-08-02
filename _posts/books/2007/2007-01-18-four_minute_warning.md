@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Four Minute Warning
 subtitle: Britain's Cold War Legacy
 author: Bob Clarke

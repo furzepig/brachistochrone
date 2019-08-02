@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The End of Faith
 subtitle: Religion, Terror, and the Future of Reason
 author: Sam Harris

@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Curve of Binding Energy
 subtitle: 
 author: John McPhee

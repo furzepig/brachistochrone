@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Staying Alive
 subtitle: Real Poems for Unreal Times
 author: Neil Astley

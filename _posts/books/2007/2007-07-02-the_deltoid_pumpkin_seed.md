@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Deltoid Pumpkin Seed
 subtitle: 
 author: John McPhee

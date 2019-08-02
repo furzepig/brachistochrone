@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Subtle Knife
 subtitle: 
 author: Phillip Pullman

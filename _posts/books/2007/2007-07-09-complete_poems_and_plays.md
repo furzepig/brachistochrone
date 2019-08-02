@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Complete Poems and Plays
 subtitle: 
 author: T.S. Eliot

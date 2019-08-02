@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Cold War Secret Nuclear Bunkers
 subtitle: The Passive Defence of the Western World During the Cold War
 author: Nick McCamley

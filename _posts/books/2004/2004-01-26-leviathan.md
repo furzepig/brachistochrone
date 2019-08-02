@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Leviathan
 subtitle: 
 author: Thomas Hobbes

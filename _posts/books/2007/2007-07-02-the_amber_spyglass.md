@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Amber Spyglass
 subtitle: 
 author: Phillip Pullman

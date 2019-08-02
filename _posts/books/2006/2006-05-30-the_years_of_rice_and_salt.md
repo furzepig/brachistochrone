@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: The Years of Rice and Salt
 subtitle: 
 author: Kim Stanley Robinson
