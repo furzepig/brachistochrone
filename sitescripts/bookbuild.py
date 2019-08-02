@@ -33,7 +33,7 @@ for row in reader:
     filetitle=title.lower().replace(" ","_")
     print(readdate, author, title)
     filename=datetime.datetime.strptime(readdate, '%d/%m/%Y').strftime('%Y-%m-%d')+"-"+filetitle+".md"
-    file = open("/home/john/furzepighub.io/_posts/books/"+year+"/"+filename,"w") 
+    file = open("/home/john/brachistochrone/_posts/books/"+year+"/"+filename,"w") 
     file.write("---\n") 
     file.write("layout: book\n") 
     file.write("category: book\n") 
