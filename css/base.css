@@ -53,7 +53,8 @@ td {
 }
 
 .divlink {
-	background-color: #eee;
+	background-color: #666;
+	color: #fff;
 	font-size: 24px;
 	padding: 20px;
 	margin-bottom: 20px; 
