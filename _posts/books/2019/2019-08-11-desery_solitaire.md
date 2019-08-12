@@ -1,7 +1,7 @@
 ---
 layout: book
 category: books
-title: Desery Solitaire
+title: Desert Solitaire
 author: Edward Abbey
 year: 2019
 image: ds.jpg
