@@ -8,11 +8,7 @@ layout: default
   <h2>{{ yr.name }}</h2>
     {% for post in yr.items %}
       {% assign wordCount = {{ post.content | size }} %}
-      {% if wordCount == 0 %}
-        <a href="{{ post.url }}" title="{{ post.title }}"><img class="nonotes" width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
-      {% elsif wordCount > 0 %}
-        <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
-      {% endif %}
+      <a href="{{ post.url }}" title="{{ post.title }}"><img class="nonotes" width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
    {% endfor %}
 {% endfor %}
 </div>
