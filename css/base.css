@@ -45,6 +45,10 @@ td {
     width: 100%;
 }
 
+.nonotes {
+  border: 1px solid red;
+}
+
 .smallbook {
 	float: left;
 	width: 45px;
