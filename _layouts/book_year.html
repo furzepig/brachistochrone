@@ -6,6 +6,12 @@ category: "books"
 {% assign postsByYear = site.categories.books | where:"year", page.year %}
 <h2>{{ page.year }}</h2>
   {% for post in postsByYear %}
-    <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+        {% assign wordCount = {{ post.content | size }} %}
+        {% if wordCount == 0 %}
+        <a href="{{ post.url }}" title="{{ post.title }}"><img class="nonotes" width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+      {% elsif wordCount > 0 %}
+        <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+      {% endif %}
+
   {% endfor %} 
 </div>
