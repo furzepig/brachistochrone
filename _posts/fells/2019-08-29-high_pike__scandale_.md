@@ -6,3 +6,4 @@ number: 109
 height: 656
 climbed: Yes
 ---
+Fairfield Horseshoe 7/8
