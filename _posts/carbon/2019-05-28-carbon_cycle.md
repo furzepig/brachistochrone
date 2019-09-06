@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "The Carbon Cycle"
 category: carbon
 date: 2019-05-28
