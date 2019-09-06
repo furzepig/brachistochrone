@@ -5,7 +5,7 @@ category: "fells"
 {% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
 <h2>Climbed {{ climbed_fells | size }} of 214 Wainwright fells</h2>
 
-{% for post in site.categories['fells'] %}
+{% for post in site.categories['fells'] : sort: "date" %}
   <a href="{{ post.url }}" title="{{ post.name }}">
   {% if post.climbed %}
     <div class="divlink">
