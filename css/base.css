@@ -149,10 +149,15 @@ blockquote {
   color: #aaa;
 }
 
+li {
+	list-style-type: none;
+}
+
 h1 {
 	font-size: 24px;
 	color: #444;
 	line-height: 1.2;
+	font-weight: normal;
 }
 
 h2 {
