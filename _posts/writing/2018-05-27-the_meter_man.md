@@ -26,8 +26,8 @@ creator: "John Hulme"
   though the postman never brings a package.
 
   She gets to her feet and heads for the door, her mind racing
-  with dangerous possibilities. On ‘Have A Happy Morning With Tom
-  and Trudy’ she has seen what happens to people like her who just
+  with dangerous possibilities. On _Have A Happy Morning With Tom
+  and Trudy_ she has seen what happens to people like her who just
   answer the door, people who trust other people to be who they
   say they are. There is a procedure to follow and even that may
   not keep you safe she knows. The chain is already fitted on the
@@ -42,7 +42,7 @@ creator: "John Hulme"
   thought the man was local because of his accent, but now a
   dozen new fears rise up. She studies the identity card; the man
   in the photo is smiling at her. He has dark hair and dark skin.
-  The card says ‘Electricite de France’. She doesn’t understand.
+  The card says _Electricite de France_. She doesn’t understand.
   Why would a French company be reading her gas meter? Perhaps he
   is one of those Alky Eda terrorists? On the six o’clock news she
   learns that terrorists could be living in every community in
@@ -79,8 +79,8 @@ creator: "John Hulme"
   those these days.’
 
   She hangs back and does not bend to look where he indicates. She
-  knows what this is all about, in ‘A Passion For Death’ on the
-  Real Movies Channel, the psychopath mechanic asked the pretty
+  knows what this is all about, in _A Passion For Death_ on the
+  _Real Movies Channel_, the psychopath mechanic asked the pretty
   girl to help him check the oil level. As she bent under the
   bonnet he hit her over the head with a monkey wrench.
 
@@ -93,8 +93,7 @@ creator: "John Hulme"
   and puts it on the work surface. He plugs it in, opens the lid
   and begins to type. She doesn’t know much about computers, but
   what she does know has led her to believe that they are bad. 
-  In addition to all of the viruses they
-  cause, computers can get into your bank account and be used to
+  In addition to all of the viruses they cause, computers can get into your bank account and be used to
   lure children from the safety of their homes into the dark rain
   swept streets of the dramatic reconstruction. She feels sickened
   by terror.
@@ -111,12 +110,12 @@ creator: "John Hulme"
 
   She knows what will happen now. He will go upstairs and rifle
   through her jewellery, find the shoebox with her pension money
-  in it and her father’s medal. On ‘Britain’s Best Burglars’ she
+  in it and her father’s medal. On _Britain’s Best Burglars_ she
   learned that it takes only thirty seconds for a professional
   burglar to locate all of the valuable items in a pensioner’s
   bedroom. When he has finished stealing from her he will come
   back down here and finish her off. That much is clear to her.
-  She imagines how her story will be reported on ’Crimeday GB‘
+  She imagines how her story will be reported on _Crimeday GB_
   and hopes that someone will be able to provide Stuart at the
   Crimeday desk with a good photo of her. The old women that are
   beaten to death on Crimeday normally have very grainy
@@ -124,8 +123,8 @@ creator: "John Hulme"
   all, she thinks.
 
   Another thought occurs to her. Instead of a grainy photo on
-  Crimeday GB, perhaps she could be in colour video on Region
-  Tonight with Tony Johnson -- the brave granny who fought off her
+  _Crimeday GB_, perhaps she could be in colour video on _Region
+  Tonight_ with Tony Johnson -- the brave granny who fought off her
   attacker, coming up after the weather. She doesn’t have any
   children, or grandchildren, but she knows that to Tony Johnson,
   she will still be a brave granny. She feels her fear turn into
@@ -161,7 +160,7 @@ creator: "John Hulme"
 
   Whatever happens next, she knows that he will drink the tea.
   People like him always take the time to finish their drinks. In
-  ’Dangerous Desires’ on the Classic Movies channel, the
+  _Dangerous Desires_ on the _Classic Movies_ channel, the
   gold-digging and murderous blonde who had married the widower
   of the woman she killed before tricking him into changing his
   will, stabbed him in the back and then stood drinking champagne
@@ -187,7 +186,7 @@ creator: "John Hulme"
   He goes to the computer and begins to type. She feels her heart
   pounding in her ears. What is he doing now? She imagines that
   somehow she is being broadcast onto the Internet, like she has
-  seen on ‘Lunchtime Today with Rick and Sue’. Rick and Sue tell
+  seen on _Lunchtime Today with Rick and Sue_. Rick and Sue tell
   her that it is a sick world and that people will pay to see
   anything. She knows that somewhere on the other side of the
   world a South Korean businessman in a seedy hotel is even now
@@ -232,7 +231,7 @@ creator: "John Hulme"
   shut.
 
   She collapses to the floor sobbing. She is safe. But is she
-  really safe? In ‘Inverted Obsession’ everyone thought the
+  really safe? In _Inverted Obsession_ everyone thought the
   killer had gone, but then he came in through the patio doors
   that had been left open. Mrs Fraser has no patio doors but
   still she fears his return.
