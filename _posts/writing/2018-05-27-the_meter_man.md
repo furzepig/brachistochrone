@@ -1,5 +1,5 @@
 ---
-layout: source
+layout: story
 title: "The Meter Man"
 source_date: "2006"
 permalink: meter_man.html
