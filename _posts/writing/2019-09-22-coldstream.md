@@ -7,6 +7,8 @@ categories: writing
 creator: "John Hulme"
 ---
 
+* TOC
+{:toc}
 _‘I had a dream, which was not all a dream.’ - Byron_
 
 
