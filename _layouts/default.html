@@ -7,10 +7,10 @@
 		  <div class="site_title">
 				<a class="site_label" href="/index.html">brachistochrone</a>
 				{% if page.category=="book" %}
-					<a class="subsite_label" href="/books">books</a>
-			  	{% else %}
-					<a class="subsite_label" href="/{{ page.category }}">{{ page.category }}</a>
-			  	{% endif %}
+				<a class="subsite_label" href="/books">books</a>
+			  {% else %}
+				<a class="subsite_label" href="/{{ page.category }}">{{ page.category }}</a>
+			  {% endif %}
 			</div>
 		</div>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
