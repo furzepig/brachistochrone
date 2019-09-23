@@ -3,7 +3,7 @@ layout: story
 title: "Coldstream"
 source_date: "2009"
 permalink: coldstream.html
-categories: writing
+category: writing
 creator: "John Hulme"
 ---
 
