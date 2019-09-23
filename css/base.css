@@ -15,6 +15,11 @@ body {
 	font-size: 16px;
 }
 
+.poem h1 {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
 .ll {
 	padding-left: 1em;
   	text-indent: -1em;
@@ -214,8 +219,6 @@ h1 {
 	color: #444;
 	line-height: 1.2;
 	font-weight: normal;
-	padding-top: 2em;
-	padding-bottom: 1em;
 }
 
 h2 {
