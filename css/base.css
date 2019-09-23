@@ -11,6 +11,13 @@ body {
 	font-size: 16px;
 }
 
+.poem {
+	font-family: 'Georgia', serif;
+	color: #444;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+
 .storytitle {
 	font-family: 'Georgia', serif;
 	color: #444;
