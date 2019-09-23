@@ -217,6 +217,9 @@ h2 {
 	font-size: 20px;
 	color: #666;
 	line-height: 1.2;
+	font-weight: normal;
+	padding-top: 2em;
+	padding-bottom: 1em;
 }
 
 .video-container {
