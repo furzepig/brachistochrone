@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <div class="topheader">
-		  <div class="site_title">
+      <div class="site_title">
         <a class="site_label" href="/index.html">brachistochrone</a>
-				{% if page.category=="book" %}
-				<a class="subsite_label" href="/books">books</a>
-			  {% else %}
-				<a class="subsite_label" href="/{{ page.category }}">{{ page.category }}</a>
-			  {% endif %}
-			</div>
-		</div>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="/css/base.css">
-	</head>
+        {% if page.category=="book" %}
+        <a class="subsite_label" href="/books">books</a>
+        {% else %}
+        <a class="subsite_label" href="/{{ page.category }}">{{ page.category }}</a>
+        {% endif %}
+      </div>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+  </head>
   <body>
     <div class="container">
       {{ content }}
