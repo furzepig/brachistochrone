@@ -198,7 +198,8 @@ h1 {
 	color: #444;
 	line-height: 1.2;
 	font-weight: normal;
-	padding-top: 2em;
+	padding-top: 3em;
+	padding-bottom: 1em;
 }
 
 h2 {
