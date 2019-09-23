@@ -12,7 +12,7 @@ creator: "John Hulme"
 _‘I had a dream, which was not all a dream.’ - Byron_
 
 
-##The Engineer
+## The Engineer
 
 
 The rain was different in London. It splashed and spat from walls and rooftops. It swept in stinging rooster tails from the wheels of surging carriages. It fell like the waters of a force from the broken eaves. The soot and filth of the city seethed in grimy streams: slicking the pavements,  scouring the gutters, pooling in street-spanning lakes, choking the narrow drains and drawing forth foul effluent from those shameful, forgotten rivers lying long buried beneath the cobbles.
@@ -323,7 +323,7 @@ with much creaking and twanging from his legs.
 because the thing that mattered most to him in the world was getting into the admiralty and because, until this night, of all the people in the world who might have had his master killed, it seemed to him that Admiral Collingwood was the most likely.
 
 
-##The Governess
+## The Governess
 
 
 The trap was William's work. She knew that whilst it could have been either of the twins who had taken the leather whipcord from the toy whip and top and tied it at ankle height between the newel posts at the foot of the final gloomy flight of stairs that led to her room -- where it was made quite invisible by the shadows thrown from the guttering candle stub by which she made her way -- it could only have been William who had arranged a company of ten Prussian infantry standing smartly to attention, with rifles shouldered and bayonets fixed, four steps up at the place where her face would have struck had she been careless enough not to check for such hazards. She untied the whip and coiled the cord into a neat loop, then carried the toy soldiers from the step and placed them carefully on the high sill of the narrow window that looked on to the little landing, ready for her to return them to the nursery in the morning.
@@ -408,7 +408,7 @@ from Lady Marchpane's high-pitched incredulity, to a muffled far off whistling, 
 'Miss Prentiss, you will leave this house immediately.'
 
 
-##Whirlaway
+## Whirlaway
 
 
 Alex had foregone sleep many times in his life, but rarely had he
@@ -836,7 +836,7 @@ ________________
 
 
 
-The Gilded Shell
+## The Gilded Shell
 
 
 Isobel was not sure where she was going, but she only knew of one
