@@ -74,6 +74,33 @@ td {
   border-radius: 4px;	
 }
 
+.mediumLinkButton {
+  background-color: #635380;
+  color: #fff;
+  margin-left: 10px;
+  width: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border-radius: 4px;	
+}
+
+.wrap {
+  background-color: #635380;
+  color: #fff;
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+
 .fadelink {
 	color: #aaa;
 	background-color: #eee;
@@ -192,18 +219,6 @@ h2 {
     box-sizing: border-box;
 }
 
-.wrap {
-  background-color: #008080;
-  color: #fff;
-  width: 70px;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-  border-radius: 4px;
-}
 
 
 .row {
