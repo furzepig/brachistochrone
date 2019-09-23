@@ -7,20 +7,16 @@ body {
 
 .story {
 	font-family: 'Georgia', serif;
-	color: #444;
 	font-size: 16px;
 }
 
 .poem {
 	font-family: 'Georgia', serif;
-	color: #444;
 	font-size: 16px;
-	margin-bottom: 2em;
 }
 
 .storytitle {
 	font-family: 'Georgia', serif;
-	color: #444;
 	font-size: 28px;
 }
 
@@ -193,6 +189,14 @@ blockquote {
   text-decoration: none;
   color: #aaa;
 }
+
+
+.attribution {
+  text-decoration: none;
+  color: #aaa;
+  margin-top: 2em;
+}
+
 
 li {
 	list-style-type: none;
