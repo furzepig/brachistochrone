@@ -185,6 +185,8 @@ blockquote {
 
 li {
 	list-style-type: none;
+	font-size: 10px;
+	color: blue;
 }
 
 h1 {
