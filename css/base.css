@@ -214,6 +214,7 @@ blockquote {
 
 
 li {
+	margin-left:-1em;
 	list-style-type: none;
 	font-size: 12px;
 	color: blue;
@@ -227,7 +228,7 @@ h1 {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 24px;
 	color: #666;
 	line-height: 1.2;
 	font-weight: normal;
