@@ -63,12 +63,12 @@ td {
 }
 
 .divlink {
-	background-color: #008080;
+	background-color: #635380;
 	color: #fff;
 	font-size: 24px;
 	padding: 20px;
 	margin-right: 20px; 
-	width: 150px;
+	width: 100px;
         border-radius: 4px;
 }
 
@@ -86,7 +86,7 @@ td {
 
 .topheader {
 	margin: 0px;
-	background-color: #444;
+	background-color: #49306B;
 	height: 50px;
 	top: 0px;
 }
