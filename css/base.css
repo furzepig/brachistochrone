@@ -13,7 +13,8 @@ body {
 .poem {
 	font-family: 'Georgia', serif;
 	font-size: 16px;
-	text-indent: 1em hanging;
+	padding-left: 1em;
+  	text-indent: -1em;
 }
 
 .storytitle {
