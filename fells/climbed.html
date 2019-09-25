@@ -2,13 +2,13 @@
 layout: default
 category: "fells"
 ---
-{% assign climbed_fells = site.categories['fells'] | sort:'title' | where: "climbed", "false" %}
+{% assign climbed_fells = site.categories['fells'] | sort:'date' | where: "climbed", "true" %}
 
 <div class="slicerrow">
   
   <div class="slicer">
     <a href="climbed.html">
-      <div class="smallLinkButton_inactive">
+      <div class="smallLinkButton_active">
         Climbed
         <div class="linkinfo">{{ climbed_fells | size }}</div>
       </div>
@@ -17,7 +17,7 @@ category: "fells"
   
   <div class="slicer">
     <a href="unclimbed.html">
-      <div class="smallLinkButton_active">
+      <div class="smallLinkButton_inactive">
         Unclimbed
         <div class="linkinfo">123</div>
       </div>
