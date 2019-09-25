@@ -167,6 +167,11 @@ td {
 	border-radius: 4px;	
 }
 
+.slicerrow {
+    display: flex;
+    padding: 0px;
+}
+
 .linkinfo {
 	font-size: 12px;
 }
