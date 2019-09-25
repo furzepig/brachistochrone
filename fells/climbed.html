@@ -2,4 +2,48 @@
 layout: default
 category: "fells"
 ---
-hello
+{% assign climbed_fells = site.categories['fells'] | sort:'title' | where: "climbed", "false" %}
+
+<div class="slicerrow">
+  
+  <div class="slicer">
+    <a href="climbed.html">
+      <div class="smallLinkButton_inactive">
+        Climbed
+        <div class="linkinfo">{{ climbed_fells | size }}</div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="slicer">
+    <a href="unclimbed.html">
+      <div class="smallLinkButton_active">
+        Unclimbed
+        <div class="linkinfo">123</div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="slicer">
+    <a href="all.html">
+      <div class="smallLinkButton_inactive">
+         All
+         <div class="linkinfo">214</div>
+      </div>
+    </a>
+  </div>
+  
+</div>
+
+{% for post in climbed_fells %}
+
+  <a href="{{ post.url }}" title="{{ post.name }}">
+  
+    <div class="fadelink">
+    {{ post.name }}
+    <div class="linkinfo">{{ post.height }}m | {{ post.number }}</div> 
+
+    </div>
+  </a>
+ 
+{% endfor %}
