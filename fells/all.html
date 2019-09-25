@@ -2,7 +2,7 @@
 layout: default
 category: "fells"
 ---
-{% assign climbed_fells = site.categories['fells'] | where: "climbed", "false" %}
+{% assign climbed_fells = site.categories['fells'] | sort:'title' | where: "climbed", "false" %}
 
 <div class="slicerrow">
   
@@ -35,12 +35,8 @@ category: "fells"
   
 </div>
 
+{% for post in climbed_fells %}
 
-
-
-{% for post in climbed_fells : sort: "title" %}
-
- 
   <a href="{{ post.url }}" title="{{ post.name }}">
   
     <div class="fadelink">
@@ -49,8 +45,7 @@ category: "fells"
 
     </div>
   </a>
-  
-
+ 
 {% endfor %}
 
     
