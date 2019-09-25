@@ -3,7 +3,6 @@ layout: default
 category: "fells"
 ---
 {% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
-<h2>Climbed {{ climbed_fells | size }} of 214 Wainwright fells</h2>
 <div class="slicerrow">
 <div class="smallLinkButton_active">Climbed<div class="linkinfo">{{ climbed_fells | size }}</div></div>
 <div class="smallLinkButton_inactive">Unclimbed<div class="linkinfo">123</div></div>
