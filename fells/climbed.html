@@ -28,12 +28,13 @@ category: "fells"
   </div>
 </div>
 {% for post in site.categories['fells'] : sort: "date" %}
-  <a href="{{ post.url }}" title="{{ post.name }}">
-  {% if post.climbed %}
-    <div class="divlink">
-    {{ post.name }}
-    <div class="linkinfo">{{ post.date | date: "%-d %B %Y" }} | {{ post.height }}m | {{ post.number }}</div>
-    </div>
-</a>
+  {% if post.climbed %}  
+    <a href="{{ post.url }}" title="{{ post.name }}">
+      <div class="divlink">
+      {{ post.name }}
+      <div class="linkinfo">{{ post.date | date: "%-d %B %Y" }} | {{ post.height }}m | {{ post.number }}</div>
+      </div>
+    </a>
+  {% endif %}
 {% endfor %}
 
