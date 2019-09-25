@@ -27,7 +27,7 @@ category: "fells"
     </a>
   </div>
 </div>
-{% for post in site.categories['fells'] : sort: "date" %}
+{% for post in site.categories['fells'] %}
   {% if post.climbed %}  
     <a href="{{ post.url }}" title="{{ post.name }}">
       <div class="divlink">
