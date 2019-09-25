@@ -4,9 +4,9 @@ category: "fells"
 ---
 {% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
 <div class="slicerrow">
-<div class="smallLinkButton_active">Climbed<div class="linkinfo">{{ climbed_fells | size }}</div></div>
+<div class="smallLinkButton_inactive">Climbed<div class="linkinfo">{{ climbed_fells | size }}</div></div>
 <div class="smallLinkButton_inactive">Unclimbed<div class="linkinfo">123</div></div>
-<div class="smallLinkButton_inactive">All<div class="linkinfo">214</div></div>
+<div class="smallLinkButton_active">All<div class="linkinfo">214</div></div>
 </div>
 
 {% for post in site.categories['fells'] : sort: "date" %}
