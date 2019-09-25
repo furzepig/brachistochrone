@@ -2,7 +2,9 @@
 layout: default
 category: "fells"
 ---
-{% assign climbed_fells = site.categories['fells'] | sort:'title' %}
+{% assign all_fells = site.categories['fells'] | sort:'title' %}
+{% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
+{% assign nClimbed = climbed_fells | size }}
 
 <div class="slicerrow">
   
@@ -10,7 +12,7 @@ category: "fells"
     <a href="climbed.html">
       <div class="smallLinkButton_inactive">
         Climbed
-        <div class="linkinfo">{{ climbed_fells | size }}</div>
+        <div class="linkinfo">{{ nClimbed }}</div>
       </div>
     </a>
   </div>
@@ -19,7 +21,7 @@ category: "fells"
     <a href="unclimbed.html">
       <div class="smallLinkButton_inactive">
         Unclimbed
-        <div class="linkinfo">123</div>
+        <div class="linkinfo">{{ 214 | minus: nClimbed }}</div>
       </div>
     </a>
   </div>
@@ -35,7 +37,7 @@ category: "fells"
   
 </div>
 
-{% for post in climbed_fells %}
+{% for post in all_fells %}
 
   <a href="{{ post.url }}" title="{{ post.name }}">
   
