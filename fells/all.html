@@ -4,9 +4,9 @@ category: "fells"
 ---
 {% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
 <div class="slicerrow">
-<div class="smallLinkButton_inactive"><a href="climbed.html"><div class="filldiv">Climbed<div class="linkinfo">{{ climbed_fells | size }}</div></a></div></div>
-<div class="smallLinkButton_inactive"><a href="unclimbed.html"><div class="filldiv">Unclimbed<div class="linkinfo">123</div></a></div></div>
-<div class="smallLinkButton_active"><a href="all.html"><div class="filldiv">All<div class="linkinfo">214</div></a></div></div>
+<div class="smallLinkButton_inactive"><a href="climbed.html"><div class="filldiv">Climbed<div class="linkinfo">{{ climbed_fells | size }}</div></div></a></div>
+<div class="smallLinkButton_inactive"><a href="unclimbed.html"><div class="filldiv">Unclimbed<div class="linkinfo">123</div></div></a></div>
+<div class="smallLinkButton_active"><a href="all.html"><div class="filldiv">All<div class="linkinfo">214</div></div></a></div>
 </div>
 
 {% for post in site.categories['fells'] : sort: "name" %}
