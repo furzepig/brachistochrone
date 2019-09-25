@@ -125,13 +125,18 @@ td {
   border-radius: 4px;
 }
 
-
 .fadelink {
 	color: #aaa;
-	background-color: #eee;
-	font-size: 24px;
-	padding: 20px;
-	margin-bottom: 20px; 
+	background-color: #eee;	
+	color: #aaa;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	border-radius: 4px;	
 }
 
 .linkinfo {
