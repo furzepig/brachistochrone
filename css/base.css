@@ -114,7 +114,6 @@ td {
 .smallLinkButton_active {
   background-color: #2B2D42;
   color: #fff;
-  flex: 1;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
@@ -128,7 +127,6 @@ td {
 .smallLinkButton_inactive {
   background-color: #eee;
   color: #aaa;
-  flex: 1;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
@@ -170,6 +168,10 @@ td {
 .slicerrow {
     display: flex;
     padding: 0px;
+}
+
+.slicer {
+  flex: 1;
 }
 
 .linkinfo {
