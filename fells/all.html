@@ -9,7 +9,7 @@ category: "fells"
 <div class="smallLinkButton_active">All<div class="linkinfo">214</div></div>
 </div>
 
-{% for post in site.categories['fells'] : sort: "date" %}
+{% for post in site.categories['fells'] : sort: "name" %}
   <a href="{{ post.url }}" title="{{ post.name }}">
   {% if post.climbed %}
     <div class="divlink">
