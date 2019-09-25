@@ -40,10 +40,10 @@ category: "fells"
 {% for post in all_fells %}
 
   <a href="{{ post.url }}" title="{{ post.name }}">
-  {% if post.climbed == "false" %}
-    <div class="fadelink">
+  {% if post.climbed %}
+    <div class="divlink">
   {% else %}
-    <div class="divlink">  
+    <div class="fadelink">   
   {% endif }
     
     {{ post.name }}
