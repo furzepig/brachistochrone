@@ -114,7 +114,7 @@ td {
 .smallLinkButton_active {
   background-color: #747E8F;
   color: #fff;
-  width: 90px;
+  width: 80px;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
@@ -128,7 +128,7 @@ td {
 .smallLinkButton_inactive {
   background-color: #eee;
   color: #aaa;
-  width: 90px;
+  width: 80px;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
