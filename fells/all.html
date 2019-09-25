@@ -4,7 +4,7 @@ category: "fells"
 ---
 {% assign all_fells = site.categories['fells'] | sort:'title' %}
 {% assign climbed_fells = site.categories['fells'] | where: "climbed", "true" %}
-{% assign nClimbed = climbed_fells | size }}
+{% assign nClimbed = climbed_fells | size %}
 
 <div class="slicerrow">
   
