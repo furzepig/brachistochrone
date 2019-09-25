@@ -10,7 +10,7 @@ category: "fells"
     <a href="climbed.html">
       <div class="smallLinkButton_inactive">
         Climbed
-        <div class="linkinfo">{{ climbed_fells | size }}</div>
+        <div class="linkinfo">{{ 214 | minus: climbed_fells | size }}</div>
       </div>
     </a>
   </div>
@@ -19,7 +19,7 @@ category: "fells"
     <a href="unclimbed.html">
       <div class="smallLinkButton_active">
         Unclimbed
-        <div class="linkinfo">{{ 214 | minus: climbed_fells | size }}</div>
+        <div class="linkinfo">{{ climbed_fells | size }}</div>
       </div>
     </a>
   </div>
