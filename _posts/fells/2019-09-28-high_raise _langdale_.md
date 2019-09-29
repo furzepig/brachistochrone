@@ -4,6 +4,7 @@ category: fells
 name: High Raise [Langdale]
 number: 57
 height: 762
-climbed: No
-date: 2019-09-28 12:00:00 +0000
+climbed: True
+date: 2019-09-28 14:00:00 +0000
 ---
+What a view.  We had been very lucky with the weather.
