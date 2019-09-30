@@ -1,10 +1,11 @@
 ---
 layout: fell
 category: fells
-name: High Raise [Langdale]
+name: High Raise (Langdale)
 number: 57
 height: 762
 climbed: True
+viewranger: 12048677
 image: "High Raise.jpg"
 date: 2019-09-28 14:00:00 +0000
 ---
