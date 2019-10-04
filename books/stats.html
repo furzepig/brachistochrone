@@ -5,8 +5,9 @@ category: "books"
 <h1>Books by Year</h1>
 {% assign postsByYear =
     site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" %}
-<table>
+<table class="statstable" >
+    
 {% for year in postsByYear %}
-<tr><td>{{ year.name }}</td><td class="statscell">{{ year.items.size }}</td></tr>
+<tr><td class="statscell">{{ year.name }}</td><td class="statscell">{{ year.items.size }}</td></tr>
 {% endfor %}
 </table>
