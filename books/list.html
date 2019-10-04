@@ -1,15 +1,13 @@
 ---
 layout: default
+category: "books"
 ---
 {% assign sorted_posts = site.categories["books"] | sort: 'date' | reverse %}
 <table>
   <tr>
     <th>Title</th>
     <th>Author</th>
-    <th>Date Read</th>
-    <th>Reviewed</th>
   </tr>
-
   
   {% for post in sorted_posts %}
   <tr>
