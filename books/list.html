@@ -21,7 +21,7 @@ layout: default
       {{ post.author }}
     </td>
     <td class="book">
-     {{ post.date | date_to_long_string }}
+     {{ post.date | date: "%d/%m/%Y" }}
     </td>
     <td class="book">
         {% if content_size == "1" %}TO DO{% endif %}
