@@ -52,11 +52,11 @@ td {
 }
 
 .statstable {
-  width: 100%;
+  width: 400px;
   border-collapse: collapse;
 }
 
-.statstable, .statsth {
+.statstable, .statsth, .statstr {
   border: 1px solid gray;
 }
 
