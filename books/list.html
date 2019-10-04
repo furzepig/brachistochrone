@@ -20,12 +20,6 @@ layout: default
     <td class="book">
       {{ post.author }}
     </td>
-    <td class="book">
-     {{ post.date | date: "%d/%m/%Y" }}
-    </td>
-    <td class="book">
-        {% if content_size == "1" %}TO DO{% endif %}
-     </td>
   </tr>
   {% endfor %}
 </table>
