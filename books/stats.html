@@ -7,8 +7,8 @@ category: "books"
     site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" %}
 <table class="statstable" >
     <tr>
-    <th>Year</th>
-    <th>Books</th>
+    <th class="statsth">Year</th>
+    <th class="statsth">Books</th>
   </tr>
 {% for year in postsByYear %}
 <tr><td class="statscell">{{ year.name }}</td><td class="statscell">{{ year.items.size }}</td></tr>
