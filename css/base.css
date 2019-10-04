@@ -45,7 +45,7 @@ td {
 }
 
 .statscell {
-	border: 1px solid black;
+	border: 1px solid gray;
 	padding: 1px 1px 1px 0px;
 	vertical-align:top;
 	text-align: right;
@@ -57,7 +57,7 @@ td {
 }
 
 .statstable, .statsth {
-  border: 1px solid black;
+  border: 1px solid gray;
 }
 
 
