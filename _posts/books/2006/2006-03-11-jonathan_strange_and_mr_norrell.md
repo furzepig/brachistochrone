@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 title: Jonathan Strange and Mr. Norrell
 subtitle: 
 author: Susanna Clarke
