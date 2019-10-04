@@ -44,6 +44,23 @@ td {
 	vertical-align:top;
 }
 
+.statscell {
+	
+	padding: 1px 1px 1px 0px;
+	vertical-align:top;
+	text-align: right;
+}
+
+.statstable {
+  border-collapse: collapse;
+}
+
+.statstable, .statsth, .statstd {
+  border: 1px solid black;
+}
+
+
+
 th {
 	text-align: left;
 }
