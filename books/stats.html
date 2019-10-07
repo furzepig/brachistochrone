@@ -11,6 +11,6 @@ category: "books"
     <th class="statsth">Books</th>
   </tr>
 {% for year in postsByYear %}
-<tr><td class="statscell">{{ year.name }}</td><td class="statscell">{{ year.items.size }}</td></tr>
+    <tr><td class="statscell"><a class="statscell" href="./{{ year.name }}.html">{{ year.name }}</a></td><td class="statscell">{{ year.items.size }}</td></tr>
 {% endfor %}
 </table>
