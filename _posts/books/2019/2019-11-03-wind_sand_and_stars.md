@@ -1,4 +1,4 @@
---
+---
 layout: book
 category: books
 title: Wind, Sand and Stars
@@ -7,3 +7,7 @@ year: 2019
 image: wsas.jpg
 ---
 > It is not danger I love. I know what I love. It is life.
+
+> We have to live a long time before we become men. Very slowly do we plait the braid of friendships and affections. We learn slowly. We compose our creation slowly.
+
+ 
