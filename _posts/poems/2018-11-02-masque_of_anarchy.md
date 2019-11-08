@@ -2,7 +2,7 @@
 layout: poem
 title: "The Masque of Anarchy"
 poet: "Percy Bysshe Shelley"
-datecomposed: 1819
+composed: 1819
 category: poems
 ---
 
