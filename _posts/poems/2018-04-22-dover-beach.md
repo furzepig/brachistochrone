@@ -21,7 +21,7 @@ date: 2018-04-22
 <div class="ll">At their return, up the high strand,</div>  
 <div class="ll">Begin, and cease, and then again begin,</div>  
 <div class="ll">With tremulous cadence slow, and bring</div>  
-<div class="ll">The eternal note of sadness in.</div> </div> 
+<div class="ll">The eternal note of sadness in.</div> 
 </p>
 <p>
 <div class="ll">Sophocles long ago</div>  
@@ -29,7 +29,7 @@ date: 2018-04-22
 <div class="ll">Into his mind the turbid ebb and flow</div>  
 <div class="ll">Of human misery; we</div>  
 <div class="ll">Find also in the sound a thought,</div>  
-<div class="ll">Hearing it by this distant northern sea.</div> </div> 
+<div class="ll">Hearing it by this distant northern sea.</div>
 </p>
 <p>
 <div class="ll">The Sea of Faith</div>  
@@ -39,7 +39,7 @@ date: 2018-04-22
 <div class="ll">Its melancholy, long, withdrawing roar,</div>  
 <div class="ll">Retreating, to the breath</div>  
 <div class="ll">Of the night-wind, down the vast edges drear</div>  
-<div class="ll">And naked shingles of the world.</div> </div> 
+<div class="ll">And naked shingles of the world.</div>
 </p>
 <p>
 <div class="ll">Ah, love, let us be true</div>  
