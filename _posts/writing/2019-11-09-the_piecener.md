@@ -93,7 +93,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   spending his time making warding signs and shoring up walls and
   staircases where the concrete blistered and split.
 
-  `It’s bad in there. There’s a parking underneath, full of
+  'It’s bad in there. There’s a parking underneath, full of
   tacsis all burned and banged and the walls are all black and
   broken.‘
 
@@ -112,7 +112,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   had lain on the still-warm asphalt of the book building looking
   into the blue-black sky and Olin told her what he knew.
 
-  `Crookshank wants boxes of tricks. It’s the only thing left in
+  'Crookshank wants boxes of tricks. It’s the only thing left in
   the White Tower, but there’s lots of them.’
 
   She would have laughed -- it seemed so funny. But it was not
@@ -131,7 +131,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   arcades that no gang had been inside since the Chaos between
   the Dyings and probably not even then.
 
-  `Somebody wants them. As many as we can find, Gethen is
+  'Somebody wants them. As many as we can find, Gethen is
   getting two pounds a score so who knows what Crookshank is
   taking.‘
 
@@ -140,7 +140,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   she could only keep hold of him he need not go back into the
   White Tower again.
 
-  `Hoy, hoy, Moon Gang look lively!’ Badney’s voice echoing up
+  'Hoy, hoy, Moon Gang look lively!’ Badney’s voice echoing up
   the metal stairs brought her into the now and she dropped fast
   down the stairs and into the gang hall.
 
@@ -154,37 +154,37 @@ Once, when very young on Dartford Span at Midsummer, she left
   hundred or a thousand times since the clean wall was first
   marked.
 
-  `Not Burned and Once Burned today boys and girls so make the
+  'Not Burned and Once Burned today boys and girls so make the
   most of it!‘ said Badney, pleased with himself and fat on
   Crookshank’s breakfast.
 
-  `Railtown and all points west to the triple road.’
+  'Railtown and all points west to the triple road.’
 
   Good territory, lots of loot and easy work to get it. Badney not
   pleased with the quiet response from the sleepy Moon Gang bangs
-  his great chest and bawls from his fat beard, `Who looks after
+  his great chest and bawls from his fat beard, 'Who looks after
   you hey? Gethen’s taking the River Gang back into Parkside
   today!‘ Jeering and cheering, Parkside filled in all black on
   the map because it is Once Burned, Twice Burned,
   Who-knows-how-many-times Burned and standing in the middle of
   it, the White Tower.
 
-  `Make hay while the sun shines ladies and gentlemen, Mr
+  'Make hay while the sun shines ladies and gentlemen, Mr
   Crookshank wants steelos as always, wire, glass, hand tools, no
   more light bubbles for the time, paper if its wrapped,
   especially big paper,’ he shows the length of the big paper
-  just to make sure they know, `all skellys to be reported back
+  just to make sure they know, 'all skellys to be reported back
   to me and also any boxes of tricks.‘ Laughter, then not
   laughter.
 
-  `Boxes of tricks. Report to me,’ says Badney as quietly as he
+  'Boxes of tricks. Report to me,’ says Badney as quietly as he
   ever says anything, great dark eyes scanning the room, all the
   gang assembled there but the pieceners standing to the front,
   both young enough and old enough to go out into the crazy maze
   of the old city and pick it apart piece by tiny piece making
   new life from the old death.
 
-  `Alright!‘ bawls Badney after the silence, `Be careful out
+  'Alright!‘ bawls Badney after the silence, 'Be careful out
   there.’
 
   So they go -- arranging themselves into the teams that work the
@@ -248,7 +248,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   finished rolling all across the great banged and burned and
   beautiful city, she knows that he is dead.
 
-\np Later when she stands, and the Moon Gang stands and the 
+ Later when she stands, and the Moon Gang stands and the 
 River
   Gang stands and all of the gangs of the whole clan stand
   watching the registrer of the dead making warding signs over
