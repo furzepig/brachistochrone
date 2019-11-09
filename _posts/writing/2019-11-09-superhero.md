@@ -1,8 +1,13 @@
 ---
-Superhero
+layout: story
+title: "Superhero"
+source_date: "2006"
+permalink: superhero.html
+category: writing
+creator: "John Hulme"
 ---
 
-  By the time we got to Jim and Eileen's house it was all over.
+By the time we got to Jim and Eileen's house it was all over.
   The Renault Espace on their block-paved driveway was crushed
   like a coke can. The rubber seals from the windows of the
   ruined car had popped out at odd angles like empty speech
