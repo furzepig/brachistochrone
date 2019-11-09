@@ -38,6 +38,7 @@ body {
 p.subhead:first-letter {
     font-size: 4.5em;
     float: left;
+	vertical-align: top;
 }
 
 
