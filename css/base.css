@@ -35,7 +35,7 @@ body {
 	font-size: 28px;
 }
 
-p.subhead:first-letter {
+p.first-child:first-letter {
     font-size: 4.5em;
     float: left;
 	vertical-align: top;
