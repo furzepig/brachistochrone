@@ -1,6 +1,13 @@
-The Piecener
+---
+layout: story
+title: "The Piecener"
+source_date: "2006"
+permalink: piecener.html
+category: writing
+creator: "John Hulme"
+---
 
-  Once, when very young on Dartford Span at midsummer, she left
+Once, when very young on Dartford Span at midsummer, she left
   her sister watching a gaudy trickster show and slipped through
   the crowds and the merchant stalls and came to the bridge rail
   and looked down to the great grey river beneath. There was
@@ -260,7 +267,7 @@ River
   scholars, and then they planned a life together and fell to
   dreaming.
 
-  \np And later still when they had come away at last and 
+  And later still when they had come away at last and 
 the tears
   ended for a time and the rest of the gang slept curled together
   like a wounded dog pack and dreaming troubled dreams, she
@@ -275,6 +282,3 @@ the tears
 
   And she felt something stirring inside her and she placed his
   hand on her belly so that he could feel it too.
-
-<hr/>
-2006
