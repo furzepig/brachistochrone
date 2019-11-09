@@ -35,6 +35,10 @@ body {
 	font-size: 28px;
 }
 
+.subhead::first-letter {
+  initial-letter: 2;
+}
+
 a {
  	text-decoration: none;
 }
