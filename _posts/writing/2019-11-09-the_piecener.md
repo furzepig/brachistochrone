@@ -12,7 +12,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   the crowds and the merchant stalls and came to the bridge rail
   and looked down to the great grey river beneath. There was
   peace in that great height and she felt for a time that she
-  looked upon the world as the Dead did&mdash;at peace now, despite
+  looked upon the world as the Dead—at peace now, despite
   that there were so very many of them crowded above the world of
   the living. And something of that peace stayed with her, even
   after her angry sister pulled her hard away from the rail and
