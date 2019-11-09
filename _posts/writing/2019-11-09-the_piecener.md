@@ -12,7 +12,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   the crowds and the merchant stalls and came to the bridge rail
   and looked down to the wide grey river beneath. There was
   peace in that great height and she felt for a time that she
-  looked upon the world as the Dead—at peace now, despite
+  looked upon the world as did the Dead—at peace now, despite
   that there were so very many of them crowded above the world of
   the living. And something of that peace stayed with her, even
   after her angry sister pulled her hard away from the rail and
@@ -52,7 +52,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   Went from kneeling, leaning over the parapet, to sitting on the
   rooftop with her back to it. She breathed deeply, enjoying the
   blue of sky and the warmth of the sun on her face and on the
-  asphalt&mdash;placed a hand on her belly, still flat beneath the
+  asphalt—placed a hand on her belly, still flat beneath the
   thick sweater she had traded for wire with the weavers at the
   fair that summer. Flat today and flat tomorrow, but not flat
   for much longer Theresa told her. Theresa who knew, knew before
