@@ -35,8 +35,10 @@ body {
 	font-size: 28px;
 }
 
-.subhead::first-letter {
-  initial-letter: 2;
+p.subhead:first-letter {
+    font-size: 4.5em;
+    float: left;
+    margin-top: .15em;
 }
 
 a {
