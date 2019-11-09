@@ -42,8 +42,8 @@ Once, when very young on Dartford Span at Midsummer, she left
   his strong hands and the curls in his hair; Olin of the River
   Family; Olin who was forbidden to her without a gang dowry; Olin
   who she loved. He showed her the back of the triangle where
-  there were more symbols. Olin told her that they said `This
-  sign has no scrap value.‘ She laughed at that. It showed that
+  there were more symbols. Olin told her that they said ‘This
+  sign has no scrap value.' She laughed at that. It showed that
   the Dead had not always known everything. Triangles were a
   shilling a dozen at Bishop Stortford market and metal triangles
   were twice that.
