@@ -42,7 +42,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   his strong hands and the curls in his hair; Olin of the River
   Family; Olin who was forbidden to her without a gang dowry; Olin
   who she loved. He showed her the back of the triangle where
-  there were more symbols. Olin told her that they said ‘This
+  there were more symbols. Olin told her that they said 'This
   sign has no scrap value.' She laughed at that. It showed that
   the Dead had not always known everything. Triangles were a
   shilling a dozen at Bishop Stortford market and metal triangles
@@ -95,12 +95,12 @@ Once, when very young on Dartford Span at Midsummer, she left
 
   'It’s bad in there. There’s a parking underneath, full of
   tacsis all burned and banged and the walls are all black and
-  broken.‘
+  broken.'
 
   Badney told the Moon Gang never to go into a building where you
   could see the wires in the walls. Not the weavable rope wires
   or the brightly coloured braiding wires but the fat wire --
-  thicker than fingers -- that held everything together, the
+  thicker than fingers --- that held everything together, the
   rusted wire that poked from the top of the fallen buildings,
   that only the Dead of the old world had known how to bend as
   they would. But Gethen made the River Gang go to the White
@@ -133,7 +133,7 @@ Once, when very young on Dartford Span at Midsummer, she left
 
   'Somebody wants them. As many as we can find, Gethen is
   getting two pounds a score so who knows what Crookshank is
-  taking.‘
+  taking.'
 
   She had held tightly to him then, on the cooling roof of the
   book house, because she could and because she thought that if
@@ -155,7 +155,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   marked.
 
   'Not Burned and Once Burned today boys and girls so make the
-  most of it!‘ said Badney, pleased with himself and fat on
+  most of it!' said Badney, pleased with himself and fat on
   Crookshank’s breakfast.
 
   'Railtown and all points west to the triple road.’
@@ -164,7 +164,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   pleased with the quiet response from the sleepy Moon Gang bangs
   his great chest and bawls from his fat beard, 'Who looks after
   you hey? Gethen’s taking the River Gang back into Parkside
-  today!‘ Jeering and cheering, Parkside filled in all black on
+  today!' Jeering and cheering, Parkside filled in all black on
   the map because it is Once Burned, Twice Burned,
   Who-knows-how-many-times Burned and standing in the middle of
   it, the White Tower.
@@ -174,7 +174,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   more light bubbles for the time, paper if its wrapped,
   especially big paper,’ he shows the length of the big paper
   just to make sure they know, 'all skellys to be reported back
-  to me and also any boxes of tricks.‘ Laughter, then not
+  to me and also any boxes of tricks.' Laughter, then not
   laughter.
 
   'Boxes of tricks. Report to me,’ says Badney as quietly as he
@@ -184,7 +184,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   of the old city and pick it apart piece by tiny piece making
   new life from the old death.
 
-  'Alright!‘ bawls Badney after the silence, 'Be careful out
+  'Alright!' bawls Badney after the silence, 'Be careful out
   there.’
 
   So they go -- arranging themselves into the teams that work the
