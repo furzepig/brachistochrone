@@ -59,7 +59,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   she did, only Theresa of all the Moon Gang, wise old Theresa
   older than the city it seemed, as old as the Dead.
 
-  `Before the pieceworkers come back from the fields it will be
+'Before the pieceworkers come back from the fields it will be
   plain for all to see that there are two of you.’ And she spoke
   comfort to Pardua but mostly she spoke truth and that made
   Pardua frightened, but she knew after that what it was that she
