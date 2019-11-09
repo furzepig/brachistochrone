@@ -7,24 +7,24 @@ category: writing
 creator: "John Hulme"
 ---
 
-Once, when very young on Dartford Span at midsummer, she left
-  her sister watching a gaudy trickster show and slipped through
+Once, when very young on Dartford Span at Midsummer, she left
+  her sister watching a gaudy Trickster show and slipped through
   the crowds and the merchant stalls and came to the bridge rail
   and looked down to the great grey river beneath. There was
   peace in that great height and she felt for a time that she
-  looked upon the world as the Dead did -- at peace now despite
+  looked upon the world as the Dead did&emdash;at peace now despite
   that there were so very many of them crowded above the world of
   the living. And something of that peace stayed with her, even
   after her angry sister pulled her hard away from the rail and
   scolded her back into the stalls of the fair and sulked on all
   the long journey back to the city.
 
-  This year’s midsummer was long past now, and the child slipping
+  This year’s Midsummer was long past now, and the child slipping
   from her sister on the Span had turned by the years into a
   young woman, though Pardua remembered well the grey river on
   that bright morning as the early sun came warm to her shoulders
-  and she looked down again from a height. She felt the sickness
-  easing inside her as she studied the lines of the symbols in
+  and she looked down again from a height. The sickness
+  eased inside her as she studied the lines of the symbols in
   the grey parking far below. She would not be sick again, not
   today. She read the numbers between the lines on the far side
   of the parking to pass time as the nausea subsided. Near to the
@@ -40,8 +40,8 @@ Once, when very young on Dartford Span at midsummer, she left
   the other. She didn’t know what it meant in the old world but
   she knew what it meant to Olin and loved him for it: Olin with
   his strong hands and the curls in his hair; Olin of the River
-  Gang; Olin who was forbidden to her without a gang dowry; Olin
-  whom she loved. He showed her the back of the triangle where
+  Family; Olin who was forbidden to her without a gang dowry; Olin
+  who she loved. He showed her the back of the triangle where
   there were more symbols. Olin told her that they said `This
   sign has no scrap value.‘ She laughed at that. It showed that
   the Dead had not always known everything. Triangles were a
@@ -52,7 +52,7 @@ Once, when very young on Dartford Span at midsummer, she left
   Went from kneeling, leaning over the parapet, to sitting on the
   rooftop with her back to it. She breathed deeply, enjoying the
   blue of sky and the warmth of the sun on her face and on the
-  asphalt -- placed a hand on her belly, still flat beneath the
+  asphalt&emdash;placed a hand on her belly, still flat beneath the
   thick sweater she had traded for wire with the weavers at the
   fair that summer. Flat today and flat tomorrow, but not flat
   for much longer Theresa told her. Theresa who knew, knew before
