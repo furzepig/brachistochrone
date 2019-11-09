@@ -8,9 +8,9 @@ creator: "John Hulme"
 ---
 
 Once, when very young on Dartford Span at Midsummer, she left
-  her sister watching a gaudy Trickster show and slipped through
+  her sister watching a gaudy Trickster show, and slipped through
   the crowds and the merchant stalls and came to the bridge rail
-  and looked down to the great grey river beneath. There was
+  and looked down to the wide grey river beneath. There was
   peace in that great height and she felt for a time that she
   looked upon the world as the Dead—at peace now, despite
   that there were so very many of them crowded above the world of
@@ -25,7 +25,7 @@ Once, when very young on Dartford Span at Midsummer, she left
   that bright morning as the early sun came warm to her shoulders
   and she looked down again from a height. The sickness
   eased inside her as she studied the lines of the symbols in
-  the grey parking far below. She would not be sick again, not
+  the grey parking far below. She would not be sick again
   today. She read the numbers between the lines on the far side
   of the parking to pass time as the nausea subsided. Near to the
   building the big white numbers were all covered up with years of
