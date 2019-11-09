@@ -16,8 +16,7 @@ By the time we got to Jim and Eileen's house it was all over.
   bushes I saw the Garfield with suction cups that I had given to
   Eileen when I finally moved out.
 
-  Dev said something, but I didn't register it. Most likely, he
-  was swearing. I looked at the grubby Garfield and then at the
+  Dev swore. I looked at the grubby Garfield and then at the
   front door that was standing open. Green paint. Stained glass.
   Brass letterbox. Brass Number 6, shiny like it always was.
 
@@ -64,7 +63,7 @@ By the time we got to Jim and Eileen's house it was all over.
   Jim would still have a good laugh at how long it took for me to
   twig.
 
-  'Careful son. If the wind changes you'll stick like that,'
+  'If the wind changes you'll stick like that,'
   says Jim and turns and walks off towards Easy Listening.
 
   I must have stood there for ten seconds or more, just gawping.
