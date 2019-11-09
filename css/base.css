@@ -38,8 +38,8 @@ body {
 p.subhead:first-letter {
     font-size: 4.5em;
     float: left;
-    margin-top: .15em;
 }
+
 
 a {
  	text-decoration: none;
