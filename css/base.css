@@ -20,6 +20,12 @@ body {
 	font-size: 16px;
 }
 
+.section {
+  width: 100%;
+  text-align: center;
+
+}
+
 .poem h1 {
 	padding-top: 2em;
 	padding-bottom: 1em;
