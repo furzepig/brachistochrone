@@ -34,8 +34,8 @@ Stuart was cleaning his teeth. He liked to start at the back on
 
   Stuart didn't know how long goldfish lived for, but he knew that
   it was at least a year.
-
-  \np He had been brushing his teeth as usual. It was just before
+<div class="section">&#x2022;</div>
+  He had been brushing his teeth as usual. It was just before
   eight o'clock. He knew what time it was because he could hear
   the weather report on the TV news.
 
