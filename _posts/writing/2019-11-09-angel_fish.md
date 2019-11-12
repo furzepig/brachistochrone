@@ -8,33 +8,29 @@ creator: "John Hulme"
 ---
 
 Stuart was cleaning his teeth. He liked to start at the back on
-  the right at the top and work round the whole top row before
-  starting on the bottom. He knew that it was important to be
-  methodical. As he spat into the sink and looked up again at the
-  face of the man in the mirror, he realised that everything was
-  the same as it had been on the first day.
+the right at the top and work round the whole top row before
+starting on the bottom. He knew that it was important to be
+methodical. As he spat into the sink and looked up again at the
+face of the man in the mirror, he realised that everything was
+the same as it had been on that first day.
 
-  Everything was just the same and everything was different.
+Everything was just the same and everything was different.
 
-  Outside the last stragglers from the mob of hooligan gusts
-  banged against the fences and scattered rubbish across the
-  street.
+Outside, the last stragglers from the mob of hooligan gusts
+banged against the fences and scattered rubbish across the
+street. That was the same. He rinsed his toothbrush and dropped 
+it back into the mug. There were two toothbrushes in the mug now. 
+That was different.
 
-  That was the same.
+The fish sat in its bottle on the little shelf above the sink
+studying its own reflection carefully in the toothpaste-flecked
+mirror as if looking for the first signs of aging.
 
-  He rinsed his toothbrush and dropped it back into the mug.
+Stuart didn't know how long goldfish lived for, but he knew that
+it was at least a year.
 
-  There were two toothbrushes in the mug now.
+<div class="section">○</div>
 
-  That was different.
-
-  The fish sat in its bottle on the little shelf above the sink
-  studying its own reflection carefully in the toothpaste-flecked
-  mirror as if looking for the first signs of aging.
-
-  Stuart didn't know how long goldfish lived for, but he knew that
-  it was at least a year.
-<div class="section">&#x2022;</div>
   He had been brushing his teeth as usual. It was just before
   eight o'clock. He knew what time it was because he could hear
   the weather report on the TV news.
