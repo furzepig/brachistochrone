@@ -19,8 +19,7 @@ Everything was just the same and everything was different.
 Outside, the last stragglers from the mob of hooligan gusts
 banged against the fences and scattered rubbish across the
 street. That was the same. He rinsed his toothbrush and dropped 
-it back into the mug. There were two toothbrushes in the mug now. 
-That was different.
+it back into the mug. There were two toothbrushes in the mug now. That was different.
 
 The fish sat in its bottle on the little shelf above the sink
 studying its own reflection carefully in the toothpaste-flecked
@@ -29,7 +28,7 @@ mirror as if looking for the first signs of aging.
 Stuart didn't know how long goldfish lived for, but he knew that
 it was at least a year.
 
-<div class="section">○</div>
+<div class="section">•</div>
 
   He had been brushing his teeth as usual. It was just before
   eight o'clock. He knew what time it was because he could hear
