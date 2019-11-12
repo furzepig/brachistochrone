@@ -30,29 +30,16 @@ it was at least a year.
 
 <div class="section">•</div>
 
-He had been brushing his teeth as usual. It was just before
-  eight o'clock. He knew what time it was because he could hear
-  the weather report on the TV news.
-
-  It was autumn and the weather girl was terribly excited about
-  what a stormy night it had been in southern parts and although
-  it would brighten up later on there was still a risk of
+He had been brushing his teeth as usual. It was just before 
+eight o'clock. He knew what time it was because he could hear
+the weather report on the television news. It was autumn and the weather girl was terribly excited about what a stormy night it had been in southern parts and although it would brighten up later on there _was_ still a risk of
   occasional showers.
 
   He was just beginning to brush the big molars at the back on the
   right at the top when he heard a most unusual noise from
-  somewhere very close by. It was kind of a resonant wet slap,
+  somewhere very close by. It was a resonant wet slap,
   like someone had dropped an overripe peach into a plastic
-  bucket.
-
-  He looked round.
-
-  Nothing seemed to have happened in the little bathroom.
-  Everything was just where it should be.
-
-  He listened.
-
-  From the direction of his bedroom he could hear the urgent
+  bucket. He looked round. Nothing seemed to have happened in the little bathroom. Everything was just where it should be. He listened. From the direction of his bedroom he could hear the urgent
   drumbeat of the eight o'clock news theme tune. From outside
   there was the hung over surging of the storm-spent wind, but
   otherwise he could hear nothing.
@@ -63,7 +50,7 @@ He had been brushing his teeth as usual. It was just before
   a spray of tiny droplets of water lay a goldfish.
 
   The goldfish looked at him with a single unblinking eye. Stuart
-  though that it must be dead, but then it arched its body,
+  thought that it must be dead, but then it arched its body,
   raising both tail and head upwards for a full second before
   flopping back down again with an almost inaudible thud.
 
@@ -72,8 +59,7 @@ He had been brushing his teeth as usual. It was just before
   somehow teleported into his bathroom.
 
   His first thought was that the fish had managed to swim up
-  through the sewer and out through his toilet, but the lid of
-  the toilet was closed, and there had definitely been a sort of
+  through the sewer and out through his toilet, but the lid was closed, and there had definitely been a sort of
   splat sound as if the fish had fallen onto the toilet from
   above.
 
@@ -171,14 +157,16 @@ He had been brushing his teeth as usual. It was just before
 
   'Good night,' whispered Stuart, and then he went to sleep.
 
+<div class="section">•</div>
+
   He dressed quickly and quietly, listening to the dying surges of
   the storm as it staggered up against the house like a drunken
   reveller with a new best friend. He looked at the green numbers
   on his alarm clock in the half dark of the still-curtained
-  bedroom. If he hurried he might be back in time to make
+  bedroom. If he hurried, he might be back in time to make
   breakfast. He knew that it was important to make the most of
-  this time he had before everything changed completely again
-  even though he was looking forward to the change more than
+  this time he had before everything changed completely again,
+  even though he was looking forward to this change more than
   anything.
 
   He looked at the fish that was looking back at him from where
@@ -191,6 +179,8 @@ He had been brushing his teeth as usual. It was just before
 
   He left the darkened bedroom and closed the door quietly behind
   him.
+
+<div class="section">•</div>
 
   Stuart wasn't really close to anyone. He had seen that some
   people seemed to be very close to other people, but in his
@@ -272,6 +262,8 @@ there wasn't
   On the following Saturday, Stuart and the fish went back to sit
   on the bench by the pond.
 
+  <div class="section">•</div>
+
   He had often thought about getting a new bottle, but 
 this one
   was doing fine. He had to give it a thorough clean out every
@@ -284,6 +276,8 @@ this one
   woozily in the bottle and Stuart chuckled to himself before
   unfastening the chain on the door and letting himself out into
   the wild freedom of the storm's after-party.
+
+<div class="section">•</div>
 
   The alarm went off at half past seven just as it did 
 every
@@ -462,6 +456,8 @@ seemed like
 
   'Stuart,' she said.
 
+<div class="section">•</div>
+
   This was the last time this year that he would come to 
 the old
   house and the big pond. He didn't want to see it again in
@@ -520,15 +516,15 @@ the old
   looked up and saw grey, silent wings unfolding across the water
   and then rearing up as the heron slowed and came to rest on the
   shore of the pond in front of the bench. It strutted out into
-  the pond -- fussily lifting its feet far out of the water in its
+  the pond – fussily lifting its feet far out of the water in its
   purposeful progress. As he watched, the bird stopped and became
   absolutely motionless for what seemed like only a second,
-  before it struck at the water -- a blur of grey and white.
+  before it struck at the water, a blur of grey and white.
   Stuart stood transfixed, unable to think or feel anything.
 
   From out of the pond, between the two parts of its powerful
   beak, Stuart saw the heron draw something that wriggled and
-  twisted -- something that flashed in the low autumn sun. It was
+  twisted – something that flashed in the low autumn sun. It was
   orange and white.
 
   And gold.
