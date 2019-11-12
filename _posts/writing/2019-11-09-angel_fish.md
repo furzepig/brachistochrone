@@ -385,6 +385,8 @@ The bottle was on its side and wedged between the dashboard and
   the windscreen with a road atlas. Stuart thought that it was
   important that the fish could see where they were going.
 
+<div class="section">•</div>
+
   The roads were quiet and looked scruffy after the storm, strewn
   with leaves and rubbish. Track five of the Classical Moods CD
   began. It was Bach. He had discovered that the fish liked
@@ -395,6 +397,8 @@ The bottle was on its side and wedged between the dashboard and
   knew where they were going.
 
   He hoped so.
+  
+  <div class="section">•</div>
 
 He hadn't been back to the pond until the spring. It 
 seemed like
