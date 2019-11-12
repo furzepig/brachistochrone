@@ -15,6 +15,11 @@ body {
 	padding-bottom: 1em;
 }
 
+.story h1 {
+	font-size: 28px;
+	margin-bottom: 2em;
+}
+
 .poem {
 	font-family: 'Georgia', serif;
 	font-size: 16px;
