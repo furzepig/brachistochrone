@@ -18,8 +18,7 @@ Everything was just the same and everything was different.
 
 Outside, the last stragglers from the mob of hooligan gusts
 banged against the fences and scattered rubbish across the
-street. That was the same. He rinsed his toothbrush and dropped 
-it back into the mug. There were two toothbrushes in the mug now. That was different.
+street. That was the same. He rinsed his toothbrush and dropped it back into the mug. There were two toothbrushes in the mug now. That was different.
 
 The fish sat in its bottle on the little shelf above the sink
 studying its own reflection carefully in the toothpaste-flecked
@@ -30,7 +29,7 @@ it was at least a year.
 
 <div class="section">•</div>
 
-  He had been brushing his teeth as usual. It was just before
+He had been brushing his teeth as usual. It was just before
   eight o'clock. He knew what time it was because he could hear
   the weather report on the TV news.
 
@@ -98,7 +97,7 @@ it was at least a year.
   another living thing.
 
   The scales of the fish shone white and purple and orange and red
-  through an oily film. It was every colour \emph{but} gold he thought.
+  through an oily film. It was every colour _but_ gold, he thought.
   He had never seen a goldfish at such close quarters before. A
   dark and lidless eye stared up at him expectantly.
 
@@ -169,10 +168,9 @@ it was at least a year.
   at all except for the slow bob-bob-bob of its breathing and the
   occasional deft flick of a fin that held it fixed there.
 
-  `Good night,' whispered Stuart, and then he went to sleep.
+  'Good night,' whispered Stuart, and then he went to sleep.
 
-  \np He dressed quickly and quietly, listening to the dying 
-surges of
+  He dressed quickly and quietly, listening to the dying surges of
   the storm as it staggered up against the house like a drunken
   reveller with a new best friend. He looked at the green numbers
   on his alarm clock in the half dark of the still-curtained
@@ -184,7 +182,7 @@ surges of
 
   He looked at the fish that was looking back at him from where
   the bottle was standing on the chest of drawers next to the
-  television. He smiled at it. The fish said `bob'. He pulled on
+  television. He smiled at it. The fish said 'bob'. He pulled on
   a thick sweater and then picked up the bottle. It was cold to
   the touch because it had spent the night in the back porch. He
   had only brought it in so that he could have it in the bathroom
@@ -193,8 +191,7 @@ surges of
   He left the darkened bedroom and closed the door quietly behind
   him.
 
- \np  Stuart wasn't really close to anyone. He had seen that 
-some
+  Stuart wasn't really close to anyone. He had seen that some
   people seemed to be very close to other people, but in his
   experience and on further reflection he had decided that all of
   that was just for show. He had had a girlfriend for a little
@@ -235,22 +232,22 @@ some
   work he put the bottle on his desk between his computer and his
   in-tray, but he left his lunchbox in the bag.
 
-  `You want to put that in a bowl, or a tank more like,' said
+  'You want to put that in a bowl, or a tank more like,' said
   Dave Dash who worked at the next desk and who was one of the
   people who sold things.
 
-  `It's all about the surface area of the water see? You need to
+  'It's all about the surface area of the water see? You need to
   get air into the water.'
 
-  `He likes it in the bottle.'
+  'He likes it in the bottle.'
 
-  `Told you that did he?'
+  'Told you that did he?'
 
   Stuart didn't reply, but instead went back to working out how
   many things they needed to sell. When Dave Dash went for lunch,
   Stuart took the cap off the bottle.
 
-  \np Normally, he didn't do very much at the weekend -- 
+  Normally, he didn't do very much at the weekend -- 
 there wasn't
   really very much that needed doing -- but on Saturday he woke up
   feeling quite happy and an idea occurred to him.
@@ -269,12 +266,12 @@ there wasn't
   smiled. It was good to get out.
 
   The next week at work seemed to pass by very quickly. The fish
-  sat on his desk and said `bob' when people tapped the bottle.
+  sat on his desk and said 'bob' when people tapped the bottle.
 
   On the following Saturday, Stuart and the fish went back to sit
   on the bench by the pond.
 
- \np  He had often thought about getting a new bottle, but 
+  He had often thought about getting a new bottle, but 
 this one
   was doing fine. He had to give it a thorough clean out every
   week or so, but the fish appeared to enjoy time out in the
@@ -287,7 +284,7 @@ this one
   unfastening the chain on the door and letting himself out into
   the wild freedom of the storm's after-party.
 
-  \np The alarm went off at half past seven just as it did 
+  The alarm went off at half past seven just as it did 
 every
   morning. Stuart reached out and pushed the snooze button. A
   design limitation of the microcircuit timer inside the clock
@@ -325,7 +322,7 @@ every
   bath together until Stuart had grown quite cold and he began to
   shiver.
 
-  \np When the New Year came, he stopped setting his alarm 
+  When the New Year came, he stopped setting his alarm 
 clock. He
   woke up later and later each morning and went to bed earlier
   and earlier each night. One day it was nearly noon when he
@@ -389,7 +386,7 @@ clock. He
   He did not want the fish to die. He turned and walked out of the
   pond and then he picked up the bottle with the fish in it and
   went home.
-\np The bottle was on its side and wedged between the dashboard and
+The bottle was on its side and wedged between the dashboard and
   the windscreen with a road atlas. Stuart thought that it was
   important that the fish could see where they were going.
 
@@ -404,7 +401,7 @@ clock. He
 
   He hoped so.
 
-\np He hadn't been back to the pond until the spring. It 
+He hadn't been back to the pond until the spring. It 
 seemed like
   a different place entirely. The pond itself was edged with lush
   green plants and was busy with life. Little birds skipped
@@ -443,28 +440,28 @@ seemed like
   them. She looked at him and met his gaze before he could look
   away again.
 
-  `Is that your fish?' she asked.
+  'Is that your fish?' she asked.
 
   He nodded.
 
-  `What's he called?'
+  'What's he called?'
 
-  Stuart shrugged. `He's never really needed a name. I mean, he's
+  Stuart shrugged. 'He's never really needed a name. I mean, he's
   the only fish I've got.'
 
   She nodded.
 
-  `I had a fish once,' she said. `I'm Andrea. Would you like a
+  'I had a fish once,' she said. 'I'm Andrea. Would you like a
   crisp?'
 
   Stuart took a crisp from the bag. It was salt and vinegar
   flavoured.
 
-  `What was your fish called?' he asked.
+  'What was your fish called?' he asked.
 
-  `Stuart,' she said.
+  'Stuart,' she said.
 
-  \np This was the last time this year that he would come to 
+  This was the last time this year that he would come to 
 the old
   house and the big pond. He didn't want to see it again in
   winter -- to hear the coarse language of the crows and to look
@@ -545,4 +542,3 @@ the old
   struck sky.
 
   Stuart waved goodbye too.
-
