@@ -5,6 +5,7 @@ source_date: "2006"
 permalink: meter_man.html
 category: writing
 creator: "John Hulme"
+date: 2006-02-01 15:00:00 +0000
 ---
 
   Mrs Fraser’s mid-afternoon meditation is interrupted. In her
