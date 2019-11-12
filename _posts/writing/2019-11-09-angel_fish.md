@@ -5,6 +5,7 @@ source_date: "2006"
 permalink: angel_fish.html
 category: writing
 creator: "John Hulme"
+date: 2006-08-01 15:00:00 +0000
 ---
 
 Stuart was cleaning his teeth. He liked to start at the back on
