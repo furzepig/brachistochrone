@@ -23,7 +23,7 @@ body {
 
 .poem {
 	font-family: 'Georgia', serif;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .section {
@@ -35,23 +35,15 @@ body {
 }
 
 .poem h1 {
-	padding-top: 2em;
-	padding-bottom: 1em;
+	font-size: 32px;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
 }
 
 .ll {
 	padding-left: 1em;
   	text-indent: -1em;
 }
-
-.storytitle {
-	font-family: 'Georgia', serif;
-	font-size: 28px;
-}
-
- 
-
-
 
 a {
  	text-decoration: none;
