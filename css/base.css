@@ -5,21 +5,7 @@ body {
 	overflow-y:scroll;
 }
 
-.story {
-	font-family: 'Georgia', serif;
-	font-size: 18px;
-}
 
-.story h2{
-	padding-top: 2em;
-	padding-bottom: 1em;
-}
-
-.story h1 {
-	font-size: 32px;
-	margin-top: 2em;
-	margin-bottom: 1.5em;
-}
 
 .poem {
 	font-family: 'Georgia', serif;
