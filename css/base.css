@@ -2,29 +2,11 @@ body {
 	margin: 0px;
 	color: #444;
 	font-family: 'Noto Serif', serif;
+font-size: 18px;
+line-height: 1.2;
 	overflow-y:scroll;
 }
 
-.story {
-	font-family: 'Noto Serif', serif;
-	font-size: 18px;
-}
-
-.story h2{
-	padding-top: 2em;
-	padding-bottom: 1em;
-}
-
-.story h1 {
-	font-size: 32px;
-	margin-top: 2em;
-	margin-bottom: 1.5em;
-}
-
-.poem {
-	font-family: 'Noto Serif', serif;
-	font-size: 18px;
-}
 
 .section {
   width: 100%;
@@ -155,7 +137,7 @@ font-family: 'Open Sans', sans-serif;
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-
+font-family: 'Open Sans', sans-serif;
   border-radius: 4px;
 }
 
