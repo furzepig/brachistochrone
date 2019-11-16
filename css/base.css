@@ -2,7 +2,7 @@ body {
 	margin: 0px;
 	color: #444;
 	font-family: 'Noto Serif', serif;
-font-size: 18px;
+font-size: 24px;
 line-height: 1.2;
 	overflow-y:scroll;
 }
@@ -14,12 +14,6 @@ line-height: 1.2;
   font-size: 24px;
   margin-bottom: 1.5em;
 
-}
-
-.poem h1 {
-	font-size: 32px;
-	margin-top: 2em;
-	margin-bottom: 1.5em;
 }
 
 .ll {
