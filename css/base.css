@@ -1,12 +1,12 @@
 body {
 	margin: 0px;
 	color: #444;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 	overflow-y:scroll;
 }
 
 .story {
-	font-family: 'Georgia', serif;
+	font-family: 'Noto Serif', serif;
 	font-size: 18px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .poem {
-	font-family: 'Georgia', serif;
+	font-family: 'Noto Serif', serif;
 	font-size: 18px;
 }
 
