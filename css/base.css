@@ -293,6 +293,13 @@ h2 {
 	font-weight: normal;
 }
 
+h3 {
+	font-size: 18px;
+	color: #999;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
