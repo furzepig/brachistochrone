@@ -5,17 +5,38 @@ body {
 	overflow-y:scroll;
 }
 
-footer {
-    font-style: italic;	
-    text-decoration: none;
-    color: #aaa;
-}
-
 header {
-    margin-bottom:1.5em;	
+	margin-bottom:1.5em;	
 }
 
-.section {
+h1 {
+	font-size: 28px;
+	color: #444;
+	margin-top:1em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24px;
+	color: #666;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+	color: #999;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
+footer {
+	font-style: italic;	
+	text-decoration: none;
+	color: #aaa;
+}
+
+.section_break {
 	width: 100%;
 	text-align: center;
 	font-size: 24px;
@@ -24,11 +45,11 @@ header {
 
 .ll {
 	padding-left: 1em;
-  	text-indent: -1em;
+	text-indent: -1em;
 }
 
 a {
- 	text-decoration: none;
+	text-decoration: none;
 }
 
 td {
@@ -36,7 +57,18 @@ td {
 	vertical-align:top;
 }
 
+.container {
+	line-height: 1.8;
+	font-size: 18px;
+	margin: 20px auto;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	max-width: 600px;
+	min-height: 500px;
+}
+
 .statscell {
+	font-family: 'Open Sans', sans-serif;
 	border: 1px solid gray;
 	padding: 1px 1px 1px 0px;
 	vertical-align:top;
@@ -44,6 +76,7 @@ td {
 }
 
 .statstable {
+	font-family: 'Open Sans', sans-serif;
 	width: 300px;
 	border-collapse: collapse;
 }
@@ -69,25 +102,21 @@ th {
 }
 
 .bookimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	height: 300px;
 }
 
 .fellimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    width: 100%;
-}
-
-.nonotes {
-  border: 1px solid red;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 40px;
+ 	margin-bottom: 60px;
+	width: 100%;
 }
 
 .smallbook {
@@ -146,27 +175,27 @@ font-family: 'Open Sans', sans-serif;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-font-family: 'Open Sans', sans-serif;
-  border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
 }
 
 .wrap {
-  background-color: #747E8F;
-  color: #fff;
-  width: 70px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-font-family: 'Open Sans', sans-serif;
-  border-radius: 4px;
+	background-color: #747E8F;
+	color: #fff;
+	width: 70px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+ 	border-radius: 4px;
 }
 
 .fadelink {
@@ -180,7 +209,7 @@ font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 18px;
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border-radius: 4px;	
 }
 
@@ -226,8 +255,6 @@ font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 }
 
-
-
 .quote_source {
 	color: #000;
 	font-weight: bold;
@@ -247,16 +274,6 @@ blockquote {
 	background-color: #eee;
 	padding: 20px;
 	margin-bottom: 20px;	
-}
-
-.container {
-	line-height: 1.8;
-	font-size: 18px;
-	margin: 20px auto;
-	padding: 0px 20px;
-	box-sizing: border-box;
-	max-width: 600px;
-	min-height: 500px;
 }
 
 .weak {
@@ -279,26 +296,7 @@ li {
 	color: blue;
 }
 
-h1 {
-	font-size: 28px;
-	color: #444;
-	margin-top:1em;
-	font-weight: normal;
-}
 
-h2 {
-	font-size: 24px;
-	color: #666;
-	margin-top:0.4em;
-	font-weight: normal;
-}
-
-h3 {
-	font-size: 18px;
-	color: #999;
-	margin-top:0.4em;
-	font-weight: normal;
-}
 
 .video-container {
 	position:relative;
