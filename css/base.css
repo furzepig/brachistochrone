@@ -6,7 +6,9 @@ body {
 }
 
 footer {
-	font-style: italic;	
+    font-style: italic;	
+    text-decoration: none;
+    color: #aaa;
 }
 
 .section {
