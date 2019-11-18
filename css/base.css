@@ -5,13 +5,11 @@ body {
 	overflow-y:scroll;
 }
 
-
 .section {
-  width: 100%;
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 1.5em;
-
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 1.5em;
 }
 
 .ll {
@@ -36,14 +34,13 @@ td {
 }
 
 .statstable {
-  width: 300px;
-  border-collapse: collapse;
+	width: 300px;
+	border-collapse: collapse;
 }
 
 .statstable, .statsth, .statstr {
-  border: 1px solid gray;
+	border: 1px solid gray;
 }
-
 
 
 th {
