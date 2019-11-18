@@ -28,7 +28,7 @@ mirror as if looking for the first signs of aging.
 Stuart didn't know how long goldfish lived for, but he knew that
 it was at least a year.
 
-<div class="section">•</div>
+<div class="section_break">•</div>
 
 He had been brushing his teeth as usual. It was just before 
 eight o'clock. He knew what time it was because he could hear
@@ -157,7 +157,7 @@ the weather report on the television news. It was autumn and the weather girl wa
 
   'Good night,' whispered Stuart, and then he went to sleep.
 
-<div class="section">•</div>
+<div class="section_break">•</div>
 
   He dressed quickly and quietly, listening to the dying surges of
   the storm as it staggered up against the house like a drunken
@@ -180,7 +180,7 @@ the weather report on the television news. It was autumn and the weather girl wa
   He left the darkened bedroom and closed the door quietly behind
   him.
 
-<div class="section">•</div>
+<div class="section_break">•</div>
 
   Stuart wasn't really close to anyone. He had seen that some
   people seemed to be very close to other people, but in his
@@ -262,7 +262,7 @@ there wasn't
   On the following Saturday, Stuart and the fish went back to sit
   on the bench by the pond.
 
-  <div class="section">•</div>
+  <div class="section_break">•</div>
 
   He had often thought about getting a new bottle, but 
 this one
@@ -277,7 +277,7 @@ this one
   unfastening the chain on the door and letting himself out into
   the wild freedom of the storm's after-party.
 
-<div class="section">•</div>
+<div class="section_break">•</div>
 
   The alarm went off at half past seven just as it did 
 every
@@ -385,7 +385,7 @@ The bottle was on its side and wedged between the dashboard and
   the windscreen with a road atlas. Stuart thought that it was
   important that the fish could see where they were going.
 
-<div class="section">•</div>
+<div class="section_break">•</div>
 
   The roads were quiet and looked scruffy after the storm, strewn
   with leaves and rubbish. Track five of the Classical Moods CD
@@ -398,7 +398,7 @@ The bottle was on its side and wedged between the dashboard and
 
   He hoped so.
   
-  <div class="section">•</div>
+  <div class="section_break">•</div>
 
 He hadn't been back to the pond until the spring. It 
 seemed like
@@ -460,7 +460,7 @@ seemed like
 
   'Stuart,' she said.
 
-<div class="section">•</div>
+<div class="section_break">•</div>
 
   This was the last time this year that he would come to 
 the old
