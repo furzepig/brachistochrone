@@ -2,7 +2,6 @@ body {
 	margin: 0px;
 	color: #444;
 	font-family: 'Noto Serif', serif;
-font-size: 24px;
 	overflow-y:scroll;
 }
 
@@ -245,7 +244,7 @@ blockquote {
 
 .container {
 	line-height: 1.8;
-	font-size: 24px;
+	font-size: 18px;
 	margin: 20px auto;
 	padding: 0px 20px;
 	box-sizing: border-box;
