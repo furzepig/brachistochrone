@@ -276,12 +276,11 @@ li {
 }
 
 h1 {
-	font-size: 28px;
-	color: #444;
-	line-height: 1.2;
-margin-top:1em;
-margin-bottom:1em;
-	font-weight: normal;
+    font-size: 28px;
+    color: #444;
+    margin-top:1em;
+    margin-bottom:1.5em;
+    font-weight: normal;
 }
 
 h2 {
