@@ -7,7 +7,7 @@ author: Tom Nancollas
 year: 2019
 image: sh.jpg
 ---
-Interesting and evocative, reminded me a little of some of the scenes evoked in  ( *Endurance* | ../2017/12/09/endurance.html)
+Interesting and evocative, reminded me a little of some of the scenes evoked in [*Endurance* | ../2017/12/09/endurance.html]
 
 > It was common, he says, to be interrupted by the thump of a wave racing over the window inches from his face, 60 feet above sea level. Lying prone was the best way to feel the tower shudder in a storm.
 
