@@ -5,6 +5,10 @@ body {
 	overflow-y:scroll;
 }
 
+.story .poem {
+	font-family: 'Georgia', serif;	
+}
+
 header {
 	margin-bottom:1.5em;	
 }
@@ -15,23 +19,6 @@ h1 {
 	margin-top:1em;
 	font-weight: normal;
 }
-
-.story h1 {
-	font-family: 'Georgia', serif;
-}
-
-.story h2 {
-	font-family: 'Georgia', serif;
-}
-
-.story {
-	font-family: 'Georgia', serif;	
-}
-
-.poem {
-	font-family: 'Georgia', serif;	
-}
-
 
 h2 {
 	font-size: 24px;
@@ -85,7 +72,6 @@ td {
 }
 
 .statscell {
-	font-family: 'Open Sans', sans-serif;
 	border: 1px solid gray;
 	padding: 1px 1px 1px 0px;
 	vertical-align:top;
@@ -93,7 +79,6 @@ td {
 }
 
 .statstable {
-	font-family: 'Open Sans', sans-serif;
 	width: 300px;
 	border-collapse: collapse;
 }
@@ -153,7 +138,6 @@ th {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif; 
   border-radius: 4px;	
 }
 
@@ -168,7 +152,6 @@ th {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-font-family: 'Open Sans', sans-serif;
   border-radius: 4px;	
 }
 
@@ -182,7 +165,6 @@ font-family: 'Open Sans', sans-serif;
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-font-family: 'Open Sans', sans-serif;
   border-radius: 4px;
 }
 
@@ -196,7 +178,6 @@ font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
 	border-radius: 4px;
 }
 
@@ -211,7 +192,6 @@ font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
  	border-radius: 4px;
 }
 
@@ -226,7 +206,6 @@ font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
 	border-radius: 4px;	
 }
 
@@ -259,13 +238,11 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .site_label {
-	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-size: 24px;
 }
 
 .subsite_label {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	padding-left:12px;
 	color: #C5C5CB;
