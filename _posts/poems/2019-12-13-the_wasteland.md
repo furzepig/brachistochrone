@@ -2,7 +2,7 @@
 layout: poem
 category: poems
 date: 2019-12-13
-source-date: 1922
+composed: 1922
 title: The Waste Land
 poet: T.S.Eliot
 ---
