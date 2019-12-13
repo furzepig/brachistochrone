@@ -28,8 +28,8 @@ poet: T.S.Eliot
 </div><div class="ll">Marie, hold on tight. And down we went.
 </div><div class="ll">In the mountains, there you feel free.
 </div><div class="ll">I read, much of the night, and go south in the winter.
-</div><div class="ll">
-</div><div class="ll">  What are the roots that clutch, what branches grow
+</div><div class="ll">  
+</div><div class="ll">What are the roots that clutch, what branches grow
 </div><div class="ll">Out of this stony rubbish? Son of man,
 </div><div class="ll">You cannot say, or guess, for you know only
 </div><div class="ll">A heap of broken images, where the sun beats,
@@ -41,11 +41,12 @@ poet: T.S.Eliot
 </div><div class="ll">Your shadow at morning striding behind you
 </div><div class="ll">Or your shadow at evening rising to meet you;
 </div><div class="ll">I will show you fear in a handful of dust.
-</div><div class="ll">                      Frisch weht der Wind
-</div><div class="ll">                      Der Heimat zu
-</div><div class="ll">                      Mein Irisch Kind,
-</div><div class="ll">                      Wo weilest du?
-</div><div class="ll">“You gave me hyacinths first a year ago;
+</div>
+<pre>                Frisch weht der Wind
+                     Der Heimat zu
+                     Mein Irisch Kind,
+                     Wo weilest du?</pre>
+<div class="ll">“You gave me hyacinths first a year ago;
 </div><div class="ll">“They called me the hyacinth girl.”
 </div><div class="ll">—Yet when we came back, late, from the Hyacinth garden,
 </div><div class="ll">Your arms full, and your hair wet, I could not
