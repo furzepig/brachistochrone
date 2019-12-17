@@ -52,45 +52,44 @@ poet: T.S.Eliot
 <div class="ll">Living nor dead, and I knew nothing,</div>
 <div class="ll">Looking into the heart of light, the silence.</div>
 <div class="ll"><i>Oed’ und leer das Meer.</i></div>
-<div class="ll">  </div> 
+<div class="ll">&nbsp;</div> 
 <div class="ll">Madame Sosostris, famous clairvoyante,</div>
-Had a bad cold, nevertheless  
-Is known to be the wisest woman in Europe,  
-With a wicked pack of cards. Here, said she,  
-Is your card, the drowned Phoenician Sailor,  
-(Those are pearls that were his eyes. Look!)  
-Here is Belladonna, the Lady of the Rocks,  
-The lady of situations.  
-Here is the man with three staves, and here the Wheel,  
-And here is the one-eyed merchant, and this card,  
-Which is blank, is something he carries on his back,  
-Which I am forbidden to see. I do not find  
-The Hanged Man. Fear death by water.  
-I see crowds of people, walking round in a ring.  
-Thank you. If you see dear Mrs. Equitone,  
-Tell her I bring the horoscope myself:  
-One must be so careful these days.  
-  
-  Unreal City,  
-Under the brown fog of a winter dawn,  
-A crowd flowed over London Bridge, so many,  
-I had not thought death had undone so many.  
-Sighs, short and infrequent, were exhaled,  
-And each man fixed his eyes before his feet.  
-Flowed up the hill and down King William Street,  
-To where Saint Mary Woolnoth kept the hours  
-With a dead sound on the final stroke of nine.  
-There I saw one I knew, and stopped him, crying: “Stetson!  
-“You who were with me in the ships at Mylae!  
-“That corpse you planted last year in your garden,  
-“Has it begun to sprout? Will it bloom this year?  
-“Or has the sudden frost disturbed its bed?  
-“Oh keep the Dog far hence, that’s friend to men,  
-“Or with his nails he’ll dig it up again!  
-“You! hypocrite lecteur!—mon semblable,—mon frère!”  
-  
-  
-<h2>II. A Game of Ches</h2>
+<div class="ll">Had a bad cold, nevertheless</div>
+<div class="ll">Is known to be the wisest woman in Europe,</div>
+<div class="ll">With a wicked pack of cards. Here, said she,</div>
+<div class="ll">Is your card, the drowned Phoenician Sailor,</div>
+<div class="ll">(Those are pearls that were his eyes. Look!)</div>
+<div class="ll">Here is Belladonna, the Lady of the Rocks,</div>
+<div class="ll">The lady of situations.</div>
+<div class="ll">Here is the man with three staves, and here the Wheel,</div>
+<div class="ll">And here is the one-eyed merchant, and this card,</div>
+<div class="ll">Which is blank, is something he carries on his back,</div>
+<div class="ll">Which I am forbidden to see. I do not find</div>
+<div class="ll">The Hanged Man. Fear death by water.</div>
+<div class="ll">I see crowds of people, walking round in a ring.</div>
+<div class="ll">Thank you. If you see dear Mrs. Equitone,</div>
+<div class="ll">Tell her I bring the horoscope myself:</div>
+<div class="ll">One must be so careful these days.</div>
+<div class="ll">&nbsp;</div> 
+<div class="ll">Unreal City,</div> 
+<div class="ll">Under the brown fog of a winter dawn,</div> 
+<div class="ll">A crowd flowed over London Bridge, so many,</div> 
+<div class="ll">I had not thought death had undone so many.</div> 
+<div class="ll">Sighs, short and infrequent, were exhaled,</div> 
+<div class="ll">And each man fixed his eyes before his feet.</div>
+<div class="ll">Flowed up the hill and down King William Street,</div> 
+<div class="ll">To where Saint Mary Woolnoth kept the hours</div> 
+<div class="ll">With a dead sound on the final stroke of nine.</div> 
+<div class="ll">There I saw one I knew, and stopped him, crying: “Stetson!</div> 
+<div class="ll">“You who were with me in the ships at Mylae!</div> 
+<div class="ll">“That corpse you planted last year in your garden,</div> 
+<div class="ll">“Has it begun to sprout? Will it bloom this year?</div> 
+<div class="ll">“Or has the sudden frost disturbed its bed?</div> 
+<div class="ll">“Oh keep the Dog far hence, that’s friend to men,</div>
+<div class="ll">“Or with his nails he’ll dig it up again!</div> 
+<div class="ll">“You! hypocrite lecteur!—mon semblable,—mon frère!”</div> 
+<div class="ll">&nbsp;</div>  
+<h2>II. A Game of Chess</h2>
   
 The Chair she sat in, like a burnished throne,  
 Glowed on the marble, where the glass  
@@ -198,7 +197,7 @@ Good night, ladies, good night, sweet ladies, good night, good night.
   
 <h2>III. The Fire Sermon</h2>
   
-  The river’s tent is broken: the last fingers of leaf  
+The river’s tent is broken: the last fingers of leaf  
 Clutch and sink into the wet bank. The wind  
 Crosses the brown land, unheard. The nymphs are departed.  
 Sweet Thames, run softly, till I end my song.  
