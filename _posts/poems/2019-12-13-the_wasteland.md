@@ -40,10 +40,10 @@ poet: T.S.Eliot
 <div class="ll">Your shadow at morning striding behind you</div>
 <div class="ll">Or your shadow at evening rising to meet you;</div>
 <div class="ll">I will show you fear in a handful of dust.</div>
-<div class="ll2">Frisch weht der Wind</div>
-<div class="ll2">Der Heimat zu</div>
-<div class="ll2">Mein Irisch Kind,</div>
-<div class="ll2">Wo weilest du?</div>
+<div class="ll2">_Frisch weht der Wind_</div>
+<div class="ll2">_Der Heimat zu_</div>
+<div class="ll2">_Mein Irisch Kind,_</div>
+<div class="ll2">_Wo weilest du?_</div>
 <div class="ll">“You gave me hyacinths first a year ago;</div>  
 “They called me the hyacinth girl.”  
 —Yet when we came back, late, from the Hyacinth garden,  
