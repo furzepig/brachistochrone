@@ -40,20 +40,20 @@ poet: T.S.Eliot
 <div class="ll">Your shadow at morning striding behind you</div>
 <div class="ll">Or your shadow at evening rising to meet you;</div>
 <div class="ll">I will show you fear in a handful of dust.</div>
-<div class="ll2">_Frisch weht der Wind_</div>
-<div class="ll2">_Der Heimat zu_</div>
-<div class="ll2">_Mein Irisch Kind,_</div>
-<div class="ll2">_Wo weilest du?_</div>
+<div class="ll10"><i>Frisch weht der Wind</i></div>
+<div class="ll10"><i>Der Heimat zu</i></div>
+<div class="ll10"><i>Mein Irisch Kind,</i></div>
+<div class="ll10"><i>Wo weilest du?</i></div>
 <div class="ll">“You gave me hyacinths first a year ago;</div>  
-“They called me the hyacinth girl.”  
-—Yet when we came back, late, from the Hyacinth garden,  
-Your arms full, and your hair wet, I could not  
-Speak, and my eyes failed, I was neither  
-Living nor dead, and I knew nothing,  
-Looking into the heart of light, the silence.  
-Oed’ und leer das Meer.  
-  
-  Madame Sosostris, famous clairvoyante,  
+<div class="ll">“They called me the hyacinth girl.”</div> 
+<div class="ll">— Yet when we came back, late, from the Hyacinth garden,</div>
+<div class="ll">Your arms full, and your hair wet, I could not</div>
+<div class="ll">Speak, and my eyes failed, I was neither</div>
+<div class="ll">Living nor dead, and I knew nothing,</div>
+<div class="ll">Looking into the heart of light, the silence.</div>
+<div class="ll"><i>Oed’ und leer das Meer.</i></div>
+<div class="ll">  </div> 
+<div class="ll">Madame Sosostris, famous clairvoyante,</div>
 Had a bad cold, nevertheless  
 Is known to be the wisest woman in Europe,  
 With a wicked pack of cards. Here, said she,  
