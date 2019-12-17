@@ -9,42 +9,42 @@ poet: T.S.Eliot
 
 <h2>I. The Burial of the Dead</h2>  
     
-April is the cruellest month, breeding  
-Lilacs out of the dead land, mixing  
-Memory and desire, stirring  
-Dull roots with spring rain.  
-Winter kept us warm, covering  
-Earth in forgetful snow, feeding  
-A little life with dried tubers.  
-Summer surprised us, coming over the Starnbergersee  
-With a shower of rain; we stopped in the colonnade,  
-And went on in sunlight, into the Hofgarten,  
-And drank coffee, and talked for an hour.  
-Bin gar keine Russin, stamm’ aus Litauen, echt deutsch.  
-And when we were children, staying at the arch-duke’s,  
-My cousin’s, he took me out on a sled,  
-And I was frightened. He said, Marie,  
-Marie, hold on tight. And down we went.  
-In the mountains, there you feel free.  
-I read, much of the night, and go south in the winter.  
-  
-  What are the roots that clutch, what branches grow  
-Out of this stony rubbish? Son of man,  
-You cannot say, or guess, for you know only  
-A heap of broken images, where the sun beats,  
-And the dead tree gives no shelter, the cricket no relief,  
-And the dry stone no sound of water. Only  
-There is shadow under this red rock,  
-(Come in under the shadow of this red rock),  
-And I will show you something different from either  
-Your shadow at morning striding behind you  
-Or your shadow at evening rising to meet you;  
-I will show you fear in a handful of dust.  
-                      Frisch weht der Wind  
-                      Der Heimat zu  
-                      Mein Irisch Kind,  
-                      Wo weilest du?  
-“You gave me hyacinths first a year ago;  
+<div class="ll">April is the cruellest month, breeding</div>
+<div class="ll">Lilacs out of the dead land, mixing</div>
+<div class="ll">Memory and desire, stirring</div>
+<div class="ll">Dull roots with spring rain.</div>
+<div class="ll">Winter kept us warm, covering</div>
+<div class="ll">Earth in forgetful snow, feeding</div>
+<div class="ll">A little life with dried tubers.</div>
+<div class="ll">Summer surprised us, coming over the Starnbergersee</div>
+<div class="ll">With a shower of rain; we stopped in the colonnade,</div>
+<div class="ll">And went on in sunlight, into the Hofgarten,</div>
+<div class="ll">And drank coffee, and talked for an hour.</div>
+<div class="ll">Bin gar keine Russin, stamm’ aus Litauen, echt deutsch.</div>
+<div class="ll">And when we were children, staying at the arch-duke’s,</div>
+<div class="ll">My cousin’s, he took me out on a sled,</div>
+<div class="ll">And I was frightened. He said, Marie,</div>
+<div class="ll">Marie, hold on tight. And down we went.</div>
+<div class="ll">In the mountains, there you feel free.</div>
+<div class="ll">I read, much of the night, and go south in the winter.</div>
+<div class="ll">&nbsp;</div>  
+<div class="ll">What are the roots that clutch, what branches grow</div> 
+<div class="ll">Out of this stony rubbish? Son of man,</div>
+<div class="ll">You cannot say, or guess, for you know only</div> 
+<div class="ll">A heap of broken images, where the sun beats,</div>
+<div class="ll">And the dead tree gives no shelter, the cricket no relief,</div>
+<div class="ll">And the dry stone no sound of water. Only</div>
+<div class="ll">There is shadow under this red rock,</div>
+<div class="ll">(Come in under the shadow of this red rock),</div>
+<div class="ll">And I will show you something different from either</div>
+<div class="ll">Your shadow at morning striding behind you</div>
+<div class="ll">Or your shadow at evening rising to meet you;</div>
+<div class="ll">I will show you fear in a handful of dust.</div>
+<div class="ll2">Frisch weht der Wind</div>
+<div class="ll2">Der Heimat zu</div>
+<div class="ll2">Mein Irisch Kind,</div>
+<div class="ll2">Wo weilest du?</div>
+<div class="ll">“You gave me hyacinths first a year ago;</div>  
 “They called me the hyacinth girl.”  
 —Yet when we came back, late, from the Hyacinth garden,  
 Your arms full, and your hair wet, I could not  
