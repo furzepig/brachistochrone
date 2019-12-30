@@ -1,6 +1,6 @@
 ---
 layout: poem
-source_title: "The Second Coming"
+title: "The Second Coming"
 composed: "1919"
 category: poems
 poet: "William Butler Yeats"
