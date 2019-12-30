@@ -1,9 +1,9 @@
 ---
 layout: poem
-title: "The Second Coming"
-composed: "1919"
 category: poems
+title: "The Second Coming"
 poet: "William Butler Yeats"
+composed: "1919"
 ---
 <p>
 <div class="ll">Turning and turning in the widening gyre</div> 
