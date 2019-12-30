@@ -1,10 +1,9 @@
 ---
 layout: poem
 category: poems
-date: 2019-12-13
-composed: 1922
 title: The Waste Land
 poet: T.S.Eliot
+composed: 1922
 ---
 
 <h2>I. The Burial of the Dead</h2>  
