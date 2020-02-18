@@ -17,10 +17,12 @@ category: "books"
       data.addColumn('string', 'Year');
       data.addColumn('number', 'Books');
       data.addRows([
+        {% assign iYear=0 %}
       {% for year in postsByYear %}
+        iYear++
       ['{{ year.name }}', {{ year.items.size }}],
-      {% endfor %}]);
-
+      {% endfor %}
+      ['xyz', 10] ]);
       // Instantiate and draw the chart.
       var chart = new google.visualization.ColumnChart(document.getElementById('myPieChart'));
       chart.draw(data, null);
