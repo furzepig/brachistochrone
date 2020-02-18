@@ -4,6 +4,8 @@ category: "books"
 ---
 
 <head>
+  {% assign postsByYear =
+    site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" %}
   <script src="https://www.gstatic.com/charts/loader.js"></script>
   <script>
     google.charts.load('current', {packages: ['corechart']});
@@ -15,9 +17,9 @@ category: "books"
       data.addColumn('string', 'Year');
       data.addColumn('number', 'Books');
       data.addRows([
-        ['1999', 10],
-        ['2000', 21],
-        ['2001', 31]
+      {% for year in postsByYear %}
+      [{{ year.name }}, {{ year.items.size }}],
+      {% endfor %}
       ]);
 
       // Instantiate and draw the chart.
@@ -30,3 +32,9 @@ category: "books"
   <!-- Identify where the chart should be drawn. -->
   <div id="myPieChart"/>
 </body>
+
+
+
+
+
+
