@@ -18,9 +18,8 @@ category: "books"
       data.addColumn('number', 'Books');
       data.addRows([
       {% for year in postsByYear %}
-      [{{ year.name }}, {{ year.items.size }}],
-      {% endfor %}
-      ]);
+      ['{{ year.name }}', {{ year.items.size }}],
+      {% endfor %}]);
 
       // Instantiate and draw the chart.
       var chart = new google.visualization.ColumnChart(document.getElementById('myPieChart'));
