@@ -21,9 +21,9 @@ category: "books"
       {% for year in postsByYear %}
       ['{{ year.name }}', {{ year.items.size }}],
       {% endfor %}
-      ['xyz', 10] ]);
+      ['.', 0] ]);
       // Instantiate and draw the chart.
-      var chart = new google.visualization.ColumnChart(document.getElementById('myPieChart'));
+      var chart = new google.visualization.BarChart(document.getElementById('myPieChart'));
       chart.draw(data, null);
     }
   </script>
