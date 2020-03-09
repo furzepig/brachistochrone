@@ -8,8 +8,7 @@ year: 2019
 image: ltd.jpg
 ---
 > Placental mammals have been around for sixty or
-seventy million years - quite a while by huma
-dards, but less than two per cent of the life of life itself.
+seventy million years - quite a while by human standards, but less than two per cent of the life of life itself.
 So our kind of bodily structure- the one we share with
 mice and elephants - is a fairly new idea. Our genus,
 Homo, is also young as genera go: around two and a half
