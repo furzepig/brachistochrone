@@ -2,3 +2,13 @@
 layout: default
 ---
 Hello {{ page.category }}
+{% assign postsByYear = site.categories[page.category] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+<div class="row">   
+  {% for year in postsByYear %}	
+  <a href="/{{ page.category }}/{{ year.name  }}.html" title="{{ year.name }}">
+    <div class="wrap">
+      {{ year.name }}
+    </div>
+  </a>
+  {% endfor %}
+</div>
