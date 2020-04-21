@@ -1,31 +1,31 @@
 ---
 layout: default
 ---
-{% assign postsByYear = site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+{% assign postsByYear = site.categories[page.category] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
 <div class="row">   
   {% for year in postsByYear %}	
-  <a href="/books/{{ year.name  }}.html" title="{{ year.name }}">
+  <a href="/{{ page.category }}/{{ year.name  }}.html" title="{{ year.name }}">
     <div class="wrap">
       {{ year.name }}
     </div>
   </a>
   {% endfor %}
-  <a href="/books/all.html" title="All">
+  <a href="/{{ page.category }}/all.html" title="All">
     <div class="wrap">
       All
     </div>
   </a>
-  <a href="/books/list.html" title="List">
+  <a href="/{{ page.category }}/list.html" title="List">
     <div class="wrap">
       List
     </div>
   </a>
-  <a href="/books/stats.html" title="Stats">
+  <a href="/{{ page.category }}/stats.html" title="Stats">
     <div class="wrap">
       Stats
     </div>
   </a>
-  <a href="/books/chart.html" title="Chart">
+  <a href="/{{ page.category }}/chart.html" title="Chart">
     <div class="wrap">
       Chart
     </div>
