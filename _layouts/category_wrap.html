@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Hello1 {{ page.category }}
+Hello2 {{ page.category }}
 {% assign postsByYear = site.posts | where: "categories","{{ page.category }}" | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
 <div class="row">   
   {% for year in postsByYear %}	
