@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign postsByYear = site.posts | where: "categories","books" | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+{% assign postsByYear = site.posts | where: "category","books" | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
 <div class="row">   
   {% for year in postsByYear %}	
   <a href="/{{ page.category }}/{{ year.name  }}.html" title="{{ year.name }}">
