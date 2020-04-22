@@ -1,0 +1,11 @@
+---
+layout: default
+category: "films"
+---
+<div>
+{% assign postsByYear = site.categories.films | where:"year", page.year %}
+<h2>{{ page.year }}</h2>
+  {% for post in postsByYear %}
+    <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/films/{{ post.year}}/{{ post.image }}" ></a>
+  {% endfor %} 
+</div>
