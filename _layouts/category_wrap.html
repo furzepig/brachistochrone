@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-{% assign postsByYear = site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+{% if page.category == "books" %}
+  {% assign postsByYear = site.categories["books"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+{% else %}
+  Films!
+  {% assign postsByYear = site.categories["films"] | group_by_exp:"post", "post.date | date: '%Y'" | sort:"date" %}
+{% endif %}
 <div class="row">   
   {% for year in postsByYear %}	
   <a href="/{{ page.category }}/{{ year.name  }}.html" title="{{ year.name }}">
