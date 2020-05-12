@@ -1,4 +1,4 @@
- ---
+---
 layout: book
 category: books
 title: "The Drought"
