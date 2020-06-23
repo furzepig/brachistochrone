@@ -1,8 +1,8 @@
 ---
 layout: fell
 category: fells
-name: Baystones [Wansfell]
+name: Wansfell
 number: 178
 height: 487
-climbed: No
+climbed: Yes
 ---
