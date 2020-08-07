@@ -43,8 +43,8 @@ composed: 1922
 <div class="ll10"><i>Der Heimat zu</i></div>
 <div class="ll10"><i>Mein Irisch Kind,</i></div>
 <div class="ll10"><i>Wo weilest du?</i></div>
-<div class="ll">“You gave me hyacinths first a year ago;</div>  
-<div class="ll">“They called me the hyacinth girl.”</div> 
+<div class="ll">'You gave me hyacinths first a year ago;</div>  
+<div class="ll">'They called me the hyacinth girl.'</div> 
 <div class="ll">— Yet when we came back, late, from the Hyacinth garden,</div>
 <div class="ll">Your arms full, and your hair wet, I could not</div>
 <div class="ll">Speak, and my eyes failed, I was neither</div>
