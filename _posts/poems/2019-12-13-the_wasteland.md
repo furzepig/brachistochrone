@@ -43,8 +43,8 @@ composed: 1922
 <div class="ll10"><i>Der Heimat zu</i></div>
 <div class="ll10"><i>Mein Irisch Kind,</i></div>
 <div class="ll10"><i>Wo weilest du?</i></div>
-<div class="ll">'You gave me hyacinths first a year ago;</div>  
-<div class="ll">'They called me the hyacinth girl.'</div> 
+<div class="ll">&lsquo;You gave me hyacinths first a year ago;</div>  
+<div class="ll">&lsquo;They called me the hyacinth girl.&rsquo;</div> 
 <div class="ll">— Yet when we came back, late, from the Hyacinth garden,</div>
 <div class="ll">Your arms full, and your hair wet, I could not</div>
 <div class="ll">Speak, and my eyes failed, I was neither</div>
@@ -79,119 +79,119 @@ composed: 1922
 <div class="ll">Flowed up the hill and down King William Street,</div> 
 <div class="ll">To where Saint Mary Woolnoth kept the hours</div> 
 <div class="ll">With a dead sound on the final stroke of nine.</div> 
-<div class="ll">There I saw one I knew, and stopped him, crying: “Stetson!</div> 
-<div class="ll">“You who were with me in the ships at Mylae!</div> 
-<div class="ll">“That corpse you planted last year in your garden,</div> 
-<div class="ll">“Has it begun to sprout? Will it bloom this year?</div> 
-<div class="ll">“Or has the sudden frost disturbed its bed?</div> 
-<div class="ll">“Oh keep the Dog far hence, that’s friend to men,</div>
-<div class="ll">“Or with his nails he’ll dig it up again!</div> 
-<div class="ll">“You! hypocrite lecteur!—mon semblable,—mon frère!”</div> 
+<div class="ll">There I saw one I knew, and stopped him, crying: &lsquo;Stetson!</div> 
+<div class="ll">&lsquo;You who were with me in the ships at Mylae!</div> 
+<div class="ll">&lsquo;That corpse you planted last year in your garden,</div> 
+<div class="ll">&lsquo;Has it begun to sprout? Will it bloom this year?</div> 
+<div class="ll">&lsquo;Or has the sudden frost disturbed its bed?</div> 
+<div class="ll">&lsquo;Oh keep the Dog far hence, that’s friend to men,</div>
+<div class="ll">&lsquo;Or with his nails he’ll dig it up again!</div> 
+<div class="ll">&lsquo;You! hypocrite lecteur!&mdash;mon semblable,&mdash;mon frère!&rsquo;</div> 
 <div class="ll">&nbsp;</div>  
+
 <h2>II. A Game of Chess</h2>
-  
-The Chair she sat in, like a burnished throne,  
-Glowed on the marble, where the glass  
-Held up by standards wrought with fruited vines  
-From which a golden Cupidon peeped out  
-(Another hid his eyes behind his wing)  
-Doubled the flames of sevenbranched candelabra  
-Reflecting light upon the table as  
-The glitter of her jewels rose to meet it,  
-From satin cases poured in rich profusion;  
-In vials of ivory and coloured glass  
-Unstoppered, lurked her strange synthetic perfumes,  
-Unguent, powdered, or liquid—troubled, confused  
-And drowned the sense in odours; stirred by the air  
-That freshened from the window, these ascended  
-In fattening the prolonged candle-flames,  
-Flung their smoke into the laquearia,  
-Stirring the pattern on the coffered ceiling.  
-Huge sea-wood fed with copper  
-Burned green and orange, framed by the coloured stone,  
-In which sad light a carvéd dolphin swam.  
-Above the antique mantel was displayed  
-As though a window gave upon the sylvan scene  
-The change of Philomel, by the barbarous king  
-So rudely forced; yet there the nightingale  
-Filled all the desert with inviolable voice  
-And still she cried, and still the world pursues,  
-“Jug Jug” to dirty ears.  
-And other withered stumps of time  
-Were told upon the walls; staring forms  
-Leaned out, leaning, hushing the room enclosed.  
-Footsteps shuffled on the stair.  
-Under the firelight, under the brush, her hair  
-Spread out in fiery points  
-Glowed into words, then would be savagely still.  
-  
-  “My nerves are bad tonight. Yes, bad. Stay with me.  
-“Speak to me. Why do you never speak. Speak.  
-  “What are you thinking of? What thinking? What?  
-“I never know what you are thinking. Think.”  
-  
-  I think we are in rats’ alley  
-Where the dead men lost their bones.  
-  
-  “What is that noise?”  
-                          The wind under the door.  
-“What is that noise now? What is the wind doing?”  
-                           Nothing again nothing.  
-                                                        “Do  
-“You know nothing? Do you see nothing? Do you remember  
-“Nothing?”  
-  
-       I remember  
-Those are pearls that were his eyes.  
-“Are you alive, or not? Is there nothing in your head?”     
-            
-                                                                           But  
-O O O O that Shakespeherian Rag—  
-It’s so elegant  
-So intelligent  
-“What shall I do now? What shall I do?”  
-“I shall rush out as I am, and walk the street  
-“With my hair down, so. What shall we do tomorrow?  
-“What shall we ever do?”  
-                                               The hot water at ten.  
-And if it rains, a closed car at four.  
-And we shall play a game of chess,  
-Pressing lidless eyes and waiting for a knock upon the door.  
-  
-  When Lil’s husband got demobbed, I said—  
-I didn’t mince my words, I said to her myself,  
-HURRY UP PLEASE ITS TIME  
-Now Albert’s coming back, make yourself a bit smart.  
-He’ll want to know what you done with that money he gave you  
-To get yourself some teeth. He did, I was there.  
-You have them all out, Lil, and get a nice set,  
-He said, I swear, I can’t bear to look at you.  
-And no more can’t I, I said, and think of poor Albert,  
-He’s been in the army four years, he wants a good time,  
-And if you don’t give it him, there’s others will, I said.  
-Oh is there, she said. Something o’ that, I said.  
-Then I’ll know who to thank, she said, and give me a straight look.  
-HURRY UP PLEASE ITS TIME  
-If you don’t like it you can get on with it, I said.  
-Others can pick and choose if you can’t.  
-But if Albert makes off, it won’t be for lack of telling.  
-You ought to be ashamed, I said, to look so antique.  
-(And her only thirty-one.)  
-I can’t help it, she said, pulling a long face,  
-It’s them pills I took, to bring it off, she said.  
-(She’s had five already, and nearly died of young George.)  
-The chemist said it would be all right, but I’ve never been the same.  
-You are a proper fool, I said.  
-Well, if Albert won’t leave you alone, there it is, I said,  
-What you get married for if you don’t want children?  
-HURRY UP PLEASE ITS TIME  
-Well, that Sunday Albert was home, they had a hot gammon,  
-And they asked me in to dinner, to get the beauty of it hot—  
-HURRY UP PLEASE ITS TIME  
-HURRY UP PLEASE ITS TIME  
-Goonight Bill. Goonight Lou. Goonight May. Goonight.  
-Ta ta. Goonight. Goonight.  
-Good night, ladies, good night, sweet ladies, good night, good night.  
+<div class="ll">The Chair she sat in, like a burnished throne,</div>  
+<div class="ll">Glowed on the marble, where the glass</div> 
+<div class="ll">Held up by standards wrought with fruited vines</div>
+<div class="ll">From which a golden Cupidon peeped out</div>
+<div class="ll">(Another hid his eyes behind his wing)</div>
+<div class="ll">Doubled the flames of sevenbranched candelabra</div>
+<div class="ll">Reflecting light upon the table as</div>
+<div class="ll">The glitter of her jewels rose to meet it,</div>
+<div class="ll">From satin cases poured in rich profusion;</div>
+<div class="ll">In vials of ivory and coloured glass</div>
+<div class="ll">Unstoppered, lurked her strange synthetic perfumes,</div>
+<div class="ll">Unguent, powdered, or liquid—troubled, confused</div>
+<div class="ll">And drowned the sense in odours; stirred by the air</div>
+<div class="ll">That freshened from the window, these ascended</div>
+<div class="ll">In fattening the prolonged candle-flames,</div>
+<div class="ll">Flung their smoke into the laquearia,</div>
+<div class="ll">Stirring the pattern on the coffered ceiling.</div>
+<div class="ll">Huge sea-wood fed with copper</div>
+<div class="ll">Burned green and orange, framed by the coloured stone,</div>
+<div class="ll">In which sad light a carvéd dolphin swam.</div>
+<div class="ll">Above the antique mantel was displayed</div>
+<div class="ll">As though a window gave upon the sylvan scene</div>
+<div class="ll">The change of Philomel, by the barbarous king</div>
+<div class="ll">So rudely forced; yet there the nightingale</div>
+<div class="ll">Filled all the desert with inviolable voice</div>
+<div class="ll">And still she cried, and still the world pursues,</div>
+<div class="ll">&lsquo;Jug Jug&rsquo; to dirty ears.</div>
+<div class="ll">And other withered stumps of time</div>
+<div class="ll">Were told upon the walls; staring forms</div>
+<div class="ll">Leaned out, leaning, hushing the room enclosed.</div>
+<div class="ll">Footsteps shuffled on the stair.</div>
+<div class="ll">Under the firelight, under the brush, her hair</div>
+<div class="ll">Spread out in fiery points</div>
+<div class="ll">Glowed into words, then would be savagely still.</div>
+<div class="ll">&nbsp;</div>  
+<div class="ll">&lsquo;My nerves are bad tonight. Yes, bad. Stay with me.</div>
+<div class="ll">&lsquo;Speak to me. Why do you never speak. Speak.</div>
+<div class="ll">&lsquo;What are you thinking of? What thinking? What?</div>
+<div class="ll">&lsquo;I never know what you are thinking. Think.&rsquo;</div>
+<div class="ll">&nbsp;</div>   
+<div class="ll">  I think we are in rats’ alley</div>
+<div class="ll">Where the dead men lost their bones.  
+<div class="ll">&nbsp;</div>  
+<div class="ll">  &lsquo;What is that noise?&rsquo;</div>  
+<div class="ll">                          The wind under the door.</div>  
+<div class="ll">&lsquo;What is that noise now? What is the wind doing?&rsquo;</div>  
+<div class="ll">                           Nothing again nothing.</div>
+<div class="ll">                                                        &lsquo;Do</div>
+<div class="ll">&lsquo;You know nothing? Do you see nothing? Do you remember</div>
+<div class="ll">&lsquo;Nothing?&rsquo;</div>
+<div class="ll">&nbsp;</div>   
+<div class="ll">       I remember</div>
+<div class="ll">Those are pearls that were his eyes.</div>
+<div class="ll">&lsquo;Are you alive, or not? Is there nothing in your head?&rsquo;</div>
+<div class="ll">&nbsp;</div>
+<div class="ll">                                                                           But</div>
+<div class="ll">O O O O that Shakespeherian Rag&mdash;</div>
+<div class="ll">It’s so elegant</div>
+<div class="ll">So intelligent</div>
+<div class="ll">&lsquo;What shall I do now? What shall I do?&rsquo;</div>
+<div class="ll">&lsquo;I shall rush out as I am, and walk the street</div>
+<div class="ll">&lsquo;With my hair down, so. What shall we do tomorrow?</div>
+<div class="ll">&lsquo;What shall we ever do?&rsquo;</div>
+<div class="ll">                                               The hot water at ten.</div>
+<div class="ll">And if it rains, a closed car at four.</div>
+<div class="ll">And we shall play a game of chess,</div>
+<div class="ll">Pressing lidless eyes and waiting for a knock upon the door.</div>
+<div class="ll">&nbsp;</div>
+<div class="ll">  When Lil’s husband got demobbed, I said&mdash;</div>
+<div class="ll">I didn’t mince my words, I said to her myself,</div>
+<div class="ll">HURRY UP PLEASE ITS TIME</div>
+<div class="ll">Now Albert’s coming back, make yourself a bit smart.</div>
+<div class="ll">He’ll want to know what you done with that money he gave you</div>
+<div class="ll">To get yourself some teeth. He did, I was there.</div>
+<div class="ll">You have them all out, Lil, and get a nice set,</div>
+<div class="ll">He said, I swear, I can’t bear to look at you.</div>
+<div class="ll">And no more can’t I, I said, and think of poor Albert,</div>
+<div class="ll">He’s been in the army four years, he wants a good time,</div>
+<div class="ll">And if you don’t give it him, there’s others will, I said.</div>
+<div class="ll">Oh is there, she said. Something o’ that, I said.</div>
+<div class="ll">Then I’ll know who to thank, she said, and give me a straight look.</div>
+<div class="ll">HURRY UP PLEASE ITS TIME</div>
+<div class="ll">If you don’t like it you can get on with it, I said.</div>
+<div class="ll">Others can pick and choose if you can’t.</div>
+<div class="ll">But if Albert makes off, it won’t be for lack of telling.</div>
+<div class="ll">You ought to be ashamed, I said, to look so antique.</div>
+<div class="ll">(And her only thirty-one.)</div>
+<div class="ll">I can’t help it, she said, pulling a long face,</div>
+<div class="ll">It’s them pills I took, to bring it off, she said.</div>
+<div class="ll">(She’s had five already, and nearly died of young George.)</div>
+<div class="ll">The chemist said it would be all right, but I’ve never been the same.</div>
+<div class="ll">You are a proper fool, I said.</div>
+<div class="ll">Well, if Albert won’t leave you alone, there it is, I said,</div>
+<div class="ll">What you get married for if you don’t want children?</div>
+<div class="ll">HURRY UP PLEASE ITS TIME</div>
+<div class="ll">Well, that Sunday Albert was home, they had a hot gammon,</div>
+<div class="ll">And they asked me in to dinner, to get the beauty of it hot&mdash;</div>
+<div class="ll">HURRY UP PLEASE ITS TIME</div>
+<div class="ll">HURRY UP PLEASE ITS TIME</div>
+<div class="ll">Goonight Bill. Goonight Lou. Goonight May. Goonight.</div>
+<div class="ll">Ta ta. Goonight. Goonight.</div>
+<div class="ll">Good night, ladies, good night, sweet ladies, good night, good night.</div>
   
   
 <h2>III. The Fire Sermon</h2>
@@ -280,13 +280,13 @@ And gropes his way, finding the stairs unlit . . .
 She turns and looks a moment in the glass,  
 Hardly aware of her departed lover;  
 Her brain allows one half-formed thought to pass:  
-“Well now that’s done: and I’m glad it’s over.”  
+&lsquo;Well now that’s done: and I’m glad it’s over.&rsquo;  
 When lovely woman stoops to folly and  
 Paces about her room again, alone,  
 She smoothes her hair with automatic hand,  
 And puts a record on the gramophone.  
   
-“This music crept by me upon the waters”  
+&lsquo;This music crept by me upon the waters&rsquo;  
 And along the Strand, up Queen Victoria Street.  
 O City city, I can sometimes hear  
 Beside a public bar in Lower Thames Street,  
@@ -324,22 +324,22 @@ Inexplicable splendour of Ionian white and gold.
                                 Weialala leia  
                                 Wallala leialala  
   
-“Trams and dusty trees.  
+&lsquo;Trams and dusty trees.  
 Highbury bore me. Richmond and Kew  
 Undid me. By Richmond I raised my knees  
-Supine on the floor of a narrow canoe.”  
+Supine on the floor of a narrow canoe.&rsquo;  
   
-“My feet are at Moorgate, and my heart  
+&lsquo;My feet are at Moorgate, and my heart  
 Under my feet. After the event  
 He wept. He promised a ‘new start.’  
-I made no comment. What should I resent?”  
+I made no comment. What should I resent?&rsquo;  
   
-“On Margate Sands.  
+&lsquo;On Margate Sands.  
 I can connect  
 Nothing with nothing.  
 The broken fingernails of dirty hands.  
 My people humble people who expect  
-Nothing.”  
+Nothing.&rsquo;  
                        la la  
   
 To Carthage then I came  
