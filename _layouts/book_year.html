@@ -6,6 +6,6 @@ category: "books"
 {% assign postsByYear = site.categories.books | where:"year", page.year %}
 <h2>{{ page.year }}</h2>
   {% for post in postsByYear %}
-    <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }} - {{ wordCount }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
+    <a href="{{ post.url }}" title="{{ post.title }}"><img width="100px" title="{{ post.title }} - {{ post.author }}" src="/images/books/{{ post.year}}/{{ post.image }}" ></a>
   {% endfor %} 
 </div>
