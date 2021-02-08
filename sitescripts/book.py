@@ -2,6 +2,8 @@ import os
 import sys
 import datetime
 
+
+os.system('git pull origin master')
 title = sys.argv[1]
 print('Making book ...')
 # initialization and declaration of variables
@@ -26,4 +28,4 @@ print(file.name)
 print('Image name is: ' + imagename + '.jpg')
 os.system('git add ' + file.name)
 os.system('git commit -m "added ' + title + '"')
-
+os.system('git push')
