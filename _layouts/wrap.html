@@ -6,7 +6,7 @@ layout: default
 
 <div class="row">   
 {% for post in sorted_posts %}
-  <a href="/{{ post.category }}/{{ post.title  }}.html" title="{{ post.title }}">
+  <a href="{{ post.url }}" title="{{ post.title }}">
     <div class="wrap">
       {{ post.title }}
     </div>
