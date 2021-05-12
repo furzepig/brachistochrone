@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign sorted_posts = site.categories[page.category]  | sort: 'title' %}
+
+<div class="row">   
+{% for post in sorted_posts %}
+  <a href="/{{ page.category }}/{{ page.title  }}.html" title="{{ page.title }}">
+    <div class="wrap">
+      {{ page.title }}
+    </div>
+  </a>
+{% endfor %}
+</div>
