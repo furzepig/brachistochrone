@@ -1,4 +1,5 @@
 alias mb='python3 ~/brachistochrone/sitescripts/book.py'
+alias mh='python3 ~/brachistochrone/sitescripts/hurlant.py'
 alias gpom='git pull origin master'
 alias bump="cd ~/brachistochrone;ls -l"
 
