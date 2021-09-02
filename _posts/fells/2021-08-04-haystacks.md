@@ -1,8 +1,8 @@
 ---
 layout: fell
 category: fells
-name: Haystacks (Buttermere)
+name: Haystacks
 number: 131
 height: 597
-climbed: No
+climbed: Yes
 ---
