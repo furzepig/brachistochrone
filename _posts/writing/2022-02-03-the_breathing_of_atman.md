@@ -1,6 +1,14 @@
-The Breathing Of Atman (or A Brief History Of Jeremy Morgan)}
+---
+layout: story
+title: "The Breathing Of Atman (or A Brief History Of Jeremy Morgan)"
+source_date: "2006"
+permalink: atman.html
+category: writing
+creator: "John Hulme"
+date: 2006-04-01 15:00:00 +0000
+---
 
-\subsection*{Dimension 0 -- The Big Bang}
+**Dimension 0 -- The Big Bang**
 
   No time passes, for there is no time there. The seething
   elements of the Infrastructure -- the unknown and unknowable
@@ -9,8 +17,8 @@ The Breathing Of Atman (or A Brief History Of Jeremy Morgan)}
   potentials until at last, and immediately, separating membranes
   spin yet another bubble universe into being.
 
-\subsection*{Dimension 1 -- The Cosmic Background}
-V
+**Dimension 1 -- The Cosmic Background**
+
   The cosmic ray, discharged from the heart of a quasar ten
   billion years ago, strikes the atmosphere high above
   Shrewsbury, unleashing a shower of neutrinos which take no more
@@ -29,7 +37,7 @@ V
   that has ever taken place on the face of the earth -- goes
   unnoticed.
 
-\subsection*{Dimension 2 -- Inflation}
+**Dimension 2 -- Inflation**
 
   In the days before ultrasound screening, Angharad's doctor is
   concerned by the unusual size of the head of the unborn child,
@@ -42,13 +50,13 @@ V
   Morgan is relieved to discover that Jeremy is not hydrocephalic
   -- he simply has a large head.
 
-\subsection*{Dimension 3 -- The Standard Model}
+**Dimension 3 -- The Standard Model**
 
   `On my first day at grammar school, I was taken ill on the
   bus. Too well brought up to make a mess, I was sick into my new
   school cap.'
-
-\subsection*{Dimension 4 -- Event Horizon}
+  
+**Dimension 4 -- Event Horizon**
 
   He walks through the courtyard in the cool October air and
   tosses the college scarf over his shoulder again. He still
@@ -70,7 +78,7 @@ V
   tutorial to the library, determined to be better prepared the
   next time.
 
-\subsection*{Dimension 5 -- Singularity}
+**Dimension 5 -- Singularity**
 
   Her name is Sarah. It is February and the wind from the fens is
   cold. He has been running to stand still, spends most of his
@@ -113,11 +121,11 @@ V
 
   In the morning he can remember nothing of his revelation.
 
-\subsection*{Dimension 6 -- Twistor}
+**Dimension 6 -- Twistor**
 
   `I just don't think we should see each other any more Jeremy.'
 
-\subsection*{Dimension 7 -- Dark Matter}
+**Dimension 7 -- Dark Matter**
 
   `And what about Morgan?'
 
@@ -129,7 +137,7 @@ V
 
   `No. Not at all.'
 
-\subsection*{Dimension 8 -- The Many Worlds Interpretation}
+**Dimension 8 -- The Many Worlds Interpretation**
 
   LONDON (AP) -- Jeremy Morgan, Nobel laureate and author, died on
   Tuesday 33 Octember at his home in Cambridge. Morgan won a
@@ -146,7 +154,7 @@ V
   from the vehicle that was transporting it to the Regent's Park
   zoo.
 
-\subsection*{Dimension 9 -- Entropy}
+**Dimension 9 -- Entropy**
 
   Long, long, afterwards the peaceful and continuously expanding
   universe is torn asunder by the unstoppable extra-dimensional
@@ -161,7 +169,7 @@ V
   several billion atoms of carbon are missing that once were part
   of the bark of an oak tree.
 
-\subsection*{Dimension 10 -- Omega}
+**Dimension 10 -- Omega**
 
   No time passes, for there is no time there. The seething
   elements of the Infrastructure -- the unknown and unknowable
@@ -169,5 +177,3 @@ V
   universe -- swirl on in their own mysterious shifting of
   potentials until at last, and immediately, separating membranes
   spin yet another bubble universe into being.
-
-\ed{2006}
