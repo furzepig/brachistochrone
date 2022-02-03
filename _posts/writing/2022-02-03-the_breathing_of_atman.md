@@ -1,12 +1,14 @@
 ---
 layout: story
-title: "The Breathing Of Atman (or A Brief History Of Jeremy Morgan)"
+title: "The Breathing Of Atman"
 source_date: "2006"
 permalink: atman.html
 category: writing
 creator: "John Hulme"
 date: 2006-04-01 15:00:00 +0000
 ---
+
+__Being A Brief History Of Jeremy Morgan__
 
 **Dimension 0 -- The Big Bang**
 
@@ -31,7 +33,7 @@ date: 2006-04-01 15:00:00 +0000
   neutrino strikes the nuclear heart of a hydrogen atom inside
   the yet-to-be-implanted zygote -- spawning an electron and
   interfering with the transcription of a single codon during
-  Jeremy's first cellular fission.
+  Jeremy’s first cellular fission.
 
   This event -- the single most improbable physical interaction
   that has ever taken place on the face of the earth -- goes
@@ -39,12 +41,12 @@ date: 2006-04-01 15:00:00 +0000
 
 **Dimension 2 -- Inflation**
 
-  In the days before ultrasound screening, Angharad's doctor is
+  In the days before ultrasound screening, Angharad’s doctor is
   concerned by the unusual size of the head of the unborn child,
   which he can feel through the pale skin of her belly. He
   confides in Mr Rhodri Morgan that he fears the baby will be
   hydrocephalic. Mr Rhodri Morgan spends the remaining three
-  months of his wife's pregnancy preparing for the worst.
+  months of his wife’s pregnancy preparing for the worst.
 
   In the event Mrs Morgan has a successful four-hour labour. Mr
   Morgan is relieved to discover that Jeremy is not hydrocephalic
@@ -52,10 +54,10 @@ date: 2006-04-01 15:00:00 +0000
 
 **Dimension 3 -- The Standard Model**
 
-  `On my first day at grammar school, I was taken ill on the
+  ‘On my first day at grammar school, I was taken ill on the
   bus. Too well brought up to make a mess, I was sick into my new
-  school cap.'
-  
+  school cap.’
+
 **Dimension 4 -- Event Horizon**
 
   He walks through the courtyard in the cool October air and
@@ -123,19 +125,19 @@ date: 2006-04-01 15:00:00 +0000
 
 **Dimension 6 -- Twistor**
 
-  `I just don't think we should see each other any more Jeremy.'
+  ‘I just don’t think we should see each other any more Jeremy.’
 
 **Dimension 7 -- Dark Matter**
 
-  `And what about Morgan?'
+  ‘And what about Morgan?’
 
-  `Yes. I think we can put him down as a star that failed to
+  ‘Yes. I think we can put him down as a star that failed to
   reach critical mass. He works hard enough, but never really
-  seems to shine.'
+  seems to shine.’
 
-  `Not suitable for post-graduate work then?'
+  ‘Not suitable for post-graduate work then?’
 
-  `No. Not at all.'
+  ‘No. Not at all.’
 
 **Dimension 8 -- The Many Worlds Interpretation**
 
@@ -143,7 +145,7 @@ date: 2006-04-01 15:00:00 +0000
   Tuesday 33 Octember at his home in Cambridge. Morgan won a
   Nobel Prize for his cosmological theory uniting General
   Relativity and the quantum Standard Model. He popularised his
-  work in the best-selling `A Short History Of Space and Time'.
+  work in the best-selling ‘A Short History Of Space and Time’.
 
   LONDON (Reuters) -- One man was killed and two others badly
   injured in a car crash in Cambridge on Tuesday. The dead man
@@ -151,7 +153,7 @@ date: 2006-04-01 15:00:00 +0000
 
   LONDON (AP) -- Traffic in the centre of London was held up for
   several hours on Tuesday afternoon when a cameleopard escaped
-  from the vehicle that was transporting it to the Regent's Park
+  from the vehicle that was transporting it to the Regent’s Park
   zoo.
 
 **Dimension 9 -- Entropy**
@@ -177,3 +179,4 @@ date: 2006-04-01 15:00:00 +0000
   universe -- swirl on in their own mysterious shifting of
   potentials until at last, and immediately, separating membranes
   spin yet another bubble universe into being.
+  
