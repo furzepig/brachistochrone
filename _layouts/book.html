@@ -6,6 +6,9 @@ layout: default
   {% if page.subtitle %}
   <h2>{{ page.subtitle }}</h2>
   {% endif %}
+  {% if page.horus %}
+  <h2>The Horus Heresy, Book {{ page.horus }}</h2>
+  {% endif %}
   <h3>{{ page.author }}</h3>
 </header>
 <img class="bookimage" src="/images/books/{{ page.year }}/{{ page.image }}" alt="Book cover of {{ page.title }}"/>
