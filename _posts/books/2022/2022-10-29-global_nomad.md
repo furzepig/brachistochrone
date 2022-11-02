@@ -1,8 +1,9 @@
 ---
 layout: book
 category: books
-title: Global Nomad
+title: Nomad Century
+subtitle: How to Survive the Climate Upheaval
 author: Gaia Vince
 year: 2022
-image: gn.jpg
+image: nc.jpg
 ---
