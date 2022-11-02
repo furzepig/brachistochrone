@@ -1,0 +1,18 @@
+---
+layout: default
+category: "book"
+---
+{% assign series_books = site.categories['book'] | sort:"index" | reverse | where: "series", "Horus Heresy" %}
+
+{% for post in series_books %}
+
+  <a href="{{ post.url }}" title="{{ post.name }}">
+  
+    <div class="divlink">
+    {{ post.name }}
+    <div class="linkinfo">{{ post.index }} | {{ post.index }}</div> 
+
+    </div>
+  </a>
+ 
+{% endfor %}
