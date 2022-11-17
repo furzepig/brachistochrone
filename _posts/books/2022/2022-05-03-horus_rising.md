@@ -3,7 +3,8 @@ layout: book
 category: books
 title: Horus Rising
 subtitle: "The seeds of heresy are sown"
-horus: 1
+index: 1
+series: "Horus Heresy"
 author: Dan Abnett
 year: 2022
 image: hr.jpg
