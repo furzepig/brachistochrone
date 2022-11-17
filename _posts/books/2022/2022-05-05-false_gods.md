@@ -3,7 +3,8 @@ layout: book
 category: books
 title: False Gods
 subtitle: The heresy takes root
-horus: 2
+index: 2
+series: "Horus Heresy"
 author: Graham MacNeill
 year: 2022
 image: fg.jpg
