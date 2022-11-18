@@ -1,7 +1,7 @@
 import csv
 import datetime
 
-ifile = open('/home/john/hh.csv', "r")
+ifile = open('/home/john/series.csv', "r")
 reader = csv.reader(ifile)
 print 'hello'
 # initialization and declaration of variables
@@ -11,6 +11,7 @@ title = 0
 author = 0
 subtitle = 0
 year = 1999
+series = "Horus Heresy"
 
 for row in reader:
     colnum = 0
@@ -39,7 +40,7 @@ for row in reader:
     file.write("title: " + title + "\n")
     file.write("subtitle: " + subtitle + "\n")
     file.write("author: " + author + "\n")
-    file.write("series: Horus Heresy\n")
+    file.write("series: " + series + "\n")
     file.write("year: unread\n")
     file.write("index: " + index + "\n")
     file.write("image: " + imagename + ".jpg\n")
