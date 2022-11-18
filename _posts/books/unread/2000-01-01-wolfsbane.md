@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Wolfsbane
 subtitle: .
 author: Guy Haley
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 49
+image: w.jpg
 ---

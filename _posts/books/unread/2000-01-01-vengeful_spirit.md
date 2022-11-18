@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Vengeful Spirit
 subtitle: .
-author: Guy Haley
+author: Graham McNeill
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 29
+image: vs.jpg
 ---

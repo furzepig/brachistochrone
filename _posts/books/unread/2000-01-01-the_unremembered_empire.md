@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: The Unremembered Empire
 subtitle: .
-author: Guy Haley
+author: Dan Abnett
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 27
+image: tue.jpg
 ---

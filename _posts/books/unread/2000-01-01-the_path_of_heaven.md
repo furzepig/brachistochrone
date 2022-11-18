@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: The Path of Heaven
 subtitle: .
-author: Guy Haley
+author: Chris Wraight
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 36
+image: tpoh.jpg
 ---

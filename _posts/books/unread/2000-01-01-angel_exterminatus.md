@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Angel Exterminatus
 subtitle: .
-author: Guy Haley
+author: Graham McNeill
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 23
+image: ae.jpg
 ---

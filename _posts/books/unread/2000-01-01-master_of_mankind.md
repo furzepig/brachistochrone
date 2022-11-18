@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Master of Mankind
 subtitle: .
-author: Guy Haley
+author: Aaron Dembski-Bowden
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 41
+image: mom.jpg
 ---

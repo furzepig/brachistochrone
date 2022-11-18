@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: The Damnation of Pythos
 subtitle: .
-author: Guy Haley
+author: David Annandale
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 30
+image: tdop.jpg
 ---

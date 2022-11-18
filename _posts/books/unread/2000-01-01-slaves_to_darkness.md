@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Slaves to Darkness
 subtitle: .
-author: Guy Haley
+author: John French
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 51
+image: std.jpg
 ---

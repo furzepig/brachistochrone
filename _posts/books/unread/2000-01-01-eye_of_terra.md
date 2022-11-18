@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Eye of Terra
 subtitle: .
-author: Guy Haley
+author: Various
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 35
+image: eot.jpg
 ---

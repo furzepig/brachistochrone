@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Angels of Caliban
 subtitle: .
-author: Guy Haley
+author: Gav Thorpe
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 38
+image: aoc.jpg
 ---

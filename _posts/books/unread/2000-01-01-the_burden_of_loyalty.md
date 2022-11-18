@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: The Burden of Loyalty
 subtitle: .
-author: Guy Haley
+author: Various
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 48
+image: tbol.jpg
 ---

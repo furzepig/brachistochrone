@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Praetorian of Dorn
 subtitle: .
-author: Guy Haley
+author: John French
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 39
+image: pod.jpg
 ---

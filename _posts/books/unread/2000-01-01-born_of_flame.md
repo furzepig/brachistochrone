@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Born of Flame
 subtitle: .
-author: Guy Haley
+author: Nick Kyme
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 50
+image: bof.jpg
 ---

@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Heralds of the Siege
 subtitle: .
-author: Guy Haley
+author: Various
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 52
+image: hots.jpg
 ---

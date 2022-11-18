@@ -1,11 +1,11 @@
 ---
 layout: book
 category: books
-title: Titandeath
+title: Vulkan Lives
 subtitle: .
-author: Guy Haley
+author: Nick Kyme
 series: Horus Heresy
 year: unread
-index: 53
-image: t.jpg
+index: 26
+image: vl.jpg
 ---
