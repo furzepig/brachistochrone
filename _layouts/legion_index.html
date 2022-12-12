@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign sorted_posts = site.categories[page.category]  | sort: 'number' %}
+{% assign sorted_posts = site.categories["legions"]  | sort: 'number' %}
 {% for post in sorted_posts %}
 
   <a href="{{ post.url }}" title="{{ post.name }}">
