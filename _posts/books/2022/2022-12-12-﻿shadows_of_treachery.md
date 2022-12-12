@@ -5,7 +5,7 @@ title: ﻿Shadows of Treachery
 subtitle: .
 author: Various
 series: Horus Heresy
-year: unread
+year: 2022
 index: 22
 image: ﻿ot.jpg
 ---

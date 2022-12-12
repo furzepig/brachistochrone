@@ -1,9 +1,9 @@
 import csv
 import datetime
 
-ifile = open('/home/john/hh.csv', "r")
+ifile = open('./hh.csv', "r")
 reader = csv.reader(ifile)
-print 'hello'
+print('hello')
 # initialization and declaration of variables
 rownum = 0
 readdate = 0
@@ -31,7 +31,7 @@ for row in reader:
     filetitle=title.lower().replace(" ","_")
     print(readdate, author, title)
     # filename=datetime.datetime.strptime(readdate, '%d/%m/%Y').strftime('%Y-%m-%d')+"-"+filetitle+".md"
-    filename="2000-01-01"-"+filetitle+".md"
+    filename="2000-01-01-"+filetitle+".md"
     file = open("/home/john/brachistochrone/_posts/books/unread/"+filename,"w") 
     file.write("---\n") 
     file.write("layout: book\n") 
