@@ -6,10 +6,9 @@ layout: default
 {% for post in sorted_posts %}
 
   <a href="{{ post.url }}" title="{{ post.name }}">
-	<div class="divlink">
-    {{ post.number }}
-		{{ post.name }}
-    {{ post.primarch }}
-	</div>
-	</a>
+    <div class="divlink">
+      {{ post.numeral }} - {{ post.name }}
+      <div class="linkinfo">{{ post.primarch }}</div> 
+    </div>
+  </a>
 {% endfor %}
