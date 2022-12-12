@@ -5,7 +5,7 @@ title: Angel Exterminatus
 subtitle: .
 author: Graham McNeill
 series: Horus Heresy
-year: unread
+year: 2023
 index: 23
 image: ae.jpg
 ---
