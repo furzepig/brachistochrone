@@ -13,7 +13,8 @@ category: "books"
     {% else %}
       <div class="divlink">
     {% endif %}
-      <div class="linkinfo">{{ post.index }}. {{ post.title }}</div> 
+      {{ post.index }}. {{ post.title }}
+      <div class="linkinfo">{{ post.author }}</div> 
     </div>
   </a>
  
