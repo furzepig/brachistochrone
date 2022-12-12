@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<header>
+  <h1>{{ page.numeral }} - {{ page.name }}</h1>
+</header>
+  <table>
+    <tr>
+    
+      <td>Primarch</td><td>{{ page.primarch }}</td>
+      <td>Homeworld</td><td>{{ page.homeworld }}</td>
+      <td>Loyalty</td><td>{{ page.loyalty }}</td>
+    </tr>
+    
+  </table>
+<img class="bookimage" src="/images/legions/{{ page.image }}"/>
+<div>
+  {{ content }}
+</div>
