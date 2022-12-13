@@ -2,20 +2,14 @@
 layout: default
 ---
 <header>
-  <h1>{{ page.numeral }}</h1>
-  <h1>{{ page.name }}</h1>
+  <h1>{{ page.numeral }} - {{ page.name }}</h1>
 </header>
 
   <img class="bookimage" src="/images/legions/{{ page.image }}"/>
 
-  <div class="itemtitle">Primarch</div>
-  <div class="itemtext">{{ page.primarch }}</div>
-
-  <div class="itemtitle">Homeworld</div>
-  <div class="itemtext">{{ page.homeworld }}</div>
-
-  <div class="itemtitle">Loyalty</div>
-  <div class="itemtext">{{ page.loyalty }}</div>
+  <div class="itemtitle">Primarch <span class="itemtext">{{ page.primarch }}</span</div>
+  <div class="itemtitle">Homeworld <span class="itemtext">{{ page.homeworld }}</span</div>
+  <div class="itemtitle">Loyalty <span class="itemtext">{{ page.loyalty }}</span</div>
 
 <div>
   {{ content }}
