@@ -1,11 +1,11 @@
 ---
 layout: legion
 category: legions
-name: Dark Angel
+name: Dark Angels
 number: 1
 numeral: I
 primarch: Lion El'Jonson
 homeworld: Caliban
 loyalty: Loyal
-image: dark_angel.jpg
+image: dark_angels.jpg
 ---
