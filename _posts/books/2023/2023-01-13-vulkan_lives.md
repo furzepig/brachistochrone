@@ -2,10 +2,10 @@
 layout: book
 category: books
 title: Vulkan Lives
-subtitle: .
+subtitle: Unto the Anvil
 author: Nick Kyme
 series: Horus Heresy
-year: unread
+year: 2023
 index: 26
 image: vl.jpg
 ---
