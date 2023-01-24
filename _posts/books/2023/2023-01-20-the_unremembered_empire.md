@@ -2,10 +2,9 @@
 layout: book
 category: books
 title: The Unremembered Empire
-subtitle: .
 author: Dan Abnett
 series: Horus Heresy
-year: unread
+year: 2023
 index: 27
 image: tue.jpg
 ---
