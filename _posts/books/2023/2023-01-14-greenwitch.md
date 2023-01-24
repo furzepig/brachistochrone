@@ -4,5 +4,5 @@ category: books
 title: Greenwitch
 author: Susan Cooper
 year: 2023
-image: g.jpg
+image: greenwitch.jpg
 ---
