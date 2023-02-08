@@ -4,7 +4,7 @@ category: "40K"
 title: "Campaign Books"
 ---
 
-## Horus Heresy Black Books (2012) ##
+*Horus Heresy Black Books* (2012)
 1 Betrayal  
 2 Massacre  
 3 Extermination  
