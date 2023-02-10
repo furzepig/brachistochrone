@@ -8,7 +8,7 @@ creator: "John Hulme"
 date: 2006-02-01 15:00:00 +0000
 ---
 
-  Mrs Fraser’s mid-afternoon meditation is interrupted. In her
+  <span class='firstcharacter'>M</span>rs Fraser’s mid-afternoon meditation is interrupted. In her
   sitting room, behind white voiles she sits watching Lorna, just
   as she does every day. This afternoon the caption on the screen
   reads ‘My boyfriend cheated on me with his wife and I want
