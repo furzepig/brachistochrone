@@ -9,6 +9,19 @@ body {
 	font-family: 'Georgia', serif;	
 }
 
+.story p:first-child::first-letter {
+  color: hotpink;
+  padding: 0 .3rem;
+  margin: 0 .3rem 0 0;
+  border: 2px solid;
+  border-radius: 8px;
+  font-family: "IBM Plex Mono", monospace;
+
+  font-size: 4rem;
+  float: left;
+  line-height: 1;
+}
+
 header {
 	margin-bottom:1.5em;	
 }
@@ -294,10 +307,6 @@ blockquote {
   text-decoration: none;
   color: #aaa;
   margin-top: 2em;
-}
-
-p:first-child::first-letter {
-  initial-letter: 2;
 }
 
 li {
