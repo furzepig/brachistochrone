@@ -296,6 +296,9 @@ blockquote {
   margin-top: 2em;
 }
 
+p:first-child:first-letter {
+  initial-letter: 2;
+}
 
 li {
 	margin-left:-40px;
