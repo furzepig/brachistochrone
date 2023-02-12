@@ -5,7 +5,7 @@ title: The Damnation of Pythos
 subtitle: .
 author: David Annandale
 series: Horus Heresy
-year: unread
+year: 2023
 index: 30
 image: tdop.jpg
 ---
