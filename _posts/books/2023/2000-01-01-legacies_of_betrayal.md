@@ -5,7 +5,7 @@ title: Legacies of Betrayal
 subtitle: .
 author: Various
 series: Horus Heresy
-year: unread
+year: 2023
 index: 31
 image: lob.jpg
 ---
