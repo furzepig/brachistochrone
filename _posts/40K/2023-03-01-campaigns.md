@@ -1,6 +1,6 @@
 ---
 title: "40K Campaigns"
 layout: index_of_series
-category: "gamebooks"
+category: "40K"
 type: campaign
 ---
