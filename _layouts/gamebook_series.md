@@ -2,7 +2,7 @@
 layout: default
 category: "gamebooks"
 ---
-{% assign series_books = site.categories['gamebooks'] | sort: "index" | where: "type", "campaign" %}
+{% assign series_books = site.categories['gamebooks'] | sort: "index" | where: "type", page.type %}
 
 {% for post in series_books %}
 
