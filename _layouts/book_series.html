@@ -2,7 +2,7 @@
 layout: default
 category: "books"
 ---
-{% assign series_books = site.categories['books'] | sort: "index" | where: "series", "Horus Heresy" %}
+{% assign series_books = site.categories['books'] | sort: "index" | where: "series", page.series %}
 
 {% for post in series_books %}
 
