@@ -2,8 +2,15 @@
 layout: default
 category: "gamebooks"
 ---
-{% assign postsBySeries = site.categories[page.category] | group_by:"series" %}
 
-{% for series in postsBySeries %}
-{{ series.name }}
+{% assign series_books = site.categories['gamebooks'] | sort: "index" | where: "series", page.series %}
+
+{% for post in series_books %}
+
+  <a href="{{ post.url }}" title="{{ post.title }}">
+    <div class="divlink">
+      {{ post.index }}. {{ post.title }}
+    </div>
+  </a>
+ 
 {% endfor %}
