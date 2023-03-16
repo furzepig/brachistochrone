@@ -3,7 +3,17 @@ layout: default
 category: "gamebooks"
 ---
 
+{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: page.series %}
 {% assign series_books = site.categories['gamebooks'] | where: "type", page.type %}
+
+
+
+{% for series in series_List %}
+  
+  <div class="divlink">
+        <div class="linkinfo">{{ series.name }}</div> 
+  </div>
+{% endfor %}
 
 {% for post in series_books %}
 
