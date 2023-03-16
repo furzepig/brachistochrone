@@ -8,8 +8,14 @@ category: "gamebooks"
 {% for post in series_books %}
 
   <a href="{{ post.url }}" title="{{ post.title }}">
-    <div class="divlink">
+    
+    {% if post.year == "unread" %}
+      <div class="fadelink">
+    {% else %}
+      <div class="divlink">
+    {% endif %}
       {{ post.index }}. {{ post.title }}
+      <div class="linkinfo">{{ post.author }}</div> 
     </div>
   </a>
  
