@@ -3,7 +3,7 @@ layout: default
 category: "gamebooks"
 ---
 
-{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: page.series %}
+{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: "series" %}
 {% assign series_books = site.categories['gamebooks'] | where: "type", page.type %}
 
 
