@@ -3,7 +3,7 @@ layout: default
 category: "gamebooks"
 ---
 
-{% assign series_books = site.categories['gamebooks'] | sort: "index" | where: "series", page.series %}
+{% assign series_books = site.categories['gamebooks'] | sort: "index" | where: "type", page.type %}
 
 {% for post in series_books %}
 
@@ -14,8 +14,8 @@ category: "gamebooks"
     {% else %}
       <div class="divlink">
     {% endif %}
+      <div class="linkinfo">{{ post.series }}</div> 
       {{ post.index }}. {{ post.title }}
-      <div class="linkinfo">{{ post.author }}</div> 
     </div>
   </a>
  
