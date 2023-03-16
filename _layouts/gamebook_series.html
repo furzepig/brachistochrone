@@ -3,14 +3,15 @@ layout: default
 category: "gamebooks"
 ---
 
-{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: "series" | sort: "index" %}
+{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: "series" %}
 
 {% for series in series_List %} 
   <div class="divlink">
     {{ series.name }}
   </div> 
-  
-  {% for book in series.items %}
+   
+ {% assign books = series.items | sort: 'index' %}
+ {% for book in books %}
   <div class="fadelink">
     <div class="linkinfo">
       {{ book.index }}. {{ book.title }} 
