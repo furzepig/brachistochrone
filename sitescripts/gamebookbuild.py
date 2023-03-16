@@ -3,7 +3,11 @@ import datetime
 
 ifile = open('/home/john/bookdata/gamebooks.csv', "r")
 reader = csv.reader(ifile)
+<<<<<<< HEAD
 print('hello')
+=======
+print 'hello'
+>>>>>>> f1cae0f9437b9d027a6a76440d436eb7c7b58641
 # initialization and declaration of variables
 rownum = 0
 readdate = 0
@@ -27,9 +31,15 @@ for row in reader:
             index = col
         colnum += 1
 
+<<<<<<< HEAD
     if ( len(title.split())>1 ):
       imagename = "".join(item[0].lower() for item in title.split())
     else:
+=======
+    if (if len(title.split())>1 )
+      imagename = "".join(item[0].lower() for item in title.split())
+    else
+>>>>>>> f1cae0f9437b9d027a6a76440d436eb7c7b58641
       imagename = title
 
     filetitle=title.lower().replace(" ","_")

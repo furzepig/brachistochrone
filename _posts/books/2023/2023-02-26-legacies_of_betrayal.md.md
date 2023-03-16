@@ -1,8 +1,7 @@
 ---
 layout: book
 category: books
-title: Legacies of Betrayal
-subtitle: .
+title: Legacies of Betrayal.md
 author: Various
 series: Horus Heresy
 year: 2023

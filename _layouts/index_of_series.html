@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% assign postsBySeries = site.categories["gamebooks"] | group_by:"series" %}
+
+{% for series in postsBySeries %}
+
+  <a href="/{{ page.category }}/{{ page.type }}/{{ series.name  }}.html" title="{{ series.name }}">
+   <div class="divlink">
+      {{ series.name }}
+    </div>
+  </a>
+ {% endfor %}

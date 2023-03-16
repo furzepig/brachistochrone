@@ -2,10 +2,10 @@
 layout: book
 category: books
 title: Deathfire
-subtitle: .
+subtitle: Into the Ruinstorm
 author: Nick Kyme
 series: Horus Heresy
-year: unread
+year: 2023
 index: 32
-image: d.jpg
+image: deathfire.jpg
 ---
