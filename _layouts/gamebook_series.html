@@ -3,36 +3,18 @@ layout: default
 category: "gamebooks"
 ---
 
-{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: "series" %}
-{% assign series_books = site.categories['gamebooks'] | where: "type", page.type %}
+{% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: "series" | sort: "index" %}
 
-
-
-{% for series in series_List %}
-  
+{% for series in series_List %} 
   <div class="divlink">
     {{ series.name }}
-    
+  </div> 
+  
+  {% for book in series.items %}
+  <div class="fadelink">
     <div class="linkinfo">
-      {% for book in series.items %}
-      {{ book.index }}. {{ book.title }}</br>
-      {% endfor %}
+      {{ book.index }}. {{ book.title }} 
     </div> 
   </div>
-{% endfor %}
-
-{% for post in series_books %}
-
-  <a href="{{ post.url }}" title="{{ post.title }}">
-    
-    {% if post.year == "unread" %}
-      <div class="fadelink">
-    {% else %}
-      <div class="divlink">
-    {% endif %}
-      <div class="linkinfo">{{ post.series }}</div> 
-      {{ post.index }}. {{ post.title }}
-    </div>
-  </a>
- 
+  {% endfor %}
 {% endfor %}
