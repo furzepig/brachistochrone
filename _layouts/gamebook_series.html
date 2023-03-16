@@ -11,7 +11,13 @@ category: "gamebooks"
 {% for series in series_List %}
   
   <div class="divlink">
-        <div class="linkinfo">{{ series.name }}</div> 
+    {{ series.name }}
+    
+    <div class="linkinfo">
+      {% for book in series.items %}
+      {{ book.index }}. {{ book.title }}</br>
+      {% endfor %}
+    </div> 
   </div>
 {% endfor %}
 
