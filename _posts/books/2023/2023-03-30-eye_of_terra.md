@@ -5,7 +5,7 @@ title: Eye of Terra
 subtitle: .
 author: Various
 series: Horus Heresy
-year: unread
+year: 2023
 index: 35
 image: eot.jpg
 ---
