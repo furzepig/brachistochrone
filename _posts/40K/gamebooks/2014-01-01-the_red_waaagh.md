@@ -5,7 +5,7 @@ title: The Red Waaagh!
 type: campaign
 series: Sanctus Reach
 year: 2012
-owned: true
+status: owned
 index: 1
 image: trw.jpg
 ---
