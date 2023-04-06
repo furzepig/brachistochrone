@@ -12,7 +12,7 @@ category: "gamebooks"
    
  {% assign books = series.items | sort: 'index' %}
  {% for book in books %}
-    {% if book.owned == "yes" %}
+    {% if book.owned == "true" %}
       <div class="divlink">
     {% else %}
       <div class="fadelink">
