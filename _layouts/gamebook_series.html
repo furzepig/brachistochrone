@@ -17,9 +17,7 @@ category: "gamebooks"
     {% else %}
       <div class="fadelink">
     {% endif %}
-    <div class="linkinfo">
-      {{ book.index }}. {{ book.title }} 
-    </div> 
+      {{ book.index }}. {{ book.title }} .{{ book.owned }}
   </div>
   {% endfor %}
 {% endfor %}
