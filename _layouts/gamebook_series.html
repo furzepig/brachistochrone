@@ -6,7 +6,7 @@ category: "gamebooks"
 {% assign series_List = site.categories['gamebooks'] | where: "type", page.type % | group_by: "series" %}
 
 {% for series in series_List %} 
-  <div class="divlink">
+  <div class="smallLinkButton_active">
     {{ series.name }}
   </div> 
    
