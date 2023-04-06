@@ -5,7 +5,7 @@ title: The Path of Heaven
 subtitle: .
 author: Chris Wraight
 series: Horus Heresy
-year: unread
+year: 2023
 index: 36
 image: tpoh.jpg
 ---
