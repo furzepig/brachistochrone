@@ -12,7 +12,11 @@ category: "gamebooks"
    
  {% assign books = series.items | sort: 'index' %}
  {% for book in books %}
-  <div class="fadelink">
+    {% if book.owned == "yes" %}
+      <div class="divlink">
+    {% else %}
+      <div class="fadelink">
+    {% endif %}
     <div class="linkinfo">
       {{ book.index }}. {{ book.title }} 
     </div> 
