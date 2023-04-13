@@ -5,7 +5,7 @@ title: Praetorian of Dorn
 subtitle: .
 author: John French
 series: Horus Heresy
-year: unread
+year: 2023
 index: 39
 image: pod.jpg
 ---
