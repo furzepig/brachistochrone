@@ -3,7 +3,7 @@ import datetime
 
 ifile = open('/home/john/bookdata/books.csv', "r")
 reader = csv.reader(ifile)
-print 'hello'
+print('hello')
 # initialization and declaration of variables
 rownum = 0
 readdate = 0
@@ -24,7 +24,7 @@ for row in reader:
             author = col
         if colnum == 3:
             readdate = col
-	if colnum == 4:
+        if colnum == 4:
             year = col
         colnum += 1
 
