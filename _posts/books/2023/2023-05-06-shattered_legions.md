@@ -5,7 +5,7 @@ title: Shattered Legions
 subtitle: .
 author: Various
 series: Horus Heresy
-year: unread
+year: 2023
 index: 43
 image: sl.jpg
 ---
