@@ -6,6 +6,6 @@ subtitle:
 author: Dan Abnett
 series: Siege of Terra
 index: 12
-year: 2023
+year: unread
 image: teatdv2.jpg
 ---
