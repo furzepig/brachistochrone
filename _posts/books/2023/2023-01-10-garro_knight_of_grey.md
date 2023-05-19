@@ -1,9 +1,9 @@
 ---
 layout: book
 category: books
-title: Garro: Knight of Grey
+title: "Garro: Knight of Grey"
 subtitle: 
 author: James Swallow
-year: 2023
+year: unread
 image: gkog.jpg
 ---
