@@ -75,3 +75,4 @@ A door opens somewhere off to his right and Phill breaks off his bear hug and lo
 ‘They smile when they are low,’ he sings softly to his reflection and feels a little better. He decides to put on a bravura performance when doing the interview tomorrow -- really go to town. If necessary he will adlib a little about the brown tide surging across the southern border and the homocentric media. Yes, tomorrow he will show all of them what he is made of and silence their carping and their backbiting; tomorrow and the next night and the one after that.
 
 After all he is a showman and the show must go on.
+
