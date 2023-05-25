@@ -26,6 +26,7 @@ They really were out on the edge she thought, far away from the relentless real 
 
 ‘Now since when has Tom Cruise been a black man?’ he laughed.
   
+$~$
   
 She was still not sure what had taken her there on the day they first met. It was some half-formed idea of catching David at his infidelity she thought. It seemed like a very American thing to do, to hire a private investigator. But that hadn’t really been what she wanted. She really just wanted to tell someone about it - someone that she could trust - someone that she either knew really well, or not at all. The brittle friendships that she had built with the people she had met through David didn’t seem capable of bearing the load. So she had chosen a name from the business pages, taken a cab to the office and headed for the door full of confused purpose. Then she had seen the little sign in the window and all at once there was a way out.  
 
@@ -66,7 +67,9 @@ He told her that some days he felt so old he could be her grandfather.
 She told him how she had followed David to Seattle. His research opportunity too good to pass up, her own doctorate put on hold.
 
 Those first days had a thin, borrowed quality. It was like they were living in a bubble that could burst at any moment. But the bubble didn’t burst. The days had turned into weeks and she had stayed.  
-
+  
+$~$
+  
 Jackson was impressed by how fast she learned - how good she was at certain things that he had always had trouble with. He found that it was a lot cheaper for pretty Sam with her English accent to charm the doormen at the expensive apartment blocks than it was for him to bribe them.  
 
 Sam had trusted him completely and immediately, and then doubted her own judgement just as quickly. But each day she found herself moving a little closer towards her original, unconditional trust.  
@@ -78,9 +81,9 @@ He lived in a little house in Edmonds. The daily commute enraged him.
 They never saw each other outside of work.  
 
 They worked a lot.
-
- 
-
+  
+$~$
+  
 ‘It’s here,’ she said, pointing to a turnoff outside 
 the little town of Queets. She held the client’s map against a much smaller scale road map. The client’s map had been put carefully inside a plastic folder Jackson noted.  
 
@@ -97,16 +100,14 @@ He insisted on translating everything into metric measures for her. It was unnec
 Sam studied the client’s map again, ‘It’s about five kilometres up here and then we turn left onto a logging track.’
 
  Jackson looked at her, ‘That’s about three miles,’ she said.
-
- 
-
-The client, Mrs Cameron, was an overweight woman in her 
-late middle age who walked with a stick. She had come to the office on the previous morning having just flown in to Seattle. Sam had learned that Jackson was right -- it was unusual when people came to the office in person.  
+  
+$~$
+  
+The client, Mrs Cameron, was an overweight woman in her late middle age who walked with a stick. She had come to the office on the previous morning having just flown in to Seattle. Sam had learned that Jackson was right -- it was unusual when people came to the office in person.  
 
 ‘She looks like a crier,’ Jackson whispered to Sam as they went into the office, so Sam sat facing her, almost knee to knee and Jackson perched on the desk beside her, taking note of the location of the box of Kleenex.  
 
-‘It’s my --,’ began Mrs Cameron and then she paused for a 
-long time, ‘My friend,’ she said at last, ‘he died.’  
+‘It’s my —,’ began Mrs Cameron and then she paused for a long time, ‘My friend,’ she said at last, ‘he died.’  
 
 Jackson had watched as Sam took the woman’s wrist. It was a reflex action. Her first instinct had been to reach out to the grieving woman. It was not something he would have done himself he thought. Not something he could have done. Compassion wasn’t something you could learn he knew. Or fake.  
 
@@ -125,11 +126,10 @@ Sam looked at Jackson. She wondered how he felt about the dead draft dodger. His
 ‘What did he leave Mrs Cameron?’ Sam asked soothingly as she gave Jackson a disapproving look.  
 
 ‘His brother’s Purple Heart. He wanted to be buried with it.’
-
- 
-
-Jackson said they would take the case, which surprised 
-Sam a little. He said there would be no fee if they were unsuccessful, which did not.  
+  
+$~$
+  
+Jackson said they would take the case, which surprised Sam a little. He said there would be no fee if they were unsuccessful, which did not.  
 
 ‘It beats following adulterers and malingerers. When you’ve been doing this as long as I have, you’ll know that unusual cases don’t come along that often.’  
 
@@ -140,13 +140,12 @@ Mrs Cameron had provided them with an old forest ranger’s map that had the loc
 ‘I’ll do it,’ said Sam. ‘You don’t have to hold my hand all the time.’  
 
 ‘Interesting cases don’t come along that often,’ he repeated, ‘besides, I could use the fresh air.’
+  
+$~$
+  
+The next morning she had shown up at the office dressed in hiking clothes. They suited her he thought.  
 
- 
-
-The next morning she had shown up at the office dressed 
-in hiking clothes. They suited her he thought.  
-
-‘Which is better, hiking boots or Wellingtons?’ she asked.  
+‘Which is better, hiking boots or wellingtons?’ she asked.  
 
 ‘Well-ing-tons?’ he said in amazement, suddenly sounding very American, ‘What are well-ing-tons?’ He laughed when she told him. She thought that they had long ago exhausted the differences between British English and American English that seemed to please him so much.  
 
