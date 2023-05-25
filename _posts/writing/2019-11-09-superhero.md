@@ -255,10 +255,9 @@ moved out --
   hear Dev coming up the stairs after me, screaming something
   about the balustrade, begging me to get out of there.
 
-  \np After I began at the institute full time, I sometimes 
-helped Jim
-  on his talent scouting expeditions. The first time was when he
-  found Dev.
+<br>
+
+After I began at the institute full time, I sometimes helped Jim on his talent scouting expeditions. The first time was when he found Dev.
 
   Dev was eighteen before Jim noticed him sitting outside the
   British Museum one morning. We spent nearly a fortnight tailing
@@ -278,24 +277,11 @@ helped Jim
   Newmarket I felt like a chapter of my life had closed, like I
   really belonged somewhere for the first time in my life.
 
-  \np The panels in the bathroom door are broken, as if they 
-have been
-  punched out from the inside. I yank the door open and some of it
-  comes away in my hand and the rest falls to the floor, exposing
-  the full horror of the destruction. It looks like everything
-  has been smashed and then burned and then smashed again,
+<br>
 
-  There's a tangle of branches in the bath and a strange sort of
-  greasy film on the tiles and then I look and I see that
-  something has actually melted parts of the pink plastic of the
-  bath and that some of the branches have gone through it and
-  some of them have been bonded into it and then I see that they
-  are not branches but bones and I know that they are Eileen's
-  bones and Jim's bones, blackened and burned and melted together
-  with the pink plastic of the bath and the yellow duck that
-  Eileen had kept since she was a child and the non-slip patches
-  that Jim stuck on after the time he slipped and knocked his
-  hip.
+The panels in the bathroom door are broken, as if they have been punched out from the inside. I yank the door open and some of it comes away in my hand and the rest falls to the floor, exposing the full horror of the destruction. It looks like everything has been smashed and then burned and then smashed again,
+
+  There's a tangle of branches in the bath and a strange sort of greasy film on the tiles and then I look and I see that something has actually melted parts of the pink plastic of the bath and that some of the branches have gone through it and some of them have been bonded into it and then I see that they are not branches but bones and I know that they are Eileen's bones and Jim's bones, blackened and burned and melted together with the pink plastic of the bath and the yellow duck that Eileen had kept since she was a child and the non-slip patches that Jim stuck on after the time he slipped and knocked his hip.
 
   I can feel Dev trying to pull me up, to take me out of there and
   that's when I realise that I'm kneeling on the floor with the
@@ -320,9 +306,9 @@ have been
   realise its me doing it and I can't stop. That's when Dev
   knocks me out.
 
-  \np I wake up in the passenger seat of Dev's Z3. It's 
-night. The
-  world outside is sodium darkness as we flash past a sign that
+<br>
+
+I wake up in the passenger seat of Dev's Z3. It's night. The world outside is sodium darkness as we flash past a sign that
   says Taunton, which means we're somewhere on the M5. Dev is
   driving fast and speaking into his hands free kit at the same
   time. He sounds tired and angry. After a moment I decide that
@@ -354,6 +340,5 @@ superhero. I
   through half-closed eyes. I can't talk to Dev yet -- can't think
   about what happens next.
 
-  All I can think about is that Jim and Eileen died today, and
-  they were the only real superheroes we ever had.
+  All I can think about is that Jim and Eileen died today, and they were the only real superheroes we ever had.
 
