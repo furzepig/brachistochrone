@@ -24,8 +24,9 @@ They really were out on the edge she thought, far away from the relentless real 
 
 ‘Very Tom Cruise,’ she teased.  
 
-‘Now since when has Tom Cruise been a black man?’ he laughed.  
-
+‘Now since when has Tom Cruise been a black man?’ he laughed.
+  
+  
 She was still not sure what had taken her there on the day they first met. It was some half-formed idea of catching David at his infidelity she thought. It seemed like a very American thing to do, to hire a private investigator. But that hadn’t really been what she wanted. She really just wanted to tell someone about it - someone that she could trust - someone that she either knew really well, or not at all. The brittle friendships that she had built with the people she had met through David didn’t seem capable of bearing the load. So she had chosen a name from the business pages, taken a cab to the office and headed for the door full of confused purpose. Then she had seen the little sign in the window and all at once there was a way out.  
 
 ‘It’s my boyfriend,’ she had said, ‘He’s cheating on me.’  
@@ -44,10 +45,7 @@ It was unusual for people to turn up at the office in person these days, Jackson
 
 ‘Is that why the place is such a mess?’ she asked him. And it was. But when she came back for her first proper day at work the office was tidy. The scattered files had been put away, the water cooler had been refilled and there were new plants on the windowsill.
 
- 
-
-He had explained to her the three basic kinds of 
-extra-marital affair and the five most common types of client.  
+He had explained to her the three basic kinds of extra-marital affair and the five most common types of client.  
 
 She discovered why the water cooler wasn’t working properly and fixed it. She explained the first three laws of thermodynamics to him as she did so.  
 
