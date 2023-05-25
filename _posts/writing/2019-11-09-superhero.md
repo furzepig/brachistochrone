@@ -6,8 +6,7 @@ permalink: superhero.html
 category: writing
 creator: "John Hulme"
 ---
-
-By the time we got to Jim and Eileen's house it was all over.
+  <span class='firstcharacter'>B</span>y the time we got to Jim and Eileen's house it was all over.
   The Renault Espace on their block-paved driveway was crushed
   like a coke can. The rubber seals from the windows of the
   ruined car had popped out at odd angles like empty speech
@@ -32,11 +31,9 @@ By the time we got to Jim and Eileen's house it was all over.
   him, but I couldn't think about the words. All I could think
   about was Eileen and Jim.
 
-  I first met Jim in Tower Records. He bumped into me --
-  deliberately of course, but how was I to know at the time? I
-  was sixteen, frightened at home, fed up at school and sick of
-  reading problem pages that said 'don't feel so alone, you're
-  not the only one' before watching the paper tear itself to
+<br>
+
+  I first met Jim in Tower Records. He bumped into me, deliberately of course, but how was I to know at the time? I was sixteen, frightened at home, fed up at school and sick of reading problem pages that said 'don't feel so alone, you're not the only one' before watching the paper tear itself to
   shreds. I was reading the back of a CD -- a Japanese import of
   'Check Your Head' by the Beastie Boys -- trying to compare the
   track list with the one I had in my head of the non-Japanese
@@ -109,7 +106,9 @@ By the time we got to Jim and Eileen's house it was all over.
   the day my life changed forever. More than that -- it was the day
   my life began.
 
-  \np The wallpaper is torn off in the hallway -- two neat 
+<br>
+
+The wallpaper is torn off in the hallway -- two neat 
 strips about
   a foot wide, torn off at the same height all the way from the
   front door to the kitchen door. I can smell burning. I go into
@@ -136,11 +135,9 @@ strips about
   little dining room, which is empty and apparently intact and
   then fling open the door to the kitchen.
 
-  \np Jim told me that it normally begins around about the 
-time you
-  start to lose your first milk teeth. That made sense to me. I
-  didn't have many toys, but they always seemed to break very
-  quickly -- I had two amputee Action Men and this plastic
+<br>
+
+Jim told me that it normally begins around about the time you start to lose your first milk teeth. That made sense to me. I didn't have many toys, but they always seemed to break very quickly -- I had two amputee Action Men and this plastic
   spaceship with both of the wings broken off. Part of me knew
   right from the start, but there was another part that kidded
   myself that toys were badly made and things just broke
@@ -159,13 +156,9 @@ time you
   I could tell he was worried about me and that was a new thing
   and it felt good.
 
-  \np Eileen was very particular about the kitchen. It was 
-always tidy
-  and spotlessly clean. It was sixties vintage, or early
-  seventies, all pale blue greys and white Formica flecked with
-  black and grey and white tile-effect lino on the floor that Jim
-  was forever having to stick down where it curled up at the
-  corners.
+<br>
+
+Eileen was very particular about the kitchen. It was always tidy and spotlessly clean. It was sixties vintage, or early seventies, all pale blue greys and white Formica flecked with black and grey and white tile-effect lino on the floor that Jim was forever having to stick down where it curled up at the corners.
 
   Now I could barely recognise it.
 
@@ -203,10 +196,9 @@ always tidy
   the next bedroom and it's just the way I remember it -- my old
   room.
 
-  \np I lived here for five years. Jim brought me home that 
-first day
-  to meet Eileen. She made a meat and potato pie. Jim rang the
-  Institute, fixed up an appointment with Angela and told me not
+<br>
+
+I lived here for five years. Jim brought me home that first day to meet Eileen. She made a meat and potato pie. Jim rang the Institute, fixed up an appointment with Angela and told me not
   to worry -- it wasn't like a job interview, I couldn't fail it.
   Everyone there would want to help me, and maybe I could help
   them in return. I moved in a week later -- don't think my real
