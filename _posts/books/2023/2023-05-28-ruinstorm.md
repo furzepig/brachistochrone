@@ -5,7 +5,7 @@ title: Ruinstorm
 subtitle: .
 author: David Annandale
 series: Horus Heresy
-year: unread
+year: 2023
 index: 46
-image: r.jpg
+image: ruinstorm.jpg
 ---
