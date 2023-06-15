@@ -5,7 +5,7 @@ title: The Burden of Loyalty
 subtitle: .
 author: Various
 series: Horus Heresy
-year: unread
+year: 2023
 index: 48
 image: tbol.jpg
 ---
