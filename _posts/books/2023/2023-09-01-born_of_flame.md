@@ -5,7 +5,7 @@ title: Born of Flame
 subtitle: .
 author: Nick Kyme
 series: Horus Heresy
-year: unread
+year: 2023
 index: 50
 image: bof.jpg
 ---
