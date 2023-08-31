@@ -5,7 +5,7 @@ title: Wolfsbane
 subtitle: .
 author: Guy Haley
 series: Horus Heresy
-year: unread
+year: 2023
 index: 49
-image: w.jpg
+image: wolfsbane.jpg
 ---
