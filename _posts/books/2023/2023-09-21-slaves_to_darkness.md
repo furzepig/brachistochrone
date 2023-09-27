@@ -5,7 +5,7 @@ title: Slaves to Darkness
 subtitle: .
 author: John French
 series: Horus Heresy
-year: unread
+year: 2023
 index: 51
 image: std.jpg
 ---
