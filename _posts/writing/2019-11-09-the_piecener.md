@@ -7,7 +7,7 @@ category: writing
 creator: "John Hulme"
 ---
 
-Once, when very young on Dartford Span at Midsummer, she left
+<span class='firstcharacter'>O</span>nce, when very young on Dartford Span at Midsummer, she left
   her sister watching a gaudy Trickster show, and slipped through
   the crowds and the merchant stalls and came to the bridge rail
   and looked down to the wide grey river beneath. There was
