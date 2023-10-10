@@ -8,7 +8,7 @@ creator: "John Hulme"
 date: 2006-08-01 15:00:00 +0000
 ---
 
-Stuart was cleaning his teeth. He liked to start at the back on
+<span class='firstcharacter'>S</span>tuart was cleaning his teeth. He liked to start at the back on
 the right at the top and work round the whole top row before
 starting on the bottom. He knew that it was important to be
 methodical. As he spat into the sink and looked up again at the
