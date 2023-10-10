@@ -12,7 +12,7 @@ creator: "John Hulme"
 
 
 
-  Dirty money is clean money -- that's the most important thing to
+  <span class='firstcharacter'>D</span>irty money is clean money -- that's the most important thing to
   understand. If money is stained, wrinkled, crumpled, rusted,
   bent, dyed, burned or soiled it means that it's good. It means
   that it's been in circulation and its serial numbers are valid
