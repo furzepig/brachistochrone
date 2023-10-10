@@ -8,7 +8,7 @@ creator: "John Hulme"
 date: 2006-04-01 15:00:00 +0000
 ---
 
-‘This is the edge,’ Jackson said, nodding towards the trees on the opposite side of the road. Sam peered through the drowned windscreen where the wiper blades succeeded only in pushing waves of water backwards and forwards -- never clearing the glass properly. She looked past the narrow strip of forest down onto the pebble beach that was littered with weathered driftwood tree trunks the size of telegraph poles.  
+<span class='firstcharacter'>‘T</span>his is the edge,’ Jackson said, nodding towards the trees on the opposite side of the road. Sam peered through the drowned windscreen where the wiper blades succeeded only in pushing waves of water backwards and forwards -- never clearing the glass properly. She looked past the narrow strip of forest down onto the pebble beach that was littered with weathered driftwood tree trunks the size of telegraph poles.  
 
 Beyond the beach the grey ocean chopped and churned beneath the constant rain.  
 
