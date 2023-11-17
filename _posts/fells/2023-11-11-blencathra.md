@@ -1,7 +1,7 @@
 ---
 layout: fell
 category: fells
-name: Blencathra (Hallsfell Top)
+name: Blencathra
 number: 14
 height: 868
 climbed: Yes
