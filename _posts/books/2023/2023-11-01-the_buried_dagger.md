@@ -5,7 +5,7 @@ title: The Buried Dagger
 subtitle: .
 author: James Swallow
 series: Horus Heresy
-year: unread
+year: 2023
 index: 54
 image: tbd.jpg
 ---
