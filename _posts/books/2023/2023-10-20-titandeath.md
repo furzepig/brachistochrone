@@ -5,7 +5,7 @@ title: Titandeath
 subtitle: .
 author: Guy Haley
 series: Horus Heresy
-year: unread
+year: 2023
 index: 53
-image: t.jpg
+image: titandeath.jpg
 ---
