@@ -6,6 +6,6 @@ subtitle:
 author: John French
 series: Siege of Terra
 index: 1
-year: unread
+year: 2024
 image: tsw.jpg
 ---
