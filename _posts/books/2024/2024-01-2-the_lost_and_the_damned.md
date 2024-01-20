@@ -6,6 +6,6 @@ subtitle:
 author: Guy Haley
 series: Siege of Terra
 index: 2
-year: unread
+year: 2024
 image: tlatd.jpg
 ---
