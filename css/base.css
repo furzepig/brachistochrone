@@ -88,7 +88,7 @@ td {
 
 .container {
 	line-height: 1.8;
-	font-size: 18px;
+	font-size: 1vw; /* 18px; */
 	margin: 20px auto;
 	padding: 20px 20px;
 	box-sizing: border-box;
