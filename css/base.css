@@ -251,6 +251,8 @@ th {
 	background-color: #2B2D42;
 	height: 50px;
 	top: 0px;
+        position: fixed;
+        width: 100%;
 }
 
 .site_title {
