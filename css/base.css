@@ -97,6 +97,11 @@ td {
  text-indent: 1em;
 }
 
+.container:first-line {
+  text-indent: 0em;
+}
+
+
 .statscell {
 	border: 1px solid gray;
 	padding: 1px 1px 1px 0px;
