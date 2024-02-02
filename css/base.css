@@ -15,7 +15,11 @@ body {
   text-indent: 1em;
 }
 
-.story:first-line {
+.storybody {
+  text-indent: 1em;
+}
+
+.storybody:first-line {
   text-indent: 0em;
 }
 
