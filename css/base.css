@@ -6,8 +6,17 @@ body {
 	overflow-y:scroll;
 }
 
-.story, .poem {
+.poem {
 	font-family: 'Georgia', serif;	
+}
+
+.story {
+  font-family: 'Georgia', serif;	
+  text-indent: 1em;
+}
+
+.story:first-line {
+  text-indent: 0em;
 }
 
 .firstcharacter {
@@ -94,11 +103,6 @@ td {
 	box-sizing: border-box;
 	max-width: 600px;
 	min-height: 500px;
- text-indent: 1em;
-}
-
-.container:first-line {
-  text-indent: 0em;
 }
 
 
