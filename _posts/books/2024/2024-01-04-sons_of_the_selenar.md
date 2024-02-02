@@ -6,6 +6,6 @@ subtitle:
 author: Graham McNeill
 series: Siege of Terra
 index: 4
-year: unread
+year: 2024
 image: sots.jpg
 ---
