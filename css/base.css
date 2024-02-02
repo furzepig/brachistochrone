@@ -94,6 +94,7 @@ td {
 	box-sizing: border-box;
 	max-width: 600px;
 	min-height: 500px;
+ text-indent: 1em;
 }
 
 .statscell {
