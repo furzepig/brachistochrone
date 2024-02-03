@@ -19,6 +19,10 @@ p+p {
   text-indent: 1em;
 }
 
+p {
+	margin: 0em;
+}
+
 .firstcharacter {
   float: left;
   font-family: 'Georgia';
