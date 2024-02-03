@@ -15,12 +15,8 @@ body {
   text-indent: 1em;
 }
 
-.storybody {
+p+p {
   text-indent: 1em;
-}
-
-.storybody:first-line {
-  text-indent: 0em;
 }
 
 .firstcharacter {
