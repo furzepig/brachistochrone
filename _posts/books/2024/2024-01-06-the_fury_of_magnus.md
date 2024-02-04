@@ -6,6 +6,6 @@ subtitle:
 author: Graham McNeill
 series: Siege of Terra
 index: 6
-year: unread
+year: 2024
 image: tfom.jpg
 ---
