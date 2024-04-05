@@ -6,6 +6,6 @@ subtitle: Knight of Grey
 author: James Swallow
 series: Siege of Terra
 index: 10
-year: unread
+year: 2024
 image: gkog.jpg
 ---
