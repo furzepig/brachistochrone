@@ -6,6 +6,6 @@ subtitle:
 author: Aaron Dembski-Bowden
 series: Siege of Terra
 index: 9
-year: unread
+year: 2024
 image: eoe.jpg
 ---
