@@ -7,5 +7,5 @@ author: Dan Abnett
 series: Siege of Terra
 index: 12
 year: unread
-image: teatdv2.jpg
+image: teatd2.jpg
 ---
