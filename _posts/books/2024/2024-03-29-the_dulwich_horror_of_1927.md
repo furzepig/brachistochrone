@@ -1,8 +1,8 @@
 ---
 layout: book
 category: books
-title: Master of Chaos
+title: "The Dulwich Horror of 1927"
 author: David Hambling
 year: 2024
-image: moc.jpg
+image: tdh.jpg
 ---
