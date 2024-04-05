@@ -7,5 +7,5 @@ author: Dan Abnett
 series: Siege of Terra
 index: 11
 year: 2024
-image: teatdv1.jpg
+image: teatd1.jpg
 ---
