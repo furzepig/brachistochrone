@@ -2,10 +2,9 @@
 layout: poem
 title: "Trenches: St Eloi"
 poet: "TE Hulme"
-category: poems
 composed: 1915
+category: poems
 ---
-
 <p>
 <div class="ll"><i>(Abbreviated from the Conversation of Mr TEH)</i></div> 
 </p>
