@@ -10,8 +10,8 @@ print('Making book ...')
 sHome =os.getenv("HOME") 
 sYear = str(datetime.datetime.today().year)
 author = sys.argv[2]
-imagename = title
-if len(title.split()) > 0:
+imagename = title.lower()
+if len(title.split()) > 1:
   imagename = "".join(item[0].lower() for item in title.split())
 filetitle=title.lower().replace(" ","_")
 filename=datetime.datetime.today().strftime('%Y-%m-%d')+"-"+filetitle+".md"
