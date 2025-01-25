@@ -2,7 +2,7 @@
 layout: book
 category: books
 title: Light Perpetual
-author: Francid Spufford
+author: Francis Spufford
 year: 2025
 image: lp.jpg
 ---
