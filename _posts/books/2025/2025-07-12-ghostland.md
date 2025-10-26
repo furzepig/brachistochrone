@@ -1,8 +1,8 @@
 ---
 layout: book
 category: books
-title: Ghoatland
+title: Ghostland
 author: Edward Parnell
 year: 2025
-image: ghoatland.jpg
+image: ghostland.jpg
 ---
