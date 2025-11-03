@@ -1,8 +1,8 @@
 ---
 layout: book
 category: books
-title: The Sleeping Giant
+title: The Buried Giant
 author: Kazuo Ishiguro
 year: 2025
-image: tsg.jpg
+image: tbg.jpg
 ---
