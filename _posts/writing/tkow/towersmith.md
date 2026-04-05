@@ -1,4 +1,10 @@
-# The Towersmith
+---
+layout: story
+title: "The Towersmith"
+source_date: "2006"
+category: tkow
+creator: "John Hulme"
+---
 
 In the blue morning as he worked in the broken spire of the tower Connor thinks he sees something moving, a bright flashing of colour far off at the edge of the woods. He looks in vain but sees nothing more.
 
