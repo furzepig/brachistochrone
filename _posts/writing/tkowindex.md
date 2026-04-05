@@ -1,3 +1,5 @@
 ---
-categories: writing
+layout: default_index
+category: writing
+title: The King of Wessex
 ---
