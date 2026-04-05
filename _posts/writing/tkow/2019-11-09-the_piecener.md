@@ -3,7 +3,7 @@ layout: story
 title: "The Piecener"
 source_date: "2006"
 permalink: piecener.html
-category: writing
+category: tkow
 creator: "John Hulme"
 ---
 
