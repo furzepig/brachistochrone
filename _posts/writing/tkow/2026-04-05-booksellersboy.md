@@ -1,5 +1,10 @@
-\input{shortstory}
-\story{The Bookseller's Boy}
+---
+layout: story
+title: "The Bookseller's Boy"
+source_date: "2006"
+category: tkow
+creator: "John Hulme"
+---
 
 Sima weaving his way through legs of men and horses, treading carefully on the fat mud clay that is drying out slowly in the pleasant afternoon and wrapping the whole fair in a steamy mud fug of carried voices and the comfort odours of food and smoke.
 
