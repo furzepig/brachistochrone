@@ -1,5 +1,10 @@
-# The Bridge Master
-
+---
+layout: story
+title: "The Bridge Master"
+source_date: "2006"
+category: tkow
+creator: "John Hulme"
+---
 Ham looks upwards to where the smoke of the early morning fires now kindled high above on Potter’s span is starting to curl away into the river mist. The market men call it the Great Bridge and the taxi men known it with affection as Widow Standing and then there are those who, to Ham’s great fury, call it \emph{the} Tyne bridge. To him it is Potter’s span, and so, despite its age and its beauty, Ham finds he must hate it.
 
 Filth, falling from on high splashes into the river.  Ham has it from a good source, namely Elkin the butcher’s boy from Towerfoot that Potter has an order that all refuse is thrown on the upriver side – Ham’s side – to no purpose other than it is Ham’s side and Potter can comfort himself with the thought of the steady stream of ordure raining on his rival-to-no purpose, the bridge master Ham.
