@@ -2,7 +2,7 @@
 layout: source
 title: "The Laundryman"
 source_date: "2006"
-category: notwriting
+category: writing
 creator: "John Hulme"
 ---
 
