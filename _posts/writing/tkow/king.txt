@@ -1,0 +1,13 @@
+\input{shortstory}
+\story{The King Of Wessex}
+
+Midwinter on Dartford Span means foolery. First there is the foolery of a fair held so high and exposed in the middle of winter, but then some say that this is no foolery, rather that this is its purpose -- to defy the cold and the dark and put warmth and light on high above the cold river. Then there is the foolery of the tricksters -- this is their annual gather, and finer shows of trickery will not be seen anywhere as they seek to outdo one another. And there is the foolery of the fair folk who travel abroad in winter, sometimes through snow and wound by wet winds to come here and make merry and reel the foolery of drink and the foolery of flesh.
+
+And this midwinter there is Drumlin, practising who-knows-what foolery on his mission for the king.
+
+`Then he is not real?'
+
+`The king is dead. Long live the king.'
+
+And Sima pulls on the trickster gaudy and sets out walking from the span, into the empty land. The world wide before him is black and cold, the darkest night he has yet seen. Young, alone now for the first time, he does not hesitate but keeps walking, for he knows now for certain that the dawn will come.
+\ed{}
