@@ -1,4 +1,10 @@
-# The Taximan
+---
+layout: story
+title: "The Taximan"
+source_date: "2006"
+category: tkow
+creator: "John Hulme"
+---
 
 Maskell they call me for that is my name. For many a long year I have walked this road — rode this road — would be better said — two horses pull my tacsi and seven of their kind have I bought and sold as a taximan. Now some tacsimen are short haulers but that was never the way for me. Thirty years along the Great North Road from Dartford Span to the bridge fairs of Newcastle, that has been my life and will be until my death I should think.
 
