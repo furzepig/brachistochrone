@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign sorted_posts = site.categories[page.subcategory]  | sort: 'title' %}
+{% for post in sorted_posts %}
+
+{% if post.external_url %}
+  <a href="{{ post.external_url }}" title="{{ post.title }}">
+{% else %}
+  <a href="{{ post.url }}" title="{{ post.title }}">
+{% endif %}
+	<div class="divlink">
+		{{ post.title }}
+	</div>
+	</a>
+{% endfor %}
