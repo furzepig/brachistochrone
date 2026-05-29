@@ -4,5 +4,6 @@ category: fells
 name: High Street
 number: 25
 height: 828
-climbed: No
+climbed: Yes
+image: high_street_mardale.jpg
 ---
