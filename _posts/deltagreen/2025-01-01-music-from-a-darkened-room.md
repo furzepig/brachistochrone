@@ -2,7 +2,7 @@
 layout: deltagreen
 category: deltagreen
 title: "Music from a Darkened Room"
-operation: "Music from a Darkened Room"
+operation: "IAGO"
 published_date: "2018"
 image: "a-night-at-the-opera.jpg"
 ---
