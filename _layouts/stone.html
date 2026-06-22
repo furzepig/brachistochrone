@@ -8,7 +8,6 @@ layout: default
   {% if page.location %}
   <p><strong>Location:</strong> {{ page.location.lat }}, {{ page.location.lon }}</p>
   {% endif %}
-  <p><strong>Visited:</strong> {{ page.date | date: "%-d %B %Y" }}</p>
 </div>
 <div>
   {{ content }}
