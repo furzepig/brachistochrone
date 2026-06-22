@@ -1,0 +1,178 @@
+---
+layout: default
+title: Stones Map
+---
+<style>
+  .stones-map-wrap {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background: #1a1f2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .stones-map-wrap h2 {
+    color: #c8b89a;
+    font-family: Georgia, serif;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  #uk-map {
+    width: min(500px, 90vw);
+    height: auto;
+  }
+  .uk-land {
+    fill: #2d3548;
+    stroke: #4a5568;
+    stroke-width: 0.8;
+  }
+  .stone-marker {
+    fill: #c8b89a;
+    stroke: #1a1f2e;
+    stroke-width: 1;
+    cursor: pointer;
+    transition: fill 0.2s, r 0.2s;
+  }
+  .stone-marker:hover {
+    fill: #f0e0c0;
+  }
+  .stone-tooltip {
+    position: fixed;
+    background: #1a1f2e;
+    color: #c8b89a;
+    border: 1px solid #4a5568;
+    padding: 0.4rem 0.8rem;
+    font-family: Georgia, serif;
+    font-size: 0.8rem;
+    pointer-events: none;
+    display: none;
+    z-index: 100;
+  }
+</style>
+
+<div class="stones-map-wrap">
+  <h2>Standing Stones Visited</h2>
+  <svg id="uk-map" viewBox="0 0 500 700" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Great Britain outline - simplified accurate path -->
+    <!-- Mainland GB, projected to viewBox 0 0 500 700 -->
+    <!-- Lat range: 49.9 - 58.7 (mainland), Lon range: -8.65 - 1.76 -->
+    <!-- x = (lon - (-8.65)) / (1.76 - (-8.65)) * 480 + 10 -->
+    <!-- y = (58.7 - lat) / (58.7 - 49.9) * 680 + 10 -->
+
+    <path class="uk-land" d="
+      M 290,680
+      L 295,670 L 302,658 L 298,645 L 305,635 L 312,628
+      L 318,615 L 322,605 L 316,595 L 320,582 L 328,572
+      L 335,560 L 330,548 L 338,535 L 342,522 L 348,510
+      L 355,500 L 360,488 L 368,476 L 372,462 L 378,450
+      L 382,438 L 388,425 L 392,412 L 385,400 L 390,388
+      L 395,375 L 400,362 L 392,350 L 385,338 L 388,325
+      L 382,312 L 375,300 L 368,288 L 362,276 L 355,264
+      L 348,252 L 342,240 L 336,228 L 330,218 L 325,208
+      L 320,198 L 315,188 L 310,178 L 305,168 L 300,158
+      L 295,148 L 290,138 L 285,128 L 280,118 L 278,108
+      L 282,98 L 288,90 L 295,83 L 302,77 L 308,72
+      L 312,65 L 308,58 L 302,54 L 295,52 L 288,55
+      L 282,60 L 276,66 L 270,72 L 264,78 L 258,82
+      L 252,85 L 246,80 L 240,75 L 235,70 L 230,65
+      L 226,58 L 222,52 L 218,46 L 215,40 L 220,34
+      L 226,30 L 232,26 L 238,22 L 244,18 L 250,14
+      L 256,10 L 262,12 L 268,16 L 274,20 L 278,26
+      L 282,32 L 286,38 L 290,44 L 294,50 L 298,56
+      L 302,62 L 306,68 L 310,74 L 314,80 L 318,86
+      L 322,92 L 326,98 L 330,104 L 334,110 L 338,116
+      L 342,122 L 346,128 L 350,134 L 354,140 L 358,146
+      L 362,152 L 366,158 L 370,164 L 374,170 L 378,176
+      L 382,182 L 386,188 L 390,194 L 394,200 L 398,206
+      L 402,212 L 406,218 L 408,225 L 410,232 L 412,240
+      L 414,248 L 412,256 L 408,263 L 404,270 L 400,277
+      L 396,284 L 392,291 L 388,298 L 385,306 L 382,314
+      L 380,322 L 378,330 L 376,338 L 375,346 L 374,354
+      L 373,362 L 372,370 L 370,378 L 368,386 L 365,394
+      L 362,402 L 358,410 L 354,418 L 350,426 L 346,434
+      L 342,442 L 338,450 L 334,458 L 330,466 L 326,474
+      L 322,482 L 318,490 L 314,498 L 310,506 L 306,514
+      L 302,522 L 298,530 L 295,538 L 292,546 L 290,554
+      L 288,562 L 286,570 L 284,578 L 282,586 L 280,594
+      L 278,602 L 276,610 L 274,618 L 272,626 L 270,634
+      L 268,642 L 268,650 L 270,658 L 274,664 L 280,668
+      L 285,672 L 290,675 Z
+    "/>
+
+    <!-- Ireland outline -->
+    <path class="uk-land" d="
+      M 82,295 L 75,285 L 70,275 L 68,265 L 72,255
+      L 78,245 L 85,238 L 92,232 L 98,225 L 102,218
+      L 105,210 L 108,202 L 110,194 L 112,186 L 115,178
+      L 120,172 L 126,166 L 132,162 L 138,158 L 144,155
+      L 150,153 L 156,152 L 162,152 L 168,153 L 174,155
+      L 180,158 L 185,162 L 190,167 L 194,173 L 197,180
+      L 198,187 L 198,194 L 196,201 L 193,208 L 190,215
+      L 186,222 L 182,229 L 178,236 L 174,243 L 170,250
+      L 166,257 L 162,264 L 158,271 L 154,277 L 150,283
+      L 145,288 L 140,292 L 134,296 L 128,298 L 122,299
+      L 116,299 L 110,297 L 104,294 L 98,291 L 92,289
+      L 87,290 L 82,295 Z
+    "/>
+
+    <!-- Stone markers will be injected here by JS -->
+    <g id="stone-markers"></g>
+  </svg>
+  <div class="stone-tooltip" id="tooltip"></div>
+</div>
+
+<script>
+// Stones data from Jekyll - injected at build time
+var stones = [
+  {% for post in site.categories.stones %}
+  {% if post.location %}
+  {
+    name: {{ post.title | jsonify }},
+    lat: {{ post.location.lat }},
+    lon: {{ post.location.lon }},
+    url: "{{ post.url }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endif %}
+  {% endfor %}
+];
+
+// Project lat/lon to SVG coordinates
+// Bounding box: lat 49.9-58.7, lon -8.65 to 1.76, viewBox 0 0 500 700
+function project(lat, lon) {
+  var latMin = 49.9, latMax = 58.7;
+  var lonMin = -8.65, lonMax = 1.76;
+  var svgW = 480, svgH = 680;
+  var x = (lon - lonMin) / (lonMax - lonMin) * svgW + 10;
+  var y = (latMax - lat) / (latMax - latMin) * svgH + 10;
+  return { x: x, y: y };
+}
+
+var svg = document.getElementById('stone-markers');
+var tooltip = document.getElementById('tooltip');
+
+stones.forEach(function(stone) {
+  var pt = project(stone.lat, stone.lon);
+  var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  circle.setAttribute('cx', pt.x);
+  circle.setAttribute('cy', pt.y);
+  circle.setAttribute('r', '6');
+  circle.setAttribute('class', 'stone-marker');
+  circle.addEventListener('mousemove', function(e) {
+    tooltip.style.display = 'block';
+    tooltip.style.left = (e.clientX + 12) + 'px';
+    tooltip.style.top = (e.clientY - 8) + 'px';
+    tooltip.textContent = stone.name;
+  });
+  circle.addEventListener('mouseleave', function() {
+    tooltip.style.display = 'none';
+  });
+  circle.addEventListener('click', function() {
+    window.location.href = stone.url;
+  });
+  svg.appendChild(circle);
+});
+</script>
