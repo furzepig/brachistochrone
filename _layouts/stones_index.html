@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<a href="/stones-map.html" title="Map">
+  <div class="divlink">&#9679; Map</div>
+</a>
+{% assign sorted_posts = site.categories["stones"] | sort: 'title' %}
+{% for post in sorted_posts %}
+<a href="{{ post.url }}" title="{{ post.title }}">
+  <div class="divlink">{{ post.title }}</div>
+</a>
+{% endfor %}
