@@ -16,7 +16,7 @@ layout: default
 {% if page.images %}
 <div class="stone-images">
   {% for image in page.images %}
-  <img src="/images/stones/{{ page.image_folder }}/{{ image }}" alt="{{ page.title }}"/>
+  <img src="/images/stones/{{ page.image_folder }}/{{ image }}" alt="{{ page.title }}" style="width:100vw; display:block; margin-left:calc(-50vw + 50%);"/>
   {% endfor %}
 </div>
 {% endif %}
