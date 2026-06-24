@@ -2,7 +2,7 @@
 layout: deltagreen
 category: deltagreen
 title: "From the Dust"
-operation: "From the Dust"
+operation: "BLISTER"
 published_date: "2022"
 image: "from-the-dust.jpg"
 ---
