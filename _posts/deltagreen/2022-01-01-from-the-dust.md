@@ -5,5 +5,6 @@ title: "From the Dust"
 operation: "BLISTER"
 published_date: "2022"
 image: "from-the-dust.jpg"
+dgcollection: "Dead Drops"
 ---
 A team of Agents must investigate the three most recent disappearances and strange reports from the Gerritsen mansion. The moon darkens. Fears gather. Collected in Dead Drops.
