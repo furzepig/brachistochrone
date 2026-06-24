@@ -6,6 +6,9 @@ layout: default
   {% if page.operation %}
   <h2>Operation: {{ page.operation }}</h2>
   {% endif %}
+   {% if page.collection %}
+  <h2>Collection: {{ page.collection }}</h2>
+  {% endif %}
 </header>
 {% if page.image %}
 <img class="bookimage" src="/images/deltagreen/{{ page.image }}" alt="{{ page.title }}"/>
