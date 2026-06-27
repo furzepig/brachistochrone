@@ -12,22 +12,47 @@ title: Map
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px 40px;
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #f0ede8;
   }
  
   .subtitle { font-size: 0.72rem; letter-spacing: 0.12em; color: #555; margin-bottom: 6px; }
   .specs { font-size: 0.65rem; color: #666; letter-spacing: 0.05em; text-align: center; line-height: 1.7; margin-bottom: 12px; }
-  #toggle-btn {
-    margin-bottom: 16px; padding: 6px 16px;
-    font-family: 'Courier New', monospace; font-size: 0.72rem; letter-spacing: 0.1em;
+  .map-btn {
+    position: fixed; z-index: 10;
+    padding: 6px 14px;
+    font-family: 'Courier New', monospace; font-size: 0.7rem; letter-spacing: 0.1em;
     background: #1a1a2e; color: #f0ede8; border: none; cursor: pointer; border-radius: 2px;
+    opacity: 0.85;
   }
-  #toggle-btn:hover { background: #2e2e50; }
-  svg { width: 100%; max-width: 1500px; height: auto; display: block; touch-action: none; cursor: grab; }
+  .map-btn:hover { background: #2e2e50; opacity: 1; }
+  #toggle-btn { top: 12px; left: 12px; }
+  #anim-btn   { top: 12px; left: 110px; }
+  #specs-panel {
+    position: fixed; z-index: 10;
+    top: 44px; left: 12px;
+    max-height: 10vh;
+    overflow: hidden;
+    font-family: 'Courier New', monospace;
+    color: #1a1a2e;
+    pointer-events: none;
+  }
+  #specs-panel .sp-title {
+    font-size: clamp(8px, 1.8vh, 14px);
+    font-family: Georgia, serif;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  #specs-panel .sp-line {
+    font-size: clamp(6px, 1.2vh, 10px);
+    letter-spacing: 0.05em;
+    opacity: 0.75;
+    line-height: 1.5;
+  }
+  svg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; display: block; touch-action: none; cursor: grab; background: #f0ede8; }
   svg:active { cursor: grabbing; }
   .label-main   { font-family: Georgia, serif; font-style: italic; font-size: 13px; fill: #1a1a2e; }
   .label-sub    { font-family: 'Courier New', monospace; font-size: 9.5px; fill: #444; }
@@ -39,13 +64,16 @@ title: Map
 </head>
 <body>
 
-<h1>Spindrift</h1>
-<div class="subtitle">Nissoam-Boajuster — Starship 41</div>
-<div class="specs">
-  Launched: 21 July 2154, Io Foundry 2 &nbsp;|&nbsp; Radial Velocity: 0.21c/h &nbsp;|&nbsp; Max Linear Velocity: 0.4c<br>
-  Propulsion: Modified Type 2 Gravity Wave Generator &nbsp;|&nbsp; Destination Star: Foxglove — HD45101
+<button id="toggle-btn" class="map-btn" onclick="toggleIDs()">SHOW IDs</button>
+<button id="anim-btn"   class="map-btn" onclick="toggleAnim()">STOP</button>
+<div id="specs-panel">
+  <div class="sp-title">Spindrift</div>
+  <div class="sp-line">Nissoam-Boajuster — Starship 41</div>
+  <div class="sp-line">Launched: 21 July 2154, Io Foundry 2</div>
+  <div class="sp-line">Radial Velocity: 0.21c/h &nbsp;·&nbsp; Max: 0.4c</div>
+  <div class="sp-line">Propulsion: Modified Type 2 Gravity Wave Generator</div>
+  <div class="sp-line">Destination: Foxglove — HD45101</div>
 </div>
-<button id="toggle-btn" onclick="toggleIDs()">SHOW ELEMENT IDs</button>
 
 <!--
   viewBox: 1600 x 980
@@ -67,7 +95,7 @@ title: Map
   <text x="20" y="20" class="section-lbl">HEAD-ON / SIDE VIEW</text>
 
   <g id="head-on-view">
-    <animateTransform
+    <animateTransform id="spin-anim"
       attributeName="transform"
       type="rotate"
       from="0 800 170"
@@ -273,6 +301,23 @@ function buildOverlays() {
     g.appendChild(r); g.appendChild(t); layer.appendChild(g);
   });
 }
+// ── Animation toggle ───────────────────────────────────────────────────────
+let animRunning = true;
+function toggleAnim() {
+  const anim = document.getElementById('spin-anim');
+  const btn  = document.getElementById('anim-btn');
+  if (animRunning) {
+    anim.setAttribute('repeatCount', '0');  // stop after current iteration
+    anim.endElement();                       // end immediately & reset to from=
+    btn.textContent = 'START';
+  } else {
+    anim.setAttribute('repeatCount', 'indefinite');
+    anim.beginElement();
+    btn.textContent = 'STOP';
+  }
+  animRunning = !animRunning;
+}
+
 function toggleIDs() {
   const btn = document.getElementById('toggle-btn');
   buildOverlays();
