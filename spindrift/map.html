@@ -12,22 +12,48 @@ title: Map
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px 40px;
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #f0ede8;
   }
  
   .subtitle { font-size: 0.72rem; letter-spacing: 0.12em; color: #555; margin-bottom: 6px; }
   .specs { font-size: 0.65rem; color: #666; letter-spacing: 0.05em; text-align: center; line-height: 1.7; margin-bottom: 12px; }
-  #toggle-btn {
-    margin-bottom: 16px; padding: 6px 16px;
-    font-family: 'Courier New', monospace; font-size: 0.72rem; letter-spacing: 0.1em;
+  .map-btn {
+    position: fixed; z-index: 10;
+    padding: 6px 14px;
+    font-family: 'Courier New', monospace; font-size: 0.7rem; letter-spacing: 0.1em;
     background: #1a1a2e; color: #f0ede8; border: none; cursor: pointer; border-radius: 2px;
+    opacity: 0.85;
   }
-  #toggle-btn:hover { background: #2e2e50; }
-  svg { width: 100%; max-width: 1500px; height: auto; display: block; }
+  .map-btn:hover { background: #2e2e50; opacity: 1; }
+  #toggle-btn { top: 12px; left: 12px; }
+  #anim-btn   { top: 12px; left: 110px; }
+  #specs-panel {
+    position: fixed; z-index: 10;
+    top: 44px; left: 12px;
+    max-height: 10vh;
+    overflow: hidden;
+    font-family: 'Courier New', monospace;
+    color: #1a1a2e;
+    pointer-events: none;
+  }
+  #specs-panel .sp-title {
+    font-size: clamp(8px, 1.8vh, 14px);
+    font-family: Georgia, serif;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  #specs-panel .sp-line {
+    font-size: clamp(6px, 1.2vh, 10px);
+    letter-spacing: 0.05em;
+    opacity: 0.75;
+    line-height: 1.5;
+  }
+  svg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; display: block; touch-action: none; cursor: grab; background: #f0ede8; }
+  svg:active { cursor: grabbing; }
   .label-main   { font-family: Georgia, serif; font-style: italic; font-size: 13px; fill: #1a1a2e; }
   .label-sub    { font-family: 'Courier New', monospace; font-size: 9.5px; fill: #444; }
   .label-hub    { font-family: Georgia, serif; font-style: italic; font-size: 15px; fill: #1a1a2e; }
@@ -38,13 +64,16 @@ title: Map
 </head>
 <body>
 
-<h1>Spindrift</h1>
-<div class="subtitle">Nissoam-Boajuster — Starship 41</div>
-<div class="specs">
-  Launched: 21 July 2154, Io Foundry 2 &nbsp;|&nbsp; Radial Velocity: 0.21c/h &nbsp;|&nbsp; Max Linear Velocity: 0.4c<br>
-  Propulsion: Modified Type 2 Gravity Wave Generator &nbsp;|&nbsp; Destination Star: Foxglove — HD45101
+<button id="toggle-btn" class="map-btn" onclick="toggleIDs()">SHOW IDs</button>
+<button id="anim-btn"   class="map-btn" onclick="toggleAnim()">STOP</button>
+<div id="specs-panel">
+  <div class="sp-title">Spindrift</div>
+  <div class="sp-line">Nissoam-Boajuster — Starship 41</div>
+  <div class="sp-line">Launched: 21 July 2154, Io Foundry 2</div>
+  <div class="sp-line">Radial Velocity: 0.21c/h &nbsp;·&nbsp; Max: 0.4c</div>
+  <div class="sp-line">Propulsion: Modified Type 2 Gravity Wave Generator</div>
+  <div class="sp-line">Destination: Foxglove — HD45101</div>
 </div>
-<button id="toggle-btn" onclick="toggleIDs()">SHOW ELEMENT IDs</button>
 
 <!--
   viewBox: 1600 x 980
@@ -61,9 +90,18 @@ title: Map
   </defs>
 
   <!-- ============================================================ -->
-  <!-- TOP BAND: HEAD-ON / SIDE VIEW                                -->
+  <!-- TOP BAND: HEAD-ON / SIDE VIEW (rotates around hub centre)    -->
   <!-- ============================================================ -->
   <text x="20" y="20" class="section-lbl">HEAD-ON / SIDE VIEW</text>
+
+  <g id="head-on-view">
+    <animateTransform id="spin-anim"
+      attributeName="transform"
+      type="rotate"
+      from="0 800 170"
+      to="360 800 170"
+      dur="5s"
+      repeatCount="indefinite"/>
 
   <!-- TETHER — spans full width -->
   <line id="tether" x1="90" y1="170" x2="1510" y2="170" stroke="#1a1a2e" stroke-width="1.5"/>
@@ -110,8 +148,24 @@ title: Map
   <line id="hub-crow-leader"  x1="840" y1="192" x2="930" y2="290" stroke="#aaa" stroke-width="0.8"/>
   <text id="hub-crow-lbl"     x="934" y="288" class="label-small">Crow's Nest</text>
 
-  <!-- COROMANDEL — attachment stub only in side view (right end of tether) -->
-  <rect id="cor-nacelle-stub" x="1486" y="156" width="28" height="28" rx="3" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <!-- COROMANDEL — axis point and rings in side view (right end of tether) -->
+  <rect id="coromandel-axis" x="1486" y="156" width="28" height="28" rx="3" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+
+  <!-- Coromandel rings — side-on view, rectangles centred on coromandel-axis (cx=1500, cy=170) -->
+  <!-- Ring 1 (innermost): short and wide -->
+  <rect id="cor-ring-1" x="1489" y="140" width="22" height="60"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+  <!-- Ring 2 (middle): taller, narrower -->
+  <rect id="cor-ring-2" x="1492" y="120" width="16" height="100" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+  <!-- Ring 3 (outermost): tallest, thinnest -->
+  <rect id="cor-ring-3" x="1496" y="100" width="8"  height="140" fill="none" stroke="#1a1a2e" stroke-width="0.9"/>
+
+  <!-- Ring labels to the right -->
+  <line x1="1511" y1="170" x2="1540" y2="170" stroke="#aaa" stroke-width="0.8"/>
+  <text x="1544" y="170" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-1</text>
+  <line x1="1508" y1="145" x2="1540" y2="145" stroke="#aaa" stroke-width="0.8"/>
+  <text x="1544" y="145" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-2</text>
+  <line x1="1504" y1="120" x2="1540" y2="120" stroke="#aaa" stroke-width="0.8"/>
+  <text x="1544" y="120" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-3</text>
 
   <!-- Floating elements below tether (left/centre zone) -->
   <rect id="engine-block"  x="755" y="480" width="90" height="65" rx="5" fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
@@ -133,6 +187,8 @@ title: Map
 
   <line id="bot-arrow-line" x1="755" y1="648" x2="845" y2="648" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
   <text id="bot-arrow-text" x="800" y="663" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+
+  </g><!-- end #head-on-view -->
 
   <!-- ============================================================ -->
   <!-- DIVIDER                                                      -->
@@ -245,6 +301,23 @@ function buildOverlays() {
     g.appendChild(r); g.appendChild(t); layer.appendChild(g);
   });
 }
+// ── Animation toggle ───────────────────────────────────────────────────────
+let animRunning = true;
+function toggleAnim() {
+  const anim = document.getElementById('spin-anim');
+  const btn  = document.getElementById('anim-btn');
+  if (animRunning) {
+    anim.setAttribute('repeatCount', '0');  // stop after current iteration
+    anim.endElement();                       // end immediately & reset to from=
+    btn.textContent = 'START';
+  } else {
+    anim.setAttribute('repeatCount', 'indefinite');
+    anim.beginElement();
+    btn.textContent = 'STOP';
+  }
+  animRunning = !animRunning;
+}
+
 function toggleIDs() {
   const btn = document.getElementById('toggle-btn');
   buildOverlays();
@@ -253,6 +326,117 @@ function toggleIDs() {
   overlays.forEach(g => g.style.display = show ? 'block' : 'none');
   btn.textContent = show ? 'HIDE ELEMENT IDs' : 'SHOW ELEMENT IDs';
 }
+
+// ── Zoom & Pan ──────────────────────────────────────────────────────────────
+(function() {
+  const svg = document.querySelector('svg');
+  const BASE = { x: 0, y: 0, w: 1600, h: 980 };
+  const MIN_ZOOM = 1, MAX_ZOOM = 8;
+  let vb = { ...BASE };
+
+  function clamp(val, min, max) { return Math.min(Math.max(val, min), max); }
+
+  function applyVB() {
+    svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+  }
+
+  // Convert a client-space point to viewBox-space
+  function clientToVB(cx, cy) {
+    const rect = svg.getBoundingClientRect();
+    return {
+      x: vb.x + (cx - rect.left) / rect.width  * vb.w,
+      y: vb.y + (cy - rect.top)  / rect.height * vb.h
+    };
+  }
+
+  // Zoom centred on a viewBox point
+  function zoomAt(vbPt, factor) {
+    const newW = clamp(vb.w * factor, BASE.w / MAX_ZOOM, BASE.w / MIN_ZOOM);
+    const newH = clamp(vb.h * factor, BASE.h / MAX_ZOOM, BASE.h / MIN_ZOOM);
+    const scale = newW / vb.w;
+    vb.x = vbPt.x - (vbPt.x - vb.x) * scale;
+    vb.y = vbPt.y - (vbPt.y - vb.y) * scale;
+    vb.w = newW;
+    vb.h = newH;
+    applyVB();
+  }
+
+  // ── Mouse wheel zoom ──────────────────────────────────────────────────────
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    const factor = e.deltaY > 0 ? 1.1 : 0.9;
+    zoomAt(clientToVB(e.clientX, e.clientY), factor);
+  }, { passive: false });
+
+  // ── Mouse drag pan ────────────────────────────────────────────────────────
+  let drag = null;
+  svg.addEventListener('mousedown', e => {
+    drag = { startVB: { ...vb }, startClient: { x: e.clientX, y: e.clientY } };
+  });
+  window.addEventListener('mousemove', e => {
+    if (!drag) return;
+    const rect = svg.getBoundingClientRect();
+    const dx = (e.clientX - drag.startClient.x) / rect.width  * vb.w;
+    const dy = (e.clientY - drag.startClient.y) / rect.height * vb.h;
+    vb.x = drag.startVB.x - dx;
+    vb.y = drag.startVB.y - dy;
+    applyVB();
+  });
+  window.addEventListener('mouseup', () => { drag = null; });
+
+  // ── Touch: pinch-to-zoom + single-finger pan ──────────────────────────────
+  let lastTouches = null;
+
+  function midpoint(t1, t2) {
+    return { x: (t1.clientX + t2.clientX) / 2, y: (t1.clientY + t2.clientY) / 2 };
+  }
+  function dist(t1, t2) {
+    return Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+  }
+
+  svg.addEventListener('touchstart', e => {
+    e.preventDefault();
+    lastTouches = Array.from(e.touches);
+  }, { passive: false });
+
+  svg.addEventListener('touchmove', e => {
+    e.preventDefault();
+    const touches = Array.from(e.touches);
+
+    if (touches.length === 2 && lastTouches.length === 2) {
+      // Pinch zoom
+      const oldDist = dist(lastTouches[0], lastTouches[1]);
+      const newDist = dist(touches[0], touches[1]);
+      const factor  = oldDist / newDist;
+      const mid     = midpoint(touches[0], touches[1]);
+      zoomAt(clientToVB(mid.x, mid.y), factor);
+    } else if (touches.length === 1 && lastTouches.length === 1) {
+      // Single-finger pan
+      const rect = svg.getBoundingClientRect();
+      const dx = (touches[0].clientX - lastTouches[0].clientX) / rect.width  * vb.w;
+      const dy = (touches[0].clientY - lastTouches[0].clientY) / rect.height * vb.h;
+      vb.x -= dx;
+      vb.y -= dy;
+      applyVB();
+    }
+
+    lastTouches = touches;
+  }, { passive: false });
+
+  svg.addEventListener('touchend', e => {
+    lastTouches = Array.from(e.touches);
+  }, { passive: false });
+
+  // ── Double-tap / double-click to reset ───────────────────────────────────
+  let lastTap = 0;
+  svg.addEventListener('touchend', e => {
+    const now = Date.now();
+    if (now - lastTap < 300) { vb = { ...BASE }; applyVB(); }
+    lastTap = now;
+  });
+  svg.addEventListener('dblclick', () => { vb = { ...BASE }; applyVB(); });
+
+})();
 </script>
 </body>
 </html>
