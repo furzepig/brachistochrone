@@ -167,33 +167,43 @@ title: Map
   <line x1="1504" y1="120" x2="1540" y2="120" stroke="#aaa" stroke-width="0.8"/>
   <text x="1544" y="120" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-3</text>
 
-  <!-- Floating elements below tether (left/centre zone) -->
-  <rect id="engine-block"  x="755" y="480" width="90" height="65" rx="5" fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
-  <line id="engine-line1"  x1="755" y1="500" x2="845" y2="500" stroke="#1a1a2e" stroke-width="0.7"/>
-  <line id="engine-line2"  x1="755" y1="520" x2="845" y2="520" stroke="#1a1a2e" stroke-width="0.7"/>
-
-  <ellipse id="whistler-body"     cx="560" cy="560" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle  id="whistler-core"     cx="560" cy="560" r="5"  fill="#bbb" stroke="#1a1a2e" stroke-width="0.8"/>
-  <line    id="whistler-dish-arm" x1="546" y1="560" x2="538" y2="550" stroke="#1a1a2e" stroke-width="1.2"/>
-  <ellipse id="whistler-dish"     cx="534" cy="548" rx="8" ry="5" fill="#ccc" stroke="#1a1a2e" stroke-width="1.0"/>
-  <text    id="whistler-lbl"      x="560" y="583" text-anchor="middle" class="label-small">Whistler</text>
-
-  <ellipse id="aegis-body"        cx="1040" cy="560" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle  id="aegis-core"        cx="1040" cy="560" r="5"  fill="#bbb" stroke="#1a1a2e" stroke-width="0.8"/>
-  <line    id="aegis-dish-arm"    x1="1054" y1="560" x2="1062" y2="550" stroke="#1a1a2e" stroke-width="1.2"/>
-  <ellipse id="aegis-dish"        cx="1066" cy="548" rx="8" ry="5" fill="#ccc" stroke="#1a1a2e" stroke-width="1.0"/>
-  <text    id="aegis-lbl1"        x="1040" y="583" text-anchor="middle" class="label-small">Aegis Shield</text>
-  <text    id="aegis-lbl2"        x="1040" y="594" text-anchor="middle" class="label-small">Generator</text>
-
-  <line id="bot-arrow-line" x1="755" y1="648" x2="845" y2="648" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
-  <text id="bot-arrow-text" x="800" y="663" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
-
   </g><!-- end #head-on-view -->
 
   <!-- ============================================================ -->
   <!-- DIVIDER                                                      -->
   <!-- ============================================================ -->
   <line x1="40" y1="700" x2="1560" y2="700" stroke="#ccc" stroke-width="0.8" stroke-dasharray="6,4"/>
+
+  <!-- ============================================================ -->
+  <!-- CENTRE-BOTTOM: FLIGHT TRAIN VIEW                             -->
+  <!-- Elements arranged along a spine at y=855, cx=800            -->
+  <!-- ============================================================ -->
+  <text x="680" y="722" class="section-lbl">FLIGHT TRAIN VIEW</text>
+
+  <!-- Direction arrow -->
+  <line id="bot-arrow-line" x1="755" y1="948" x2="845" y2="948" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <text id="bot-arrow-text" x="800" y="963" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+
+  <!-- Engine block — centred on spine -->
+  <rect id="engine-block"  x="755" y="823" width="90" height="65" rx="5" fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line id="engine-line1"  x1="755" y1="840" x2="845" y2="840" stroke="#1a1a2e" stroke-width="0.7"/>
+  <line id="engine-line2"  x1="755" y1="858" x2="845" y2="858" stroke="#1a1a2e" stroke-width="0.7"/>
+  <text id="engine-lbl"    x="800" y="810" text-anchor="middle" class="label-small">Gravity Wave Motor</text>
+
+  <!-- Whistler — left of engine -->
+  <ellipse id="whistler-body"     cx="580" cy="855" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <circle  id="whistler-core"     cx="580" cy="855" r="5"   fill="#bbb" stroke="#1a1a2e" stroke-width="0.8"/>
+  <line    id="whistler-dish-arm" x1="580" y1="841" x2="580" y2="828" stroke="#1a1a2e" stroke-width="1.2"/>
+  <ellipse id="whistler-dish"     cx="580" cy="822" rx="14" ry="6"  fill="#ccc" stroke="#1a1a2e" stroke-width="1.0"/>
+  <text    id="whistler-lbl"      x="580" y="878" text-anchor="middle" class="label-small">Whistler</text>
+
+  <!-- Aegis Shield Generator — right of engine -->
+  <ellipse id="aegis-body"     cx="1020" cy="855" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <circle  id="aegis-core"     cx="1020" cy="855" r="5"   fill="#bbb" stroke="#1a1a2e" stroke-width="0.8"/>
+  <line    id="aegis-dish-arm" x1="1020" y1="841" x2="1020" y2="828" stroke="#1a1a2e" stroke-width="1.2"/>
+  <ellipse id="aegis-dish"     cx="1020" cy="822" rx="14" ry="6"  fill="#ccc" stroke="#1a1a2e" stroke-width="1.0"/>
+  <text    id="aegis-lbl1"     x="1020" y="878" text-anchor="middle" class="label-small">Aegis Shield</text>
+  <text    id="aegis-lbl2"     x="1020" y="889" text-anchor="middle" class="label-small">Generator</text>
 
   <!-- ============================================================ -->
   <!-- BOTTOM-LEFT: MALABAR PLAN VIEW — circular rings              -->
@@ -233,44 +243,44 @@ title: Map
 
   <!-- ============================================================ -->
   <!-- BOTTOM-RIGHT: COROMANDEL PLAN VIEW — circular rings         -->
-  <!-- Centre: cx=900, cy=855                                      -->
+  <!-- Centre: cx=1390, cy=855  (mirror of Malabar at cx=210)     -->
   <!-- ============================================================ -->
-  <text x="640" y="722" class="section-lbl">COROMANDEL — PLAN VIEW</text>
+  <text x="1150" y="722" class="section-lbl">COROMANDEL — PLAN VIEW</text>
 
-  <circle id="cor-outer"     cx="900" cy="855" r="150" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
-  <circle id="cor-sanctuary" cx="900" cy="855" r="110" fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle id="cor-ringone"   cx="900" cy="855" r="72"  fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
-  <circle id="cor-cargo"     cx="900" cy="855" r="38"  fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
+  <circle id="cor-outer"     cx="1390" cy="855" r="150" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+  <circle id="cor-sanctuary" cx="1390" cy="855" r="110" fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+  <circle id="cor-ringone"   cx="1390" cy="855" r="72"  fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+  <circle id="cor-cargo"     cx="1390" cy="855" r="38"  fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
 
   <!-- Hub train stub (top of disc) -->
-  <line id="cor-htrain-v" x1="900" y1="705" x2="900" y2="777" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3"/>
+  <line id="cor-htrain-v" x1="1390" y1="705" x2="1390" y2="777" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3"/>
 
-  <!-- Shuttle bay — small block on the outer edge -->
-  <rect id="shuttle-bay"        x="1042" y="840" width="24" height="40" rx="3" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
-  <line id="shuttle-bay-leader" x1="1066" y1="855" x2="1090" y2="840" stroke="#aaa" stroke-width="0.8"/>
-  <text id="shuttle-bay-lbl"    x="1094" y="838" class="label-small">Shuttle bay</text>
+  <!-- Shuttle bay — small block on the left outer edge (mirror of right-side on Malabar) -->
+  <rect id="shuttle-bay"        x="1206" y="840" width="24" height="40" rx="3" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
+  <line id="shuttle-bay-leader" x1="1206" y1="855" x2="1182" y2="840" stroke="#aaa" stroke-width="0.8"/>
+  <text id="shuttle-bay-lbl"    x="1178" y="838" text-anchor="end" class="label-small">Shuttle bay</text>
 
   <!-- Coromandel label -->
-  <text id="cor-label" x="900" y="960" text-anchor="middle" class="label-main" font-size="17">Coromandel</text>
+  <text id="cor-label" x="1390" y="960" text-anchor="middle" class="label-main" font-size="17">Coromandel</text>
 
-  <!-- Direction arrow — pointing right (Coromandel is at the front of the ship) -->
-  <line id="cor-arrow-line" x1="922" y1="940" x2="1002" y2="940" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
-  <text id="cor-arrow-text" x="962" y="955" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+  <!-- Direction arrow — pointing right (Coromandel is the forward end) -->
+  <line id="cor-arrow-line" x1="1412" y1="940" x2="1492" y2="940" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+  <text id="cor-arrow-text" x="1452" y="955" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
 
-  <!-- Ring labels — to the left of the circle -->
-  <line id="cor-cargo-leader"  x1="862" y1="830" x2="740" y2="812" stroke="#aaa" stroke-width="0.8"/>
-  <text id="cor-cargo-lbl"     x="736" y="810" text-anchor="end" class="label-main" font-size="11">Cargo</text>
+  <!-- Ring labels — to the left of the circle (mirror of Malabar's right-side labels) -->
+  <line id="cor-cargo-leader"  x1="1352" y1="830" x2="1222" y2="810" stroke="#aaa" stroke-width="0.8"/>
+  <text id="cor-cargo-lbl"     x="1218" y="808" text-anchor="end" class="label-main" font-size="11">Cargo</text>
 
-  <line id="cor-r1-leader"     x1="828" y1="850" x2="740" y2="838" stroke="#aaa" stroke-width="0.8"/>
-  <text id="cor-r1-lbl"        x="736" y="836" text-anchor="end" class="label-main" font-size="11">Ring One</text>
-  <text id="cor-r1-sub1"       x="736" y="847" text-anchor="end" class="label-sub">Hub Train Station</text>
-  <text id="cor-r1-sub2"       x="736" y="857" text-anchor="end" class="label-sub">School</text>
-  <text id="cor-r1-sub3"       x="736" y="867" text-anchor="end" class="label-sub">Coromandel Auxiliary Hospital</text>
+  <line id="cor-r1-leader"     x1="1318" y1="852" x2="1222" y2="838" stroke="#aaa" stroke-width="0.8"/>
+  <text id="cor-r1-lbl"        x="1218" y="836" text-anchor="end" class="label-main" font-size="11">Ring One</text>
+  <text id="cor-r1-sub1"       x="1218" y="847" text-anchor="end" class="label-sub">Hub Train Station</text>
+  <text id="cor-r1-sub2"       x="1218" y="857" text-anchor="end" class="label-sub">School</text>
+  <text id="cor-r1-sub3"       x="1218" y="867" text-anchor="end" class="label-sub">Coromandel Auxiliary Hospital</text>
 
-  <line id="cor-sanct-leader"  x1="790" y1="873" x2="740" y2="886" stroke="#aaa" stroke-width="0.8"/>
-  <text id="cor-sanct-lbl"     x="736" y="884" text-anchor="end" class="label-main" font-size="11">Sanctuary</text>
-  <text id="cor-sanct-sub1"    x="736" y="895" text-anchor="end" class="label-sub">Grandma Varvara</text>
-  <text id="cor-sanct-sub2"    x="736" y="906" text-anchor="end" class="label-sub">Great Coromandel Forest</text>
+  <line id="cor-sanct-leader"  x1="1280" y1="873" x2="1222" y2="886" stroke="#aaa" stroke-width="0.8"/>
+  <text id="cor-sanct-lbl"     x="1218" y="884" text-anchor="end" class="label-main" font-size="11">Sanctuary</text>
+  <text id="cor-sanct-sub1"    x="1218" y="895" text-anchor="end" class="label-sub">Grandma Varvara</text>
+  <text id="cor-sanct-sub2"    x="1218" y="906" text-anchor="end" class="label-sub">Great Coromandel Forest</text>
 
   <!-- ID OVERLAY LAYER -->
   <g id="id-overlay-layer"></g>
