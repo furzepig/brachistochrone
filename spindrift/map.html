@@ -89,203 +89,173 @@ title: Map
     </marker>
   </defs>
 
-  <!-- ============================================================ -->
-  <!-- TOP BAND: HEAD-ON / SIDE VIEW (rotates around hub centre)    -->
-  <!-- ============================================================ -->
+  <!-- ================================================================ -->
+  <!-- LEFT 75%: HEAD-ON / SIDE VIEW  (x=0..1200, hub cx=600, cy=170)  -->
+  <!-- ================================================================ -->
   <text x="20" y="20" class="section-lbl">HEAD-ON / SIDE VIEW</text>
 
   <g id="head-on-view">
     <animateTransform id="spin-anim"
       attributeName="transform"
       type="rotate"
-      from="0 800 170"
-      to="360 800 170"
+      from="0 600 490"
+      to="360 600 490"
       dur="5s"
       repeatCount="indefinite"/>
+  <g transform="translate(0,320)">
 
-  <!-- TETHER — spans full width -->
-  <line id="tether" x1="90" y1="170" x2="1510" y2="170" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- TETHER -->
+  <line id="tether" x1="60" y1="170" x2="1140" y2="170" stroke="#1a1a2e" stroke-width="1.5"/>
 
-  <!-- Malabar attachment stub (left end of tether) -->
-  <!-- Malabar axis point on tether -->
-  <rect id="malabar-axis" x="86" y="156" width="28" height="28" rx="3" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <!-- Malabar axis (left end) -->
+  <rect id="malabar-axis" x="46" y="156" width="28" height="28" rx="3" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <rect id="mal-ring-1" x="49" y="140" width="22" height="60"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+  <rect id="mal-ring-2" x="52" y="120" width="16" height="100" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+  <rect id="mal-ring-3" x="56" y="100" width="8"  height="140" fill="none" stroke="#1a1a2e" stroke-width="0.9"/>
+  <line x1="49" y1="170" x2="24" y2="170" stroke="#aaa" stroke-width="0.8"/>
+  <text x="20" y="170" text-anchor="end" dominant-baseline="middle" class="label-small">mal-ring-1</text>
+  <line x1="52" y1="145" x2="24" y2="145" stroke="#aaa" stroke-width="0.8"/>
+  <text x="20" y="145" text-anchor="end" dominant-baseline="middle" class="label-small">mal-ring-2</text>
+  <line x1="56" y1="120" x2="24" y2="120" stroke="#aaa" stroke-width="0.8"/>
+  <text x="20" y="120" text-anchor="end" dominant-baseline="middle" class="label-small">mal-ring-3</text>
 
-  <!-- Malabar rings — side-on view, rectangles centred on malabar-axis (cx=100, cy=170) -->
-  <!-- Ring 1 (innermost): short and wide -->
-  <rect id="mal-ring-1" x="89" y="140" width="22" height="60"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
-  <!-- Ring 2 (middle): taller, narrower -->
-  <rect id="mal-ring-2" x="92" y="120" width="16" height="100" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
-  <!-- Ring 3 (outermost): tallest, thinnest -->
-  <rect id="mal-ring-3" x="96" y="100" width="8"  height="140" fill="none" stroke="#1a1a2e" stroke-width="0.9"/>
-
-  <!-- Ring labels to the left -->
-  <line x1="89" y1="170" x2="60" y2="170" stroke="#aaa" stroke-width="0.8"/>
-  <text x="56" y="170" text-anchor="end" dominant-baseline="middle" class="label-small">mal-ring-1</text>
-  <line x1="92" y1="145" x2="60" y2="145" stroke="#aaa" stroke-width="0.8"/>
-  <text x="56" y="145" text-anchor="end" dominant-baseline="middle" class="label-small">mal-ring-2</text>
-  <line x1="96" y1="120" x2="60" y2="120" stroke="#aaa" stroke-width="0.8"/>
-  <text x="56" y="120" text-anchor="end" dominant-baseline="middle" class="label-small">mal-ring-3</text>
-
-  <!-- HUB — centred at x=800 -->
-  <ellipse id="hub-outer"  cx="800" cy="170" rx="52" ry="52" fill="#e8e4df" stroke="#1a1a2e" stroke-width="1.8"/>
-  <ellipse id="hub-inner"  cx="800" cy="170" rx="28" ry="28" fill="#d5d0c8" stroke="#1a1a2e" stroke-width="1.2"/>
-  <ellipse id="hub-centre" cx="800" cy="170" rx="12" ry="12" fill="#bbb"    stroke="#1a1a2e" stroke-width="1.0"/>
-  <rect id="nacelle" x="710" y="158" width="40" height="24" rx="4" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
-  <text id="nacelle-lbl" x="730" y="196" text-anchor="middle" class="label-small">Nacelle</text>
-  <rect id="spindle" x="850" y="158" width="40" height="24" rx="4" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
-  <text id="spindle-lbl" x="870" y="196" text-anchor="middle" class="label-small">Spindle</text>
-  <text id="hub-lbl" x="800" y="268" text-anchor="middle" class="label-hub">Hub</text>
-  <text id="hub-train-lbl" x="800" y="148" text-anchor="middle" class="label-small">Hub Train</text>
-  <line id="hub-train-arrow" x1="800" y1="143" x2="800" y2="118" stroke="#aaa" stroke-width="0.8" marker-end="url(#arrow)"/>
+  <!-- HUB centred at cx=600, cy=170 -->
+  <ellipse id="hub-outer"  cx="600" cy="170" rx="52" ry="52" fill="#e8e4df" stroke="#1a1a2e" stroke-width="1.8"/>
+  <ellipse id="hub-inner"  cx="600" cy="170" rx="28" ry="28" fill="#d5d0c8" stroke="#1a1a2e" stroke-width="1.2"/>
+  <ellipse id="hub-centre" cx="600" cy="170" rx="12" ry="12" fill="#bbb"    stroke="#1a1a2e" stroke-width="1.0"/>
+  <rect id="nacelle" x="510" y="158" width="40" height="24" rx="4" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
+  <text id="nacelle-lbl" x="530" y="196" text-anchor="middle" class="label-small">Nacelle</text>
+  <rect id="spindle" x="650" y="158" width="40" height="24" rx="4" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
+  <text id="spindle-lbl" x="670" y="196" text-anchor="middle" class="label-small">Spindle</text>
+  <text id="hub-lbl"       x="600" y="268" text-anchor="middle" class="label-hub">Hub</text>
+  <text id="hub-train-lbl" x="600" y="148" text-anchor="middle" class="label-small">Hub Train</text>
+  <line id="hub-train-arrow" x1="600" y1="143" x2="600" y2="118" stroke="#aaa" stroke-width="0.8" marker-end="url(#arrow)"/>
 
   <!-- Hub component labels -->
-  <line id="hub-cs-leader"    x1="852" y1="158" x2="930" y2="230" stroke="#aaa" stroke-width="0.8"/>
-  <text id="hub-cs-lbl"       x="934" y="228" class="label-small">Central Station</text>
-  <line id="hub-gym-leader"   x1="849" y1="168" x2="930" y2="250" stroke="#aaa" stroke-width="0.8"/>
-  <text id="hub-gym-lbl"      x="934" y="248" class="label-small">Gymnasium</text>
-  <line id="hub-spark-leader" x1="846" y1="180" x2="930" y2="270" stroke="#aaa" stroke-width="0.8"/>
-  <text id="hub-spark-lbl"    x="934" y="268" class="label-small">Sparkblender</text>
-  <line id="hub-crow-leader"  x1="840" y1="192" x2="930" y2="290" stroke="#aaa" stroke-width="0.8"/>
-  <text id="hub-crow-lbl"     x="934" y="288" class="label-small">Crow's Nest</text>
+  <line id="hub-cs-leader"    x1="652" y1="158" x2="720" y2="220" stroke="#aaa" stroke-width="0.8"/>
+  <text id="hub-cs-lbl"       x="724" y="218" class="label-small">Central Station</text>
+  <line id="hub-gym-leader"   x1="649" y1="168" x2="720" y2="238" stroke="#aaa" stroke-width="0.8"/>
+  <text id="hub-gym-lbl"      x="724" y="236" class="label-small">Gymnasium</text>
+  <line id="hub-spark-leader" x1="646" y1="180" x2="720" y2="256" stroke="#aaa" stroke-width="0.8"/>
+  <text id="hub-spark-lbl"    x="724" y="254" class="label-small">Sparkblender</text>
+  <line id="hub-crow-leader"  x1="640" y1="192" x2="720" y2="274" stroke="#aaa" stroke-width="0.8"/>
+  <text id="hub-crow-lbl"     x="724" y="272" class="label-small">Crow's Nest</text>
 
-  <!-- COROMANDEL — axis point and rings in side view (right end of tether) -->
-  <rect id="coromandel-axis" x="1486" y="156" width="28" height="28" rx="3" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <!-- Coromandel axis (right end) -->
+  <rect id="coromandel-axis" x="1126" y="156" width="28" height="28" rx="3" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
+  <rect id="cor-ring-1" x="1129" y="140" width="22" height="60"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+  <rect id="cor-ring-2" x="1132" y="120" width="16" height="100" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+  <rect id="cor-ring-3" x="1136" y="100" width="8"  height="140" fill="none" stroke="#1a1a2e" stroke-width="0.9"/>
+  <line x1="1151" y1="170" x2="1176" y2="170" stroke="#aaa" stroke-width="0.8"/>
+  <text x="1180" y="170" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-1</text>
+  <line x1="1148" y1="145" x2="1176" y2="145" stroke="#aaa" stroke-width="0.8"/>
+  <text x="1180" y="145" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-2</text>
+  <line x1="1144" y1="120" x2="1176" y2="120" stroke="#aaa" stroke-width="0.8"/>
+  <text x="1180" y="120" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-3</text>
 
-  <!-- Coromandel rings — side-on view, rectangles centred on coromandel-axis (cx=1500, cy=170) -->
-  <!-- Ring 1 (innermost): short and wide -->
-  <rect id="cor-ring-1" x="1489" y="140" width="22" height="60"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
-  <!-- Ring 2 (middle): taller, narrower -->
-  <rect id="cor-ring-2" x="1492" y="120" width="16" height="100" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
-  <!-- Ring 3 (outermost): tallest, thinnest -->
-  <rect id="cor-ring-3" x="1496" y="100" width="8"  height="140" fill="none" stroke="#1a1a2e" stroke-width="0.9"/>
-
-  <!-- Ring labels to the right -->
-  <line x1="1511" y1="170" x2="1540" y2="170" stroke="#aaa" stroke-width="0.8"/>
-  <text x="1544" y="170" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-1</text>
-  <line x1="1508" y1="145" x2="1540" y2="145" stroke="#aaa" stroke-width="0.8"/>
-  <text x="1544" y="145" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-2</text>
-  <line x1="1504" y1="120" x2="1540" y2="120" stroke="#aaa" stroke-width="0.8"/>
-  <text x="1544" y="120" text-anchor="start" dominant-baseline="middle" class="label-small">cor-ring-3</text>
-
+  </g><!-- end translate -->
   </g><!-- end #head-on-view -->
 
-  <!-- ============================================================ -->
-  <!-- DIVIDER                                                      -->
-  <!-- ============================================================ -->
-  <line x1="40" y1="700" x2="1560" y2="700" stroke="#ccc" stroke-width="0.8" stroke-dasharray="6,4"/>
+  <!-- Vertical divider between head-on and right column -->
+  <line x1="1200" y1="0" x2="1200" y2="980" stroke="#ccc" stroke-width="0.8" stroke-dasharray="6,4"/>
 
-  <!-- ============================================================ -->
-  <!-- CENTRE-BOTTOM: FLIGHT TRAIN VIEW                             -->
-  <!-- Elements arranged along a spine at y=855, cx=800            -->
-  <!-- ============================================================ -->
-  <text x="680" y="722" class="section-lbl">FLIGHT TRAIN VIEW</text>
+  <!-- ================================================================ -->
+  <!-- RIGHT COLUMN (x=1200..1600, cx=1400)                            -->
+  <!-- Section 1: COROMANDEL PLAN  y=0..326   cy=163                   -->
+  <!-- Section 2: FLIGHT TRAIN     y=327..653  cy=490 (engine)         -->
+  <!-- Section 3: MALABAR PLAN     y=654..980  cy=817                  -->
+  <!-- ================================================================ -->
 
-  <!-- Direction arrow -->
-  <line id="bot-arrow-line" x1="755" y1="948" x2="845" y2="948" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
-  <text id="bot-arrow-text" x="800" y="963" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+  <!-- Horizontal dividers in right column -->
+  <line x1="1200" y1="327" x2="1600" y2="327" stroke="#ccc" stroke-width="0.8" stroke-dasharray="6,4"/>
+  <line x1="1200" y1="653" x2="1600" y2="653" stroke="#ccc" stroke-width="0.8" stroke-dasharray="6,4"/>
 
-  <!-- Engine block — jet nacelle shape, centred at cx=800, cy=855 -->
-  <!-- Fattest point: cx=800, top-edge=836, bottom-edge=874, height=38 -->
-  <!-- Tether: 10x height = 380px each direction from fattest point     -->
-  <line id="engine-tether-up"   x1="800" y1="456" x2="800" y2="836" stroke="#1a1a2e" stroke-width="1.5"/>
-  <line id="engine-tether-down" x1="800" y1="874" x2="800" y2="1254" stroke="#1a1a2e" stroke-width="1.5"/>
-  <!-- tether lengths driven by JS flight-train sync -->
+  <!-- ── COROMANDEL PLAN  cy=163, r scaled to 80 ─────────────────── -->
+  <text x="1210" y="18" class="section-lbl">COROMANDEL</text>
+  <circle id="cor-outer"     cx="1400" cy="163" r="80"  fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+  <circle id="cor-sanctuary" cx="1400" cy="163" r="59"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+  <circle id="cor-ringone"   cx="1400" cy="163" r="38"  fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+  <circle id="cor-cargo"     cx="1400" cy="163" r="20"  fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
+  <line id="cor-htrain-v" x1="1400" y1="0"   x2="1400" y2="83"  stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text id="cor-label"    x="1400" y="312" text-anchor="middle" class="label-main" font-size="13">Coromandel</text>
+  <line id="cor-cargo-leader"  x1="1381" y1="148" x2="1210" y2="135" stroke="#aaa" stroke-width="0.8"/>
+  <text id="cor-cargo-lbl"     x="1206" y="133" text-anchor="end" class="label-small">Cargo</text>
+  <line id="cor-r1-leader"     x1="1363" y1="157" x2="1210" y2="155" stroke="#aaa" stroke-width="0.8"/>
+  <text id="cor-r1-lbl"        x="1206" y="153" text-anchor="end" class="label-small">Ring One</text>
+  <line id="cor-sanct-leader"  x1="1341" y1="168" x2="1210" y2="175" stroke="#aaa" stroke-width="0.8"/>
+  <text id="cor-sanct-lbl"     x="1206" y="173" text-anchor="end" class="label-small">Sanctuary</text>
+  <!-- Shuttle bay small block -->
+  <rect id="shuttle-bay" x="1318" y="154" width="14" height="24" rx="2" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
+  <line id="cor-arrow-line" x1="1415" y1="295" x2="1475" y2="295" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+  <text id="cor-arrow-text" x="1445" y="310" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+
+  <!-- ── FLIGHT TRAIN VIEW  cy=490 ───────────────────────────────── -->
+  <text x="1210" y="345" class="section-lbl">FLIGHT TRAIN VIEW</text>
+  <!-- Engine tether lines (updated by JS) -->
+  <line id="engine-tether-up"   x1="1400" y1="380" x2="1400" y2="482" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line id="engine-tether-down" x1="1400" y1="498" x2="1400" y2="600" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- Engine nacelle centred at cx=1400, cy=490 -->
   <path id="engine-block"
-    d="M 768,843 L 768,867 C 768,867 800,874 832,867 L 832,843 C 832,843 800,836 768,843 Z"
+    d="M 1384,484 L 1384,496 C 1384,496 1416,500 1416,490 C 1416,490 1416,480 1384,484 Z"
     fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
-  <text id="engine-lbl" x="800" y="828" text-anchor="middle" class="label-small">Gravity Wave Motor</text>
-
-  <!-- Whistler — left of engine -->
-  <ellipse id="whistler-body"     cx="580" cy="855" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle  id="whistler-core"     cx="580" cy="855" r="5"   fill="#bbb" stroke="#1a1a2e" stroke-width="0.8"/>
-  <line    id="whistler-dish-arm" x1="580" y1="841" x2="580" y2="828" stroke="#1a1a2e" stroke-width="1.2"/>
-  <ellipse id="whistler-dish"     cx="580" cy="822" rx="14" ry="6"  fill="#ccc" stroke="#1a1a2e" stroke-width="1.0"/>
-  <text    id="whistler-lbl"      x="580" y="878" text-anchor="middle" class="label-small">Whistler</text>
-
-  <!-- Aegis Shield Generator — right of engine -->
-  <ellipse id="aegis-body"     cx="1020" cy="855" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle  id="aegis-core"     cx="1020" cy="855" r="5"   fill="#bbb" stroke="#1a1a2e" stroke-width="0.8"/>
-  <line    id="aegis-dish-arm" x1="1020" y1="841" x2="1020" y2="828" stroke="#1a1a2e" stroke-width="1.2"/>
-  <ellipse id="aegis-dish"     cx="1020" cy="822" rx="14" ry="6"  fill="#ccc" stroke="#1a1a2e" stroke-width="1.0"/>
-  <text    id="aegis-lbl1"     x="1020" y="878" text-anchor="middle" class="label-small">Aegis Shield</text>
-  <text    id="aegis-lbl2"     x="1020" y="889" text-anchor="middle" class="label-small">Generator</text>
-
-  <!-- ============================================================ -->
-  <!-- BOTTOM-LEFT: MALABAR PLAN VIEW — circular rings              -->
-  <!-- Centre: cx=210, cy=855                                       -->
-  <!-- ============================================================ -->
-  <text x="40" y="722" class="section-lbl">MALABAR — PLAN VIEW</text>
-
-  <circle id="mal-outer"      cx="210" cy="855" r="150" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
-  <circle id="mal-driftcity"  cx="210" cy="855" r="110" fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle id="mal-zemlya"     cx="210" cy="855" r="72"  fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
-  <circle id="mal-wilderness" cx="210" cy="855" r="38"  fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
-
-  <!-- Hub train stub (top of disc) -->
-  <line id="mal-htrain-v" x1="210" y1="705" x2="210" y2="777" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3"/>
-
-  <!-- Malabar label -->
-  <text id="mal-label" x="210" y="960" text-anchor="middle" class="label-main" font-size="17">Malabar</text>
-
+  <text id="engine-lbl" x="1400" y="474" text-anchor="middle" class="label-small">Gravity Wave Motor</text>
+  <!-- Whistler: dish + radio room, to the left of engine, all at cy=490 -->
+  <path id="whistler-dish"
+    d="M 1282,476 Q 1298,490 1282,504"
+    fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+  <line id="whistler-strut"    x1="1282" y1="490" x2="1306" y2="490" stroke="#1a1a2e" stroke-width="1.0"/>
+  <line id="whistler-feed-arm" x1="1298" y1="490" x2="1288" y2="490" stroke="#1a1a2e" stroke-width="0.9"/>
+  <circle id="whistler-focal"  cx="1288" cy="490" r="2.5" fill="#1a1a2e"/>
+  <path id="whistler-nacelle"
+    d="M 1306,483 L 1306,497 C 1306,497 1320,500 1320,490 C 1320,490 1320,480 1306,483 Z"
+    fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text id="whistler-lbl" x="1301" y="515" text-anchor="middle" class="label-small">Whistler</text>
+  <!-- Aegis: to the right of engine, all at cy=490 -->
+  <line id="aegis-spine"    x1="1416" y1="490" x2="1500" y2="490" stroke="#1a1a2e" stroke-width="1.0"/>
+  <path id="aegis-crescent"
+    d="M 1492,483 Q 1502,490 1492,497 Q 1497,490 1492,483 Z"
+    fill="#1a1a2e" stroke="#1a1a2e" stroke-width="1.2"/>
+  <path id="aegis-shield"
+    d="M 1466,475 Q 1488,490 1466,505 L 1466,475 Z"
+    fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.8"/>
+  <rect id="aegis-emitter"
+    x="1416" y="483" width="10" height="14"
+    fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.2"/>
+  <text id="aegis-lbl1" x="1463" y="524" text-anchor="middle" class="label-small">Aegis Shield</text>
+  <text id="aegis-lbl2" x="1463" y="534" text-anchor="middle" class="label-small">Generator</text>
   <!-- Direction arrow -->
-  <line id="mal-arrow-line" x1="188" y1="940" x2="108" y2="940" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
-  <text id="mal-arrow-text" x="148" y="955" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+  <line id="bot-arrow-line" x1="1375" y1="635" x2="1425" y2="635" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <text id="bot-arrow-text" x="1400" y="648" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+  <!-- Flight train habitat rings (driven by JS) -->
+  <g id="ft-malabar">
+    <ellipse id="ft-mal-outer"      cx="1400" cy="490" rx="37" ry="0" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+    <ellipse id="ft-mal-driftcity"  cx="1400" cy="490" rx="27" ry="0" fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+    <ellipse id="ft-mal-zemlya"     cx="1400" cy="490" rx="18" ry="0" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+    <ellipse id="ft-mal-wilderness" cx="1400" cy="490" rx="9" ry="0" fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
+  </g>
+  <g id="ft-coromandel">
+    <ellipse id="ft-cor-outer"      cx="1400" cy="490" rx="37" ry="0" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+    <ellipse id="ft-cor-sanctuary"  cx="1400" cy="490" rx="27" ry="0" fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+    <ellipse id="ft-cor-ringone"    cx="1400" cy="490" rx="18" ry="0" fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+    <ellipse id="ft-cor-cargo"      cx="1400" cy="490" rx="9" ry="0" fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
+  </g>
 
-  <!-- Ring labels — to the right of the circle -->
-  <line id="mal-driftcity-leader" x1="320" y1="830" x2="374" y2="810" stroke="#aaa" stroke-width="0.8"/>
-  <text id="mal-driftcity-lbl"    x="378" y="808" class="label-main" font-size="11">Drift City</text>
-  <text id="mal-driftcity-sub1"   x="378" y="820" class="label-sub">Hub Train</text>
-  <text id="mal-driftcity-sub2"   x="378" y="831" class="label-sub">Central Control Room</text>
-  <text id="mal-driftcity-sub3"   x="378" y="842" class="label-sub">Sculpture Square</text>
-
-  <line id="mal-zemlya-leader"    x1="282" y1="855" x2="374" y2="855" stroke="#aaa" stroke-width="0.8"/>
-  <text id="mal-zemlya-lbl"       x="378" y="853" class="label-main" font-size="11">Zemlya</text>
-  <text id="mal-zemlya-sub1"      x="378" y="865" class="label-sub">Judd Farm</text>
-
-  <line id="mal-wilds-leader"     x1="248" y1="878" x2="374" y2="886" stroke="#aaa" stroke-width="0.8"/>
-  <text id="mal-wilds-lbl"        x="378" y="884" class="label-main" font-size="11">Wilderness</text>
-  <text id="mal-wilds-sub1"       x="378" y="896" class="label-sub">· Tethys</text>
-
-  <!-- ============================================================ -->
-  <!-- BOTTOM-RIGHT: COROMANDEL PLAN VIEW — circular rings         -->
-  <!-- Centre: cx=1390, cy=855  (mirror of Malabar at cx=210)     -->
-  <!-- ============================================================ -->
-  <text x="1150" y="722" class="section-lbl">COROMANDEL — PLAN VIEW</text>
-
-  <circle id="cor-outer"     cx="1390" cy="855" r="150" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
-  <circle id="cor-sanctuary" cx="1390" cy="855" r="110" fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
-  <circle id="cor-ringone"   cx="1390" cy="855" r="72"  fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
-  <circle id="cor-cargo"     cx="1390" cy="855" r="38"  fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
-
-  <!-- Hub train stub (top of disc) -->
-  <line id="cor-htrain-v" x1="1390" y1="705" x2="1390" y2="777" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3"/>
-
-  <!-- Shuttle bay — small block on the left outer edge (mirror of right-side on Malabar) -->
-  <rect id="shuttle-bay"        x="1206" y="840" width="24" height="40" rx="3" fill="#ccc" stroke="#1a1a2e" stroke-width="1.2"/>
-  <line id="shuttle-bay-leader" x1="1206" y1="855" x2="1182" y2="840" stroke="#aaa" stroke-width="0.8"/>
-  <text id="shuttle-bay-lbl"    x="1178" y="838" text-anchor="end" class="label-small">Shuttle bay</text>
-
-  <!-- Coromandel label -->
-  <text id="cor-label" x="1390" y="960" text-anchor="middle" class="label-main" font-size="17">Coromandel</text>
-
-  <!-- Direction arrow — pointing right (Coromandel is the forward end) -->
-  <line id="cor-arrow-line" x1="1412" y1="940" x2="1492" y2="940" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
-  <text id="cor-arrow-text" x="1452" y="955" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
-
-  <!-- Ring labels — to the left of the circle (mirror of Malabar's right-side labels) -->
-  <line id="cor-cargo-leader"  x1="1352" y1="830" x2="1222" y2="810" stroke="#aaa" stroke-width="0.8"/>
-  <text id="cor-cargo-lbl"     x="1218" y="808" text-anchor="end" class="label-main" font-size="11">Cargo</text>
-
-  <line id="cor-r1-leader"     x1="1318" y1="852" x2="1222" y2="838" stroke="#aaa" stroke-width="0.8"/>
-  <text id="cor-r1-lbl"        x="1218" y="836" text-anchor="end" class="label-main" font-size="11">Ring One</text>
-  <text id="cor-r1-sub1"       x="1218" y="847" text-anchor="end" class="label-sub">Hub Train Station</text>
-  <text id="cor-r1-sub2"       x="1218" y="857" text-anchor="end" class="label-sub">School</text>
-  <text id="cor-r1-sub3"       x="1218" y="867" text-anchor="end" class="label-sub">Coromandel Auxiliary Hospital</text>
-
-  <line id="cor-sanct-leader"  x1="1280" y1="873" x2="1222" y2="886" stroke="#aaa" stroke-width="0.8"/>
-  <text id="cor-sanct-lbl"     x="1218" y="884" text-anchor="end" class="label-main" font-size="11">Sanctuary</text>
-  <text id="cor-sanct-sub1"    x="1218" y="895" text-anchor="end" class="label-sub">Grandma Varvara</text>
-  <text id="cor-sanct-sub2"    x="1218" y="906" text-anchor="end" class="label-sub">Great Coromandel Forest</text>
+  <!-- ── MALABAR PLAN  cy=817, r scaled to 80 ────────────────────── -->
+  <text x="1210" y="671" class="section-lbl">MALABAR</text>
+  <circle id="mal-outer"      cx="1400" cy="817" r="80"  fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+  <circle id="mal-driftcity"  cx="1400" cy="817" r="59"  fill="none" stroke="#1a1a2e" stroke-width="1.2"/>
+  <circle id="mal-zemlya"     cx="1400" cy="817" r="38"  fill="none" stroke="#1a1a2e" stroke-width="1.0"/>
+  <circle id="mal-wilderness" cx="1400" cy="817" r="20"  fill="none" stroke="#1a1a2e" stroke-width="0.9" stroke-dasharray="4,2"/>
+  <line id="mal-htrain-v" x1="1400" y1="653" x2="1400" y2="737" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text id="mal-label"    x="1400" y="970" text-anchor="middle" class="label-main" font-size="13">Malabar</text>
+  <line id="mal-driftcity-leader" x1="1419" y1="800" x2="1590" y2="785" stroke="#aaa" stroke-width="0.8"/>
+  <text id="mal-driftcity-lbl"    x="1594" y="783" class="label-small">Drift City</text>
+  <line id="mal-zemlya-leader"    x1="1438" y1="814" x2="1590" y2="808" stroke="#aaa" stroke-width="0.8"/>
+  <text id="mal-zemlya-lbl"       x="1594" y="806" class="label-small">Zemlya</text>
+  <line id="mal-wilds-leader"     x1="1420" y1="830" x2="1590" y2="838" stroke="#aaa" stroke-width="0.8"/>
+  <text id="mal-wilds-lbl"        x="1594" y="836" class="label-small">Wilderness</text>
+  <line id="mal-arrow-line" x1="1385" y1="953" x2="1305" y2="953" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+  <text id="mal-arrow-text" x="1345" y="968" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
 
   <!-- ID OVERLAY LAYER -->
   <g id="id-overlay-layer"></g>
@@ -320,24 +290,73 @@ function buildOverlays() {
 // Engine nacelle: top edge y=836, bottom edge y=874, full tether half-length=380
 // visible half-length = 380 * |sin(angleDeg)|
 // Angle tracks the SVG animateTransform: 360deg per 5000ms, starting at 0
-const FULL_LEN   = 380;
-const ENGINE_TOP = 836;
-const ENGINE_BOT = 874;
+const FULL_LEN   = 110;   // tether half-length in flight train view
+const ENGINE_TOP = 482;   // nacelle top edge (cx=1400, cy=490)
+const ENGINE_BOT = 498;   // nacelle bottom edge
+const FT_CX      = 1400;  // flight train centre x
 const DUR_MS     = 5000;
 
 let animRunning  = true;
 let animStartTime = null;
 let pausedAngle   = 0;  // angle (deg) at which we paused
 
+// Ring radii matching the plan views (outer, ring2, ring3, inner)
+const MAL_RINGS = [
+  { id: 'ft-mal-outer',      r: 150 },
+  { id: 'ft-mal-driftcity',  r: 110 },
+  { id: 'ft-mal-zemlya',     r: 72  },
+  { id: 'ft-mal-wilderness', r: 38  }
+];
+const COR_RINGS = [
+  { id: 'ft-cor-outer',      r: 150 },
+  { id: 'ft-cor-sanctuary',  r: 110 },
+  { id: 'ft-cor-ringone',    r: 72  },
+  { id: 'ft-cor-cargo',      r: 38  }
+];
+
+// Scale factor: ring radii in plan view (r=150) should map to a reasonable
+// size in the flight train view relative to the tether (FULL_LEN=380).
+// In the plan view, the disc outer radius is 150 viewBox units.
+// We use the same units directly — the tether is 380 units long and the disc
+// is 150 units wide, which is physically consistent (disc ~40% of tether).
+const RING_SCALE = 0.25;
+
 function updateTether(angleDeg) {
   const rad     = angleDeg * Math.PI / 180;
-  const visible = FULL_LEN * Math.abs(Math.sin(rad));
+  const sinA    = Math.abs(Math.sin(rad));
+  const cosA    = Math.cos(rad);          // signed — gives ellipse orientation
+  const visible = FULL_LEN * sinA;
+
+  // Tether lines
   const up   = document.getElementById('engine-tether-up');
   const down = document.getElementById('engine-tether-down');
-  up.setAttribute('y1',   ENGINE_TOP - visible);
+  const malCY  = ENGINE_TOP - visible;   // Malabar centre y (upper tip)
+  const corCY  = ENGINE_BOT + visible;   // Coromandel centre y (lower tip)
+  up.setAttribute('y1',   malCY);
   up.setAttribute('y2',   ENGINE_TOP);
   down.setAttribute('y1', ENGINE_BOT);
-  down.setAttribute('y2', ENGINE_BOT + visible);
+  down.setAttribute('y2', corCY);
+
+  // Habitat ring ellipses
+  // rx = r * |cos(angle)| — the face-on width collapses as we tilt to side-on
+  // ry = r — always shows full radius vertically in flight train view
+  // At theta=90 (side-on): rx=0, rings appear as vertical lines
+  // At theta=0  (face-on): rx=r, rings are circles
+  const absCos = Math.abs(cosA);
+  MAL_RINGS.forEach(ring => {
+    const el = document.getElementById(ring.id);
+    el.setAttribute('cx', FT_CX);
+    el.setAttribute('cy', malCY);
+    el.setAttribute('rx', ring.r * RING_SCALE);
+    el.setAttribute('ry', ring.r * absCos * RING_SCALE);
+  });
+  COR_RINGS.forEach(ring => {
+    const el = document.getElementById(ring.id);
+    el.setAttribute('cx', FT_CX);
+    el.setAttribute('cy', corCY);
+    el.setAttribute('rx', ring.r * RING_SCALE);
+    el.setAttribute('ry', ring.r * absCos * RING_SCALE);
+  });
 }
 
 function flightTrainLoop(timestamp) {
