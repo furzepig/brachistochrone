@@ -27,7 +27,8 @@ title: Map
     background: #1a1a2e; color: #f0ede8; border: none; cursor: pointer; border-radius: 2px;
   }
   #toggle-btn:hover { background: #2e2e50; }
-  svg { width: 100%; max-width: 1500px; height: auto; display: block; }
+  svg { width: 100%; max-width: 1500px; height: auto; display: block; touch-action: none; cursor: grab; }
+  svg:active { cursor: grabbing; }
   .label-main   { font-family: Georgia, serif; font-style: italic; font-size: 13px; fill: #1a1a2e; }
   .label-sub    { font-family: 'Courier New', monospace; font-size: 9.5px; fill: #444; }
   .label-hub    { font-family: Georgia, serif; font-style: italic; font-size: 15px; fill: #1a1a2e; }
@@ -61,9 +62,18 @@ title: Map
   </defs>
 
   <!-- ============================================================ -->
-  <!-- TOP BAND: HEAD-ON / SIDE VIEW                                -->
+  <!-- TOP BAND: HEAD-ON / SIDE VIEW (rotates around hub centre)    -->
   <!-- ============================================================ -->
   <text x="20" y="20" class="section-lbl">HEAD-ON / SIDE VIEW</text>
+
+  <g id="head-on-view">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 800 170"
+      to="360 800 170"
+      dur="5s"
+      repeatCount="indefinite"/>
 
   <!-- TETHER — spans full width -->
   <line id="tether" x1="90" y1="170" x2="1510" y2="170" stroke="#1a1a2e" stroke-width="1.5"/>
@@ -149,6 +159,8 @@ title: Map
 
   <line id="bot-arrow-line" x1="755" y1="648" x2="845" y2="648" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
   <text id="bot-arrow-text" x="800" y="663" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
+
+  </g><!-- end #head-on-view -->
 
   <!-- ============================================================ -->
   <!-- DIVIDER                                                      -->
@@ -269,6 +281,117 @@ function toggleIDs() {
   overlays.forEach(g => g.style.display = show ? 'block' : 'none');
   btn.textContent = show ? 'HIDE ELEMENT IDs' : 'SHOW ELEMENT IDs';
 }
+
+// ── Zoom & Pan ──────────────────────────────────────────────────────────────
+(function() {
+  const svg = document.querySelector('svg');
+  const BASE = { x: 0, y: 0, w: 1600, h: 980 };
+  const MIN_ZOOM = 1, MAX_ZOOM = 8;
+  let vb = { ...BASE };
+
+  function clamp(val, min, max) { return Math.min(Math.max(val, min), max); }
+
+  function applyVB() {
+    svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+  }
+
+  // Convert a client-space point to viewBox-space
+  function clientToVB(cx, cy) {
+    const rect = svg.getBoundingClientRect();
+    return {
+      x: vb.x + (cx - rect.left) / rect.width  * vb.w,
+      y: vb.y + (cy - rect.top)  / rect.height * vb.h
+    };
+  }
+
+  // Zoom centred on a viewBox point
+  function zoomAt(vbPt, factor) {
+    const newW = clamp(vb.w * factor, BASE.w / MAX_ZOOM, BASE.w / MIN_ZOOM);
+    const newH = clamp(vb.h * factor, BASE.h / MAX_ZOOM, BASE.h / MIN_ZOOM);
+    const scale = newW / vb.w;
+    vb.x = vbPt.x - (vbPt.x - vb.x) * scale;
+    vb.y = vbPt.y - (vbPt.y - vb.y) * scale;
+    vb.w = newW;
+    vb.h = newH;
+    applyVB();
+  }
+
+  // ── Mouse wheel zoom ──────────────────────────────────────────────────────
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    const factor = e.deltaY > 0 ? 1.1 : 0.9;
+    zoomAt(clientToVB(e.clientX, e.clientY), factor);
+  }, { passive: false });
+
+  // ── Mouse drag pan ────────────────────────────────────────────────────────
+  let drag = null;
+  svg.addEventListener('mousedown', e => {
+    drag = { startVB: { ...vb }, startClient: { x: e.clientX, y: e.clientY } };
+  });
+  window.addEventListener('mousemove', e => {
+    if (!drag) return;
+    const rect = svg.getBoundingClientRect();
+    const dx = (e.clientX - drag.startClient.x) / rect.width  * vb.w;
+    const dy = (e.clientY - drag.startClient.y) / rect.height * vb.h;
+    vb.x = drag.startVB.x - dx;
+    vb.y = drag.startVB.y - dy;
+    applyVB();
+  });
+  window.addEventListener('mouseup', () => { drag = null; });
+
+  // ── Touch: pinch-to-zoom + single-finger pan ──────────────────────────────
+  let lastTouches = null;
+
+  function midpoint(t1, t2) {
+    return { x: (t1.clientX + t2.clientX) / 2, y: (t1.clientY + t2.clientY) / 2 };
+  }
+  function dist(t1, t2) {
+    return Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+  }
+
+  svg.addEventListener('touchstart', e => {
+    e.preventDefault();
+    lastTouches = Array.from(e.touches);
+  }, { passive: false });
+
+  svg.addEventListener('touchmove', e => {
+    e.preventDefault();
+    const touches = Array.from(e.touches);
+
+    if (touches.length === 2 && lastTouches.length === 2) {
+      // Pinch zoom
+      const oldDist = dist(lastTouches[0], lastTouches[1]);
+      const newDist = dist(touches[0], touches[1]);
+      const factor  = oldDist / newDist;
+      const mid     = midpoint(touches[0], touches[1]);
+      zoomAt(clientToVB(mid.x, mid.y), factor);
+    } else if (touches.length === 1 && lastTouches.length === 1) {
+      // Single-finger pan
+      const rect = svg.getBoundingClientRect();
+      const dx = (touches[0].clientX - lastTouches[0].clientX) / rect.width  * vb.w;
+      const dy = (touches[0].clientY - lastTouches[0].clientY) / rect.height * vb.h;
+      vb.x -= dx;
+      vb.y -= dy;
+      applyVB();
+    }
+
+    lastTouches = touches;
+  }, { passive: false });
+
+  svg.addEventListener('touchend', e => {
+    lastTouches = Array.from(e.touches);
+  }, { passive: false });
+
+  // ── Double-tap / double-click to reset ───────────────────────────────────
+  let lastTap = 0;
+  svg.addEventListener('touchend', e => {
+    const now = Date.now();
+    if (now - lastTap < 300) { vb = { ...BASE }; applyVB(); }
+    lastTap = now;
+  });
+  svg.addEventListener('dblclick', () => { vb = { ...BASE }; applyVB(); });
+
+})();
 </script>
 </body>
 </html>
