@@ -184,11 +184,16 @@ title: Map
   <line id="bot-arrow-line" x1="755" y1="948" x2="845" y2="948" stroke="#888" stroke-width="1.2" marker-end="url(#arrow)"/>
   <text id="bot-arrow-text" x="800" y="963" text-anchor="middle" class="arrow-label">DIRECTION OF FLIGHT</text>
 
-  <!-- Engine block — centred on spine -->
-  <rect id="engine-block"  x="755" y="823" width="90" height="65" rx="5" fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
-  <line id="engine-line1"  x1="755" y1="840" x2="845" y2="840" stroke="#1a1a2e" stroke-width="0.7"/>
-  <line id="engine-line2"  x1="755" y1="858" x2="845" y2="858" stroke="#1a1a2e" stroke-width="0.7"/>
-  <text id="engine-lbl"    x="800" y="810" text-anchor="middle" class="label-small">Gravity Wave Motor</text>
+  <!-- Engine block — jet nacelle shape, centred at cx=800, cy=855 -->
+  <!-- Fattest point: cx=800, top-edge=836, bottom-edge=874, height=38 -->
+  <!-- Tether: 10x height = 380px each direction from fattest point     -->
+  <line id="engine-tether-up"   x1="800" y1="456" x2="800" y2="836" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line id="engine-tether-down" x1="800" y1="874" x2="800" y2="1254" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- tether lengths driven by JS flight-train sync -->
+  <path id="engine-block"
+    d="M 768,843 L 768,867 C 768,867 800,874 832,867 L 832,843 C 832,843 800,836 768,843 Z"
+    fill="#d0ccc5" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text id="engine-lbl" x="800" y="828" text-anchor="middle" class="label-small">Gravity Wave Motor</text>
 
   <!-- Whistler — left of engine -->
   <ellipse id="whistler-body"     cx="580" cy="855" rx="14" ry="14" fill="#ddd" stroke="#1a1a2e" stroke-width="1.2"/>
@@ -311,18 +316,64 @@ function buildOverlays() {
     g.appendChild(r); g.appendChild(t); layer.appendChild(g);
   });
 }
+// ── Flight Train Tether Sync ───────────────────────────────────────────────
+// Engine nacelle: top edge y=836, bottom edge y=874, full tether half-length=380
+// visible half-length = 380 * |sin(angleDeg)|
+// Angle tracks the SVG animateTransform: 360deg per 5000ms, starting at 0
+const FULL_LEN   = 380;
+const ENGINE_TOP = 836;
+const ENGINE_BOT = 874;
+const DUR_MS     = 5000;
+
+let animRunning  = true;
+let animStartTime = null;
+let pausedAngle   = 0;  // angle (deg) at which we paused
+
+function updateTether(angleDeg) {
+  const rad     = angleDeg * Math.PI / 180;
+  const visible = FULL_LEN * Math.abs(Math.sin(rad));
+  const up   = document.getElementById('engine-tether-up');
+  const down = document.getElementById('engine-tether-down');
+  up.setAttribute('y1',   ENGINE_TOP - visible);
+  up.setAttribute('y2',   ENGINE_TOP);
+  down.setAttribute('y1', ENGINE_BOT);
+  down.setAttribute('y2', ENGINE_BOT + visible);
+}
+
+function flightTrainLoop(timestamp) {
+  if (!animRunning) return;
+  if (!animStartTime) animStartTime = timestamp - (pausedAngle / 360 * DUR_MS);
+  const elapsed = (timestamp - animStartTime) % DUR_MS;
+  const angle   = (elapsed / DUR_MS) * 360;
+  updateTether(angle);
+  requestAnimationFrame(flightTrainLoop);
+}
+
+requestAnimationFrame(flightTrainLoop);
+
 // ── Animation toggle ───────────────────────────────────────────────────────
-let animRunning = true;
 function toggleAnim() {
   const anim = document.getElementById('spin-anim');
   const btn  = document.getElementById('anim-btn');
   if (animRunning) {
-    anim.setAttribute('repeatCount', '0');  // stop after current iteration
-    anim.endElement();                       // end immediately & reset to from=
+    // Capture current angle before stopping
+    const now = performance.now();
+    if (animStartTime !== null) {
+      const elapsed = (now - animStartTime) % DUR_MS;
+      pausedAngle = (elapsed / DUR_MS) * 360;
+    }
+    animStartTime = null;
+    anim.setAttribute('repeatCount', '0');
+    anim.endElement();
+    updateTether(pausedAngle);  // hold at current angle visually... 
+    updateTether(0);            // ...then snap to 0 (fully vertical = fully visible)
+    pausedAngle = 0;
     btn.textContent = 'START';
   } else {
     anim.setAttribute('repeatCount', 'indefinite');
     anim.beginElement();
+    animStartTime = null;  // reset so loop recalculates from pausedAngle=0
+    requestAnimationFrame(flightTrainLoop);
     btn.textContent = 'STOP';
   }
   animRunning = !animRunning;
