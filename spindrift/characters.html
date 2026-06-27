@@ -3,4 +3,9 @@ layout: default
 category: spindrift
 title: Characters
 ---
-<p>Coming soon.</p>
+{% assign characters = site.categories["spindrift_character"] | sort: 'title' %}
+{% for character in characters %}
+<a href="{{ character.url }}" title="{{ character.title }}">
+  <div class="divlink">{{ character.title }}</div>
+</a>
+{% endfor %}
