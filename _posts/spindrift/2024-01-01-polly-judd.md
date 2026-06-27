@@ -5,7 +5,7 @@ title: "Polly Judd"
 image: "polly-judd.png"
 ---
 
-Polly Judd is the protagonist of *Spindrift*. She is thirteen years old, a student at the school Remembrance aboard the generation ship, and more than anything she wants to be a Colony Pathfinder when Spindrift reaches Gloucester.
+Polly Judd is the protagonist of *Spindrift*. She is thirteen years old, a student at the School aboard the generation ship Spindrift.More than anything she wants to be a Colony Pathfinder when Spindrift reaches Gloucester.
 
 ## Appearance
 
