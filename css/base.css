@@ -25,14 +25,20 @@ p {
 }
 
 .firstcharacter {
-  float: left;
-  font-family: 'Georgia';
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-  text-indent: 0em;
+    float: left;
+    display: inline-block;
+    font-family: 'Georgia';
+    font-size: 101px;
+    line-height: 60px;
+    padding-top: 14px;
+    padding-right: 8px;
+    padding-left: 3px;
+    text-indent: 0em;
+    margin-right: 12px !important;
+}
+
+.smallcapslede {
+    font-variant: small-caps;
 }
 
 header {
