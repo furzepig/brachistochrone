@@ -1,17 +1,10 @@
 ---
-
 layout: story
-
 title: "The Festival"
-
 source_date: "1923"
-
 category: mythos
-
 creator: "H.P.Lovecraft"
-
 date: 1923-02-01 15:00:00 +0000
-
 ---
 
 _“Efficiunt Daemones, ut quae non sunt, sic tamen quasi sint, conspicienda hominibus exhibeant.” — Lactantius._
