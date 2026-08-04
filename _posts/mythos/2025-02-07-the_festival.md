@@ -3,6 +3,7 @@ layout: story
 title: "The Festival"
 source_date: "1923"
 category: mythos
+customstyle: "story"
 creator: "H.P.Lovecraft"
 date: 1923-02-01 15:00:00 +0000
 ---
