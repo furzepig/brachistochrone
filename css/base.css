@@ -24,26 +24,22 @@ p {
 	text-align: left;
 }
 
-.firstParagraph 
-{
-   initial-letter: 2;
-}
 
-
+/*
 .firstcharacter {
-   /* float: left;
+    float: left;
     display: inline-block;
-    font-family: 'Georgia';*/
-   /* font-size: 101px;
+    font-family: 'Georgia';
+   font-size: 101px;
     line-height: 60px;
     padding-top: 14px;
     padding-right: 8px;
     padding-left: 3px;
     text-indent: 0em;
-    margin-right: 12px !important;*/
+    margin-right: 12px !important;
 
 	initial-letter: 3;
-}
+}*/
 
 .smallcapslede {
     font-variant: small-caps;
