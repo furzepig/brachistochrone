@@ -24,7 +24,8 @@ p {
 	text-align: left;
 }
 
-.storybody p:first-child {
+.firstParagraph 
+{
    initial-letter: 2;
 }
 
