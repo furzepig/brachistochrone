@@ -1,1 +1,192 @@
+body {
+	margin: 0px;
+	margin-top: 50px;
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	overflow-y:scroll;
+}
 
+
+.story {
+  font-family: 'Georgia', serif;
+  margin-block-end: 0.1em;	
+}
+
+p+p {
+  text-indent: 1em;
+}
+
+p {
+	margin: 0em;
+	text-align: left;
+}
+
+.smallcapslede {
+    font-variant: small-caps;
+}
+
+header {
+	margin-bottom:1.5em;	
+}
+
+h1 {
+	font-size: 28px;
+	color: #444;
+	margin-top:1em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24px;
+	color: #666;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+	color: #999;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
+.itemtitle {
+	font-weight: bold;
+}
+
+.itemtext {
+	font-weight: normal;
+}
+
+footer {
+	font-style: italic;	
+	text-decoration: none;
+	color: #aaa;
+}
+
+.section_break {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 1.5em;
+}
+
+.ll {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.ll10 {
+	padding-left: 1m;
+	text-indent: -1em;
+	margin-left: 10em;
+}
+
+a {
+	text-decoration: none;
+}
+
+td {
+	padding: 1px 1px 1px 0px;
+	vertical-align:top;
+}
+
+.container {
+	line-height: 1.8;
+	font-size: 16px; 
+	margin: 20px auto;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	max-width: 600px;
+	min-height: 500px;
+}
+
+.divlink {
+  background-color: #747E8F;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border-radius: 4px;	
+}
+
+
+.linkinfo {
+	font-size: 14px;
+}
+
+.topheader {
+	margin: 0px;
+	background-color: #2B2D42;
+	height: 50px;
+	top: 0px;
+        position: fixed;
+        width: 100%;
+}
+
+.site_title {
+	margin: 0px auto;
+	padding-top: 5px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	width: 600px;
+}
+
+.site_label {
+	color: #fff;
+	font-size: 24px;
+}
+
+.subsite_label {
+	font-weight: 100;
+	padding-left:12px;
+	color: #C5C5CB;
+	font-size: 24px;
+}
+
+.quote_source {
+	color: #000;
+	font-weight: bold;
+	width: 100%;
+	text-align: right;
+}
+
+blockquote {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;	
+	margin-left: auto;
+        margin-right: auto;
+}
+
+.quote {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;	
+}
+
+.weak {
+  text-decoration: none;
+  color: #aaa;
+}
+
+
+.attribution {
+  text-decoration: none;
+  color: #aaa;
+  margin-top: 2em;
+}
+
+li {
+	margin-left:-40px;
+	list-style-type: none;
+	font-size: 12px;
+	color: blue;
+}
+
+
+}
