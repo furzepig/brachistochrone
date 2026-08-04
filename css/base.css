@@ -24,6 +24,11 @@ p {
 	text-align: left;
 }
 
+.storybody p:first-child {
+   initial-letter: 2;
+}
+
+
 .firstcharacter {
    /* float: left;
     display: inline-block;
