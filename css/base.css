@@ -29,9 +29,10 @@ p {
 }
 
 p:first-child:first-letter {
-  color: #444; 
+  color: #666; 
   font-family: Georgia;
-  initial-letter: 3;
+  initial-letter: 2.9 3;
+  margin-right: 1rem;
 }
 
 /*
