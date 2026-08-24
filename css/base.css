@@ -19,6 +19,10 @@ p+p {
   text-indent: 1em;
 }
 
+epigraph {
+     font-style: italic;
+}
+
 p {
 	margin: 0em;
 	text-align: left;
