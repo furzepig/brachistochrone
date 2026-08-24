@@ -6,10 +6,8 @@ category: mythos
 customstyle: "story"
 creator: "H.P.Lovecraft"
 date: 1923-02-01 15:00:00 +0000
+epigraph: “'Efficiunt Daemones, ut quae non sunt, sic tamen quasi sint, conspicienda hominibus exhibeant.' — Lactantius."
 ---
-
-<epigraph>“Efficiunt Daemones, ut quae non sunt, sic tamen quasi sint, conspicienda hominibus exhibeant.” — Lactantius.</epigraph>
-
 
 
 I was far from home, and the spell of the eastern sea was upon me. In the twilight I heard it pounding on the rocks, and I knew it lay just over the hill where the twisting willows writhed against the clearing sky and the first stars of evening. And because my fathers had called me to the old town beyond, I pushed on through the shallow, new-fallen snow along the road that soared lonely up to where Aldebaran twinkled among the trees; on toward the very ancient town I had never seen but often dreamed of.</p>
