@@ -19,20 +19,40 @@ p+p {
   text-indent: 1em;
 }
 
+epigraph {
+     font-style: italic;
+}
+
 p {
 	margin: 0em;
 	text-align: left;
 }
 
+p:first-child:first-letter {
+  color: #666; 
+  font-family: Georgia;
+  initial-letter: 2.9 3;
+  margin-right: 1rem;
+}
+
+/*
 .firstcharacter {
-  float: left;
-  font-family: 'Georgia';
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-  text-indent: 0em;
+    float: left;
+    display: inline-block;
+    font-family: 'Georgia';
+   font-size: 101px;
+    line-height: 60px;
+    padding-top: 14px;
+    padding-right: 8px;
+    padding-left: 3px;
+    text-indent: 0em;
+    margin-right: 12px !important;
+
+	initial-letter: 3;
+}*/
+
+.smallcapslede {
+    font-variant: small-caps;
 }
 
 header {
